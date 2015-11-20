@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"  fill="none" stroke="black" stroke-width="4">
+  <ellipse cx="12" cy="22" rx="10" ry="10"/>
+  <path d="M0 38 H28 V10"/>
+  <path transform="translate(35)" d="M0 12 H13 V40 M31 3 Q 32 10, 34 12 M28 10 V40 M30 25 H17 M22 10 V40 M2 7 C 4 7, 15 2, 15 0 C 15 2, 26 7, 28 7"/>
+  <g transform="translate(72)">
+    <ellipse cx="12" cy="22" rx="10" ry="10"/>
+    <path d="M0 38 H28 V10"/>
+  </g>
+  <path transform="translate(107)" d="M22 12 H2 V32 H22 M0 22 H16 M0 38 H28 V10 M31 3 Q 32 10, 34 12"/>
+  <path transform="translate(144)" d="M2,33.5a13,6.5 0 1,0 26,0a13,6.5 0 1,0 -26,0 M2 10 V21.5 H24 M6 13.5 H28 V25"/>
+  <path transform="translate(179)" d="M0 12 H22 V40 M13 10 V32 M28,10 28,40"/>
+  <path transform="translate(212)" d="M0 12 H28 V34 M0 38 H30 M31 3 Q 32 10, 34 12"/>
+  <path transform="translate(249)" d="M0 12 H22 V40 M28,10 28,40"/>
+  <text x="15" y="55">a</text>
+  <text x="50" y="55">dwō</text>
+  <text x="87" y="55">a</text>
+  <text x="122" y="55">ngja</text>
+  <text x="159" y="55">w</text>
+  <text x="194" y="55">su</text>
+  <text x="227" y="55">di</text>
+  <text x="264" y="55">tu</text>
+  <text x="32.5" y="80">äd̥ɯᵝoː</text>
+  <text x="140.5" y="80">äŋə̯awsu</text>
+  <text x="245.5" y="80">dʑitsɯ</text>
+  <text x="32.5" y="95">a-dwō</text>
+  <text x="140.5" y="95">a-ngjawsu</text>
+  <text x="245.5" y="95">ditu</text>
+  <text x="32.5" y="110">ɢᴇɴ-1s</text>
+  <text x="140.5" y="110">ɢᴇɴ-language</text>
+  <text x="245.5" y="110">script</text>
+  <style><![CDATA[text{stroke-width:0.2;fill:#000;text-anchor:middle} svg{overflow:scroll}]]></style>
+</svg>

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>September 2015 Sketch</title>
+  <link rel="stylesheet" type="text/css" href="/static/md.css" />
+  <script src="index.js"></script>
+  <script src="/static/scripts/main.js"></script>
+  <script src="/static/scripts/header-link.js"></script>
+  <script src="/static/scripts/leipzig.js"></script>
+  <template id="header-top"><a href="/">home</a>
+    <hr/> </template>
+</head>
+
+<body>
+  <h1><a name="top">September 2015 Sketch</a></h1>
+  <div id="nav"></div>
+  <h2>Phonology</h2>
+  <table class="tb-center row-headers tb-pair">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Labial</th>
+        <th>Coronal</th>
+        <th>Dorsal</th>
+        <th>Glottal</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>Stop/Flap</td>
+      <td>p pː</td>
+      <td>t tː d~ɾ dː r</td>
+      <td>k kː ɣ~g ɣː~gː</td>
+    </tr>
+    <tr>
+      <td>Affricate</td>
+      <td></td>
+      <td>ts tʃ t̠ɕ̠~c̟ç̟</td>
+    </tr>
+    <tr>
+      <td>Nasal</td>
+      <td>m mː</td>
+      <td>n nː</td>
+      <td>ŋ ŋː</td>
+    </tr>
+    <tr>
+      <td>Fricative</td>
+      <td>f fː</td>
+      <td>θ s sː ʃ ʃː ɕ̠~ç̟ ɕ̠ː~ç̟ː</td>
+      <td colspan=2>h pː</td>
+    </tr>
+    <tr>
+      <td>Approximant</td>
+      <td>w~ʋ</td>
+      <td>l lː</td>
+      <td>j i ɹ</td>
+    </tr>
+  </table>
+  <table class="tb-center row-headers">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Labial</th>
+        <th>Coronal</th>
+        <th>Dorsal</th>
+        <th>Glottal</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>Stop/Flap</td>
+      <td>p pp</td>
+      <td>t tt d dd rr</td>
+      <td>c cg g gg</td>
+    </tr>
+    <tr>
+      <td>Affricate</td>
+      <td></td>
+      <td>ts tj tsh</td>
+    </tr>
+    <tr>
+      <td>Nasal</td>
+      <td>m mm</td>
+      <td>n nn</td>
+      <td>nh/hn nhn</td>
+    </tr>
+    <tr>
+      <td>Fricative</td>
+      <td>f ff</td>
+      <td>th s ss j sj sh sjh</td>
+      <td colspan=2>h pp</td>
+    </tr>
+    <tr>
+      <td>Approximant</td>
+      <td>w</td>
+      <td>l ll</td>
+      <td>y i r</td>
+    </tr>
+  </table>
+  <ul>
+    <li>The exact pronunciation of geminate stops is variable: /Cː/, /ʔC(ː)/, and /C̚C/ are all acceptable.</li>
+    <li>/ɹ/ is geminated to /r/.</li>
+    <li>/p t f θ s ʃ/ are consistently voiced between vowels (V_V) to [b d v ð z ʒ].</li>
+    <li>All consonants when adjacent assimilate in voicing following the first consonant of the cluster.</li>
+    <li>/m n ŋ/ when the coda of an onsetless unstressed syllable often become [m̩ n̩ ŋ̍], with the elision of the vowel in that syllable.</li>
+    <li>Final devoicing when at the end of a phrase, or when the following word begins with a voiceless consonant.</li>
+  </ul>
+  <br/>
+  <table class="tb-center row-headers tb-pair">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Front</th>
+        <th>Center</th>
+        <th>Back</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>High~Mid</td>
+      <td>i iː</td>
+      <td></td>
+      <td>ɯ~u ɯː~uː</td>
+    </tr>
+    <tr>
+      <td>Mid~Low</td>
+      <td>ɛ̝ ɛ̝ː</td>
+      <td>ɐ̞ ɐ̞ː</td>
+      <td>o̞ o̞ː</td>
+    </tr>
+  </table>
+  <table class="tb-center row-headers">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Front</th>
+        <th>Center</th>
+        <th>Back</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>High~Mid</td>
+      <td>i ii</td>
+      <td></td>
+      <td>u uu</td>
+    </tr>
+    <tr>
+      <td>Mid~Low</td>
+      <td>e ee</td>
+      <td>a aa</td>
+      <td>o ou/oo</td>
+    </tr>
+  </table>
+  <!-- - Before /ɺ/, /ɯ~u/ is always [ɯ]. Counterwise, before /d~ɾ/, [u].-->
+  <ul>
+    <li>/t/ consistently becomes [t͡s] before [u].</li>
+    <li>Long vowels become short before geminate consonants.</li>
+    <li>/o̞/ often becomes /ə/ in non-final unstressed positions.</li>
+    <li>/u/ is often devoiced between voiceless consonants, even across word boundaries.</li>
+  </ul>
+  <h3>Syllable Structure</h3>
+  <p>Syllable structure is a basic ©(y,w)V(T), where:</p>
+  <ul>
+    <li><strong>C</strong>: any consonant except ‹y w› Geminate consonants may not appear word-initially.</li>
+    <li><strong>V</strong>: any vowel.</li>
+    <li><strong>T</strong>: any consonant except geminate consonants. The most common are nasals.
+      <ul>
+        <li>Very rarely, as a result of lost wholly prenasalized consonants,
+          <nd> and
+            <hnc> may appear.</li>
+      </ul>
+    </li>
+  </ul>
+  <h3>Stress and Isochrony</h3>
+  <ul>
+    <li>Stress-timed. Stressed syllables are longer than unstressed syllables.
+      <ul>
+        <li>Unstressed syllables are shorter than stressed syllables with short vowels, are shorter than syllables with long vowels; syllables with long vowels are always
+          stressed.
+          <ul>
+            <li>If the vowel length has been lost due to a following geminate consonant, the syllable remains stressed.</li>
+            <li>Often, when there are no neighbouring long-voweled syllables to a short-voweled stressed syllable, the short vowel will be lengthened.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>Unstressed syllables following a stressed syllable tend to have the same pitch.</li>
+    <li>Stressed syllables bear the common prosodic changes:
+      <ul>
+        <li>Pitch prominence, increased length, increased volume</li>
+      </ul>
+    </li>
+  </ul>
+  <p>Additional prosodic rules will be denoted later along with their relavent phenomena, but for the most part they’re going to follow English for now, until I can
+    come up with something better/different.</p>
+  <h2>Basic Grammar and Syntax</h2>
+  <p>The default word order is SOV; the language is usually head-final, with a large amount of suffixal case marking and derivation, generally in an aglutinative manner.
+    In the case of possession and genetives, the head-final order is required, as the genetive case is a core case, and thus another core case cannot be added.</p>
+  <h3>Verb classes</h3>
+  <p>Class|<em><em>npst</em></em>|<em><em>pst</em></em>|<em><em>rel</em></em>|<em><em>ger</em></em>|*_ -:|-|-|-|- 1|-u|-To|-o|-so| 2|-u|-Ta|-a|-so| 3|-i|-tto|-i|-iso|
+    4|-∅|-Ta|-Ta|-aso|</p>
+  <h2>Grammar Testing Bed</h2>
+  <div data-gloss>
+    <p>Lam ta nou nei ni cinun seët e oppaa coma se iyetto.</p>
+    <p>lam {} ta {} no -o {} nei {} ni {} cin -un {} se -et {} e {} oh -ha -a {} com -a {} se {} i- ye -tto</p>
+    <p>man {} 2S[NOM] {} know -REL {} girl[NOM] {} she[NOM] {} book -ACC {} 3S.M -LAT {} 1S[NOM] {} see -REL -ADVR {} give -REL {} he[NOM] {} VEN- go -PST</p>
+    <p>lam {} ta {} noː {} {} nɛ̝ː {} ni {} kinun {} {} sɛ̝ːt {} {} ɛ̝ {} opːaː {} {} {} coma {} {} sɛ̝ {} ijɛ̝tːo {} {}</p>
+    <p>The man I saw the girl you know give the book to came.</br><i>The man You know the girl She the book to him I saw give He came</i></p>
+  </div>
+  <div data-gloss>
+    <p>Ni soudso pei.</p>
+    <p>ni {} soud -so {} pe -e</p>
+    <p>sun[NOM] {} illuminate -GER {} be -NPST</p>
+    <p>ni {} soːdzo {} {} pɛ̝ː {}</p>
+    <p>The sun shines. (*gnomic*)</p>
+  </div>
+  <div data-gloss>
+    <p>Ni soudu.</p>
+    <p>ni {} soud -u</p>
+    <p>sun[NOM] {} illuminate -NPST</p>
+    <p>ni {} soːɾu {}</p>
+    <p>The sun is shining.</p>
+  </div>
+  <div data-gloss>
+    <p>Ni souddo.</p>
+    <p>ni {} soud -do</p>
+    <p>sun[NOM] {} illuminate -PST</p>
+    <p>ni {} sodːo {}</p>
+    <p>The sun shone.</p>
+  </div>
+  <div data-gloss>
+    <p>Ni osoudu.</p>
+    <p>ni {} o- soud -u</p>
+    <p>sun[NOM] {} PERF.PROG- illuminate -NPST</p>
+    <p>ni {} osoːɾu {} {}</p>
+    <p>The sun has been shining.</p>
+  </div>
+  <div data-gloss>
+    <p>Ni offushi soudu.</p>
+    <p>ni {} offu -shi {} soud -u</p>
+    <p>sun[NOM] {} new -GEN {} illuminate -NPST</p>
+    <p>ni {} ofːuʑ̠u {} {} soːɾu {}</p>
+    <p>The sun is shining again.</p>
+  </div>
+  <div data-gloss>
+    <p>Ni moushi soudu.</p>
+    <p>ni {} mou -shi {} soud -u.</p>
+    <p>sun[NOM] {} morning -GEN {} illuminate -NPST</p>
+    <p>The sun will shine tomorrow.</p>
+  </div>
+  <div data-gloss>
+    <p>Ni cyeu soudu.</p>
+    <p>ni {} cye -u {} soud -u</p>
+    <p>sun[NOM] {} bright -NPST {} illuminate -NPST</p>
+    <p>The sun shines brightly.</p>
+  </div>
+  <div data-gloss>
+    <p>Cye ni soudu.</p>
+    <p>cye {} ni {} soud -u</p>
+    <p>bright[NOM] {} sun[NOM] {} illuminate -NPST</p>
+    <p>The bright sun shines.</p>
+  </div>
+  <div data-gloss>
+    <p>Ni oporet mehnu iyei.</p>
+    <p>ni {} opor -et {} mehn -u {} i- ye -e</p>
+    <p>sun[NOM] {} horizon -LAT {} now -NPST {} VEN- go -NPST</p>
+    <p>The sun is rising now.</p>
+  </div>
+  <div data-gloss>
+    <p>Anmi polla.</p>
+    <p>an -mi {} pol-la</p>
+    <p>person[NOM] -COLL {} shout -PST</p>
+    <p>All the people shouted.</p>
+  </div>
+  <div data-gloss>
+    <p>Anmi tog polla.</p>
+    <p>an -mi {} tog {} pol -la</p>
+    <p>person[NOM] -COLL {} some[NOM] {} shout -PST</p>
+    <p>Some of the people shouted.</p>
+  </div>
+  <div data-gloss>
+    <p>Anmi togme polla pitecga.</p>
+    <p>an -mi {} tog -me {} pol -la {} pi- tec -ca</p>
+    <p>person[NOM] -COLL {} some[NOM] -PL {} shout -PST {} two- TEMP -PST</p>
+    <p>Many of the people shouted twice.</p>
+  </div>
+  <div data-gloss>
+    <p>Shwi anme polso motsocu pei.</p>
+    <p>shwi {} an -me {} pol- so {} motsoc -u {} pe -e</p>
+    <p>happy[NOM] {} person[NOM] -PL {} shout -GER {} often -NPST {} be -NPST</p>
+    <p>Happy people often shout.</p>
+  </div>
+  <div data-gloss>
+    <p>Cathin ollo halla.</p>
+    <p>cath -in {} oll -o {} hal -la</p>
+    <p>cat[NOM] -DIM {} up -PST {} jump -PST</p>
+    <p>The kitten jumped up.</p>
+  </div>
+  <div data-gloss>
+    <p>Cathin messollet halla.</p>
+    <p>cath -in {} mess -oll -et {} hal -la</p>
+    <p>cat[NOM] -DIM {} table -SUP -LAT {} jump -PST</p>
+    <p>The kitten jumped onto the table.</p>
+  </div>
+  <div data-gloss>
+    <p>Haol micathin hinhna weiddo.</p>
+    <p>haol {} mi- cath -in {} hihn -nha {} weid -do</p>
+    <p>little[NOM] {} 1S- cat[NOM] -DIM {} away -PST {} walk -PST</p>
+    <p>My little kitten walked away.</p>
+  </div>
+  <div data-gloss>
+    <p>Haataru.</p>
+    <p>haatar -u</p>
+    <p>rain -NPST</p>
+    <p>It's raining.</p>
+  </div>
+  <div data-gloss>
+    <p>Gein jaarro.</p>
+    <p>gein {} jaar -ro</p>
+    <p>rain[NOM] {} come_down -PST</p>
+    <p>The rain came down.</p>
+  </div>
+  <div data-gloss>
+    <p>Cathin geinac loudu.</p>
+    <p>cath -in {} gein -ac {} loud -u</p>
+    <p>cat[NOM] -DIM {} rain -SUB {} play -NPST</p>
+    <p>The kitten is playing in the rain.</p>
+  </div>
+  <div data-gloss>
+    <p>Haatarra temmo.</p>
+    <p>haatar -ra {} tem -mo</p>
+    <p>rain -PST {} end -PST</p>
+    <p>The rain has stopped.</p>
+  </div>
+  <div data-gloss>
+    <p>Cottecu haataru temu.</p>
+    <p>cot -tec -u {} haatar -u {} tem -u</p>
+    <p>short -TEMP -NPST {} rain -NPST {} end -NPST</p>
+    <p>Soon, the rain will stop.</p>
+  </div>
+  <div data-gloss>
+    <p>E akattu cottecu haataru temu.</p>
+    <p>e {} akatt -u {} cot -tec -u {} haatar -u {} tem -u</p>
+    <p>1S[NOM] {} hope [NPST] {} short -TEMP -NPST {} rain -NPST {} end -NPST</p>
+    <p>I hope the rain stops soon.</p>
+  </div>
+  <div data-gloss>
+    <p>Hattecga, yejeni aleime hoc saanna.</p>
+    <p>hat -tec -ca {} yejeni {} alei -me {} hoc {} saan -na</p>
+    <p>one -TEMP -PST {} wild[NOM] {} animal[NOM] -PL {} here {} live -PST</p>
+    <p>Once, wild animals lived here.</p>
+  </div>
+  <div data-gloss>
+    <p>A hihnte!</p>
+    <p>a {} hihn -te</p>
+    <p>ADHORT {} away -IMP</p>
+    <p>Go away!</p>
+  </div>
+  <div data-gloss>
+    <p>A no yete!</p>
+    <p>a {} no {} ye -te</p>
+    <p>ADHORT {} COHORT {} go -IMP</p>
+    <p>Let's go!</p>
+  </div>
+  <div data-gloss>
+    <p>Ta a yetsoute.</p>
+    <p>ta {} a {} ye -tsou -te</p>
+    <p>2S {} ADHORT {} go -SBJV -IMP</p>
+    <p>You should go.</p>
+  </div>
+  <div data-gloss>
+    <p>Yenin eun cweinu maacu.</p>
+    <p>ye -nin {} e -un {} cwein -u {} maac -u</p>
+    <p>go[NOM] -SUPINE {} 1S -ACC {} please -NPST {} make -NPST</p>
+    <p>I will be happy to go.</p>
+  </div>
+  <div data-gloss>
+    <p>Cottecu se iyeihn</p>
+    <p>cot -tec -u {} se {} i- ye -e -hn</p>
+    <p>short -TEMP -NPST {} 3S.M[NOM] {} VEN- go -NPST -PFV</p>
+    <p>He will arrive soon.</p>
+  </div>
+  <div data-gloss>
+    <p>Peinin seranna hinhna roonna.</p>
+    <p>peinin {} se- ranna {} hihn -nha {} roon -na</p>
+    <p>baby[NOM] {} 3S- ball[NOM] {} away -PST {} roll -PST</p>
+    <p>The baby's ball has rolled away.</p>
+  </div>
+  <div data-gloss>
+    <p>Pi yotne hatessi maacu</p>
+    <p>pi {} yot -me {} hat -essi {} maac -u</p>
+    <p>two[NOM] {} boy[NOM] -PL {} one -ESS {} work -NPST</p>
+    <p>The two boys are working together.</p>
+  </div>
+  <div data-gloss>
+    <p>Se paffan ruudafstiu cyeu maacu.</p>
+    <p>se {} paffan {} ruudafsti -u {} cye -u {} maac -u</p>
+    <p>3S.PROX[NOM] {} mist[NOM] {} probable -NPST {} clear -NPST {} become -NPST</p>
+    <p>This mist will probably clear away.</p>
+  </div>
+  <div data-gloss>
+    <p>Harra ootjim lainihn gyannu.</p>
+    <p>harra {} ootji -m {} lain -ihn {} gyann -u</p>
+    <p>beautiful[NOM] {} flower[NOM] -PL {} everywhere -ADE {} grow -NPST
+      <p>Lovely flowers are growing everywhere.</p>
+  </div>
+  <div data-gloss>
+    <p>Me essoun laahnetsou.</p>
+    <p>me {} es -so -un {} laahne -tsou</p>
+    <p>1PL[NOM] {} eat -GER -ACC {} slow -SBJV</p>
+    <p>We should eat more slowly.</p>
+  </div>
+  <div data-gloss>
+    <p>Ta masper iyeihn</p>
+    <p>ta {} mas -per {} i- ye -e -hn</p>
+    <p>2S[NOM] {} early -too {} VEN- go -NPST -PFV</p>
+    <p>You have come too soon.</p>
+  </div>
+  <div data-gloss>
+    <p>Ta cyoysoun gyaantsou.</p>
+    <p>ta {} cyoy -so -un {} gyaan -tsou</p>
+    <p>2S[NOM] {} write -GER -ACC {} tidy -SBJV</p>
+    <p>You must write more neatly.</p>
+  </div>
+  <div data-gloss>
+    <p>Gyaanun wethasun harra palas tshaadu.</p>
+    <p>gyaan -un {} wethas -un {} harra {} palas {} tshaad -u</p>
+    <p>directly -ACC {} opposite -ACC {} lovely {} palace {} stand -NPST</p>
+    <p>Directly opposite stands a wonderful palace.</p>
+  </div>
+  <div data-gloss>
+    <p>Henni second </p>
+    <p></p>
+    <p></p>
+    <p>Henry's dog is lost.</p>
+  </div>
+  <div data-gloss>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>My cat is black.</p>
+  </div>
+  <div data-gloss>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </div>
+  <h2>bottom of page</h2>
+  <!--## Basic points
+
+- differentiate front/back teeth
+
+- SOV.
+- Many cases, haven't yet decided what to do with them.
+  - <sc>ade</sc>, Adessive, near/at/by
+  - <sc>ine</sc>, Inessive, inside
+  - <sc>itrt</sc>, Intrative, between; also used as a Distributive.
+  - <sc>sup</sc>, Superessive, on top
+  - <sc>sub</sc>, Subessive, under
+  - <sc>abl</sc>, Ablative, away from
+  - <sc>lat</sc>, Lative, to; also used as the Dative case.
+  - <sc>caus</sc>, Causal, because/because of; also used as the Benefactive.
+  - All the same:
+    - <sc>com</sc>, Comitative, with
+    - <sc>instr</sc>, Instrumental, (done) with
+    - <sc>instructive</sc>, Instructive, by means of.
+    - <sc>prol</sc>, Prolative, by way of, through.
+  - Subcases:
+    - <sc>fin</sc>, Final subcase. Used to produce the Terminative, for example, or the Causal-final.
+-->
+</body>
+
+</html>

@@ -1,7 +1,7 @@
-This is a template site using Metalsmith and Markdown, based on <https://cofl.github.io>. Included batteries are:
+GitHub was nagging me to add one of these so here it is.
 
-- Prebuilt stylesheet (`md.css`)
-- Several prebuilt scripts that should be useful for just about everyone.
-- A demonstration `index.md` to show off the above two points.
+This is basically a personal website I'm running all my conlanging documents from, though I suppose I could put other things on it.
 
-See: https://cofl.github.io/metalsmith-markdown-site-template/
+[linky for the lazy](http://cofl.github.com).
+
+Looking for Glossifier? [Here you go!](http://cofl.github.com/tools/autoformatter.html)

@@ -1,0 +1,31 @@
+{
+  "source": "./src/render",
+  "destination": "../",
+  "metadata": {},
+  "clean": false,
+  "plugins": {
+    "sane-layouts": {
+      "engine": "handlebars",
+      "default": "md.html",
+      "pattern": "\\.md$"
+    },
+    "metalsmith-markdownit": {
+      "typographer": true,
+      "html": true
+    },
+    "metalsmith-beautify": {
+      "css": false,
+      "js" : false,
+      "html": {
+        "indent_size": 2,
+        "indent_char": " ",
+        "preserve_newlines": false,
+        "end_with_newline": true,
+        "space_before_conditional": false
+      }
+    },
+    "metalsmith-assets": {
+      "source": "./src/static"
+    }
+  }
+}

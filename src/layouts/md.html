@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html{{#if lang}}lang="{{{lang}}}"{{/if}}>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>{{{ title }}}</title>
+    {{#unless css}}
+    <link rel="stylesheet" type="text/css" href="/static/md.css"/>
+    {{/unless}}
+    {{#each css}}
+    <link rel="stylesheet" type="text/css" href="{{{this}}}"/>
+    {{/each}}
+    {{#each scripts}}
+    <script src="{{{this}}}"></script>
+    {{/each}}
+    {{#each static-scripts}}
+    <script src="/static/scripts/{{{this}}}"></script>
+    {{/each}}
+    {{#each templates}}
+    <template id="{{{@key}}}">{{{this}}}</template>
+    {{/each}}
+    {{#if style}}
+    <style>{{{style}}}</style>
+    {{/if}}
+  </head>
+  <body>
+
+{{{contents}}}
+
+</body></html>

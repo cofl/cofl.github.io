@@ -1,9 +1,11 @@
 ---
 title: Qal̀i Sketch
-css:
-  - style.css
+generate:
+  nav: true
+templates:
+  header-top: <a href="/">home</a><a href="#top">top of page</a>
 ---
-# Qal̀i Sketch
+# <a name="top"></a>Qal̀i Sketch
 
 *__Note for teacher:__ The following is an example language sketch a conlanger might produce when first starting a new language:*
 

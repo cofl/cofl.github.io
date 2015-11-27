@@ -4,16 +4,13 @@ style: >
   blockquote thead{display:none}
   blockquote tr:first-child {font-weight:700}
   ol blockquote {padding:0 5px;margin:0}
+generate:
+  nav: true
+templates:
+  header-top: <a href="/">home</a><a href="#top">top of page</a>
 ---
 # <a name="top">Naretsov Examples</a>
 <div class="author">/u/lanerdofchristian</div>
-
-<div id="nav"><div>
-  <span id="tocm">TOC</span>
-  <h2 id="toc">Table of Contents</h2>
-  <a href="#top">Top of page</a>
-  <a href="/naretsov/">Back to Naretsov</a>
-</div></div>
 
 <ol>
 <li>Someday, we'll go to the moon.  

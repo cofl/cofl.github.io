@@ -1,8 +1,12 @@
 ---
 title: Caållghia Sketch
+generate:
+  nav: true
+templates:
+  header-top: <a href="/">home</a><a href="#top">top of page</a>
 ---
 
-# Caållghia (/kˠɔɫɣʲə/)
+# <a name="top"></a>Caållghia (/kˠɔɫɣʲə/)
 
 Caållghià was inspired by the Irish phonology, ish. The spelling is somewhat broken right now.
 

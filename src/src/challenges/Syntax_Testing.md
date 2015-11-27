@@ -1,8 +1,12 @@
 ---
 title: Syntax Testing Game
 style: ol {list-style-type:decimal-leading-zero}
+generate:
+  nav: true
+templates:
+  header-top: <a href="/">home</a><a href="#top">top of page</a>
 ---
-# Syntax Testing Game
+# <a name="top"></a>Syntax Testing Game
 
 The Syntax Testing Game was run by [/u/lanerdofchristian](http://reddit.com/u/lanerdofchristian) on [/r/conlangs](http://reddit.com/r/conlangs) over a period of 60 days, with a follow-up, from July to September, 2015. It was adapted from [Fiziwig's Conlang Syntax Test Cases List](https://web.archive.org/web/20130603121930/http://fiziwig.com/conlang/syntax_tests.html).
 

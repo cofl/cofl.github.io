@@ -4,6 +4,10 @@ style: >
   tr:first-child {
     font-weight:bold;
   }
+generate:
+  nav: true
+templates:
+  header-top: <a href="/">home</a><a href="#top">top of page</a><a href="../">back to ngjewma</a>
 ---
 # <a name="top">Sentences for Testing Conlang Syntax - Ngjawsu Edition</a>
 <div class="author">/u/lanerdofchristian</div>

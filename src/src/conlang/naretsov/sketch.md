@@ -1,8 +1,12 @@
 ---
 title: Naretsov Sketch
+generate:
+  nav: true
+templates:
+  header-top: <a href="/">home</a><a href="#top">top of page</a>
 ---
 
-# Naretsov Sketch
+# <a name="top"></a>Naretsov Sketch
 
 Naretsov is a new iteration in the same line as Naretvei and Saadan. It is spoken by the Oran, a race of very humanoid aliens from the planet of Anaret, though this language comes from the colony Naret. The design goals of this language are to sound fluid, drawing from Uralic and Japonic languages, though I may incorporate aspects of Celtic or Slavic languages in this version. Syntactically, the language will be primarily VSO as usual for this line. As with other the Sv-languages Saadan and Naretvei, adjectives and relative precede the noun they modify and most affixes are suffixing. Adverbs may appear anywhere, but generally precede the verb. Case is marked on the head, so each argument may technically shift around anywhere it likes so long as all its friends stay with it; this often happens in colloquial speech and for effect in writing, though is frowned upon in formal registers.
 

@@ -19,12 +19,13 @@ img.center{margin:0 auto;border:none;}
 #nav>div{padding:0;margin:10px 0}
 #nav a{display:block;padding-left:20px;text-indent:-20px;}
 #nav span{display:block;padding-left:10px;margin:0;}
-h2,h3,h4{position:relative;left:-10px}/*and some more...*/h2{left:-20px}
-table{display:inline-block}
+h2,h3,h4{position:relative;left:-10px}
+h2{left:-20px}
+h4{color:#776}
 table{vertical-align:top}
 table td, table th {padding:2px 6px;vertical-align:top}
-.tb-pair {margin-right:60px}
-.tb-center td {text-align:center}
+.tb-pair {margin-right:60px;display:inline-block}
+.tb-center td{text-align:center}
 .tr-headers td:first-child{text-align:left;font-weight:bold}
 .tr-headers th:first-child{font-style:italic}
 .alternate-rows tr:nth-child(even) td:first-child{

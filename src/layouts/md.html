@@ -21,6 +21,9 @@
     {{#if style}}
     <style>{{{style}}}</style>
     {{/if}}
+    {{#if is-local}}
+    <script src="http://localhost:35729/livereload.js"></script>
+    {{/if}}
   </head>
   <body>
 

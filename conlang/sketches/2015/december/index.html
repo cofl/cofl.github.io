@@ -9,162 +9,271 @@
   <script src="/static/scripts/main.js"></script>
   <script src="/static/scripts/header-link.js"></script>
   <script src="/static/scripts/leipzig.js"></script>
-  <template id="header-top"><a href="/">home</a>
+  <script src="/static/scripts/clone-attributes.js"></script>
+  <template id="header-top"><a href="/">home</a> <a href="#top">top</a>
     <hr/> </template>
   <template id="header-trail">
     <hr/> <a href="#bottom_of_page">bottom</a> </template>
 </head>
 
 <body>
-  <h1><a name="top">December 2015 Sketch</a></h1>
+  <h1><a name="top">Tsoąićęn</a></h1>
+  <p><strong style="display:block;text-align:center">December 2015 Sketch</strong></p>
   <div id="nav"></div>
   <h2>Intro</h2>
   <p>This project started off as a reworking of <a href="/conlang/sketches/2015/november/">Tsaihänni</a>, however, it eventually grew beyond that and can now not be
     considered anything but its own work.</p>
+  <p>Tsoąićen is a work-in-progress name and subject to change.</p>
   <h2>Culture</h2>
   <p>There is no culture yet, but I imagine that there will be soon.</p>
   <h2>Phonology</h2>
-  <table class="tb-center row-headers tb-pair">
+  <p>
+    <clone class="tb-center row-headers tb-pair"></clone>
+  </p>
+  <table>
     <thead>
       <tr>
-        <th style="font-style:italic">Phonemes</th>
+        <th><em>Phonemes</em></th>
         <th>Labial</th>
         <th>Coronal</th>
         <th>Dorsal</th>
       </tr>
     </thead>
-    <tr>
-      <th>Nasal</th>
-      <td>m</td>
-      <td>n</td>
-      <td>ŋ</td>
-    </tr>
-    <tr>
-      <th>Plosive</th>
-      <td>b p</td>
-      <td>t d</td>
-      <td>k g</td>
-    </tr>
-    <tr>
-      <th>Fricative</th>
-      <td>f v</td>
-      <td>s z ʃ ʒ</td>
-      <td>ç x ɣ</td>
-    </tr>
-    <tr>
-      <th>Other</th>
-      <td>ʋ</td>
-      <td>l ɾ</td>
-      <td>j</td>
-    </tr>
+    <tbody>
+      <tr>
+        <td>Nasal</td>
+        <td>m</td>
+        <td>n</td>
+        <td>ŋ</td>
+      </tr>
+      <tr>
+        <td>Plosive</td>
+        <td>p b</td>
+        <td>t d</td>
+        <td>k g</td>
+      </tr>
+      <tr>
+        <td>Fricative</td>
+        <td></td>
+        <td>s z ʃ ʒ</td>
+        <td>ç x ɣ</td>
+      </tr>
+      <tr>
+        <td>Other</td>
+        <td>w</td>
+        <td>l ɾ</td>
+        <td>j</td>
+      </tr>
+    </tbody>
   </table>
-  <table class="tb-center row-headers tb-pair">
+  <p>
+    <clone class="tb-center row-headers tb-pair"></clone>
+  </p>
+  <table>
     <thead>
       <tr>
-        <th style="font-style:italic">Graphemes</th>
+        <th><em>Graphemes</em></th>
         <th>Labial</th>
         <th>Coronal</th>
         <th>Dorsal</th>
       </tr>
     </thead>
-    <tr>
-      <th>Nasal</th>
-      <td>m</td>
-      <td>n</td>
-      <td>ń</td>
-    </tr>
-    <tr>
-      <th>Plosive</th>
-      <td>b p</td>
-      <td>t d</td>
-      <td>k g</td>
-    </tr>
-    <tr>
-      <th>Fricative</th>
-      <td>f<a href="#phon-footnote-1">¹</a> f<a href="#phon-footnote-2">²</a></td>
-      <td>s<a href="#phon-footnote-1">¹</a> s<a href="#phon-footnote-2">²</a> ś ź</td>
-      <td>c<a href="#phon-footnote-1">¹</a> ć c<a href="#phon-footnote-2">²</a></td>
-    </tr>
-    <tr>
-      <th>Other</th>
-      <td>ł</td>
-      <td>l r</td>
-      <td>y</td>
-    </tr>
+    <tbody>
+      <tr>
+        <td>Nasal</td>
+        <td>m</td>
+        <td>n</td>
+        <td>ń</td>
+      </tr>
+      <tr>
+        <td>Plosive</td>
+        <td>p b</td>
+        <td>t d</td>
+        <td>k g</td>
+      </tr>
+      <tr>
+        <td>Fricative</td>
+        <td></td>
+        <td>s<a href="#phon-footnote-1">¹</a> s<a href="#phon-footnote-2">²</a> ś ź</td>
+        <td>c<a href="#phon-footnote-1">¹</a> ć c<a href="#phon-footnote-%C2%B2">2</a></td>
+      </tr>
+      <tr>
+        <td>Other</td>
+        <td>ł</td>
+        <td>l r</td>
+        <td>y</td>
+      </tr>
+    </tbody>
   </table>
-  <table class="tb-center row-headers tb-pair">
+  <hr>
+  <p>
+    <clone class="tb-center row-headers tb-pair"></clone>
+  </p>
+  <table>
     <thead>
       <tr>
-        <th style="font-style:italic">Phonemes</th>
+        <th><em>Phonemes</em></th>
         <th>Front</th>
         <th>Central</th>
         <th>Back</th>
       </tr>
     </thead>
-    <tr>
-      <th>High</th>
-      <td>ɪ</td>
-      <td>ɨ</td>
-      <td>u</td>
-    </tr>
-    <tr>
-      <th>Mid</th>
-      <td>e ɛ</td>
-      <td>ə</td>
-      <td>o ʌ</td>
-    </tr>
-    <tr>
-      <th>Low</th>
-      <td>æ</td>
-      <td></td>
-      <td>ɑ ɒ</td>
-    </tr>
-    <tr>
-      <th>Dipthongs</th>
-      <td colspan=3>ʌɪ ɑʊ ʌu ɒɪ</td>
-    </tr>
+    <tbody>
+      <tr>
+        <td>High</td>
+        <td>iː ɪ</td>
+        <td>ɨ</td>
+        <td>ɯ~u</td>
+      </tr>
+      <tr>
+        <td>Mid</td>
+        <td>eː ɛ</td>
+        <td>ə</td>
+        <td>o ʌ</td>
+      </tr>
+      <tr>
+        <td>Low</td>
+        <td>æ</td>
+        <td></td>
+        <td>ɑ ɒ</td>
+      </tr>
+      <tr>
+        <td>Dipthongs</td>
+        <td>
+          <clone-p colspan=3/></clone-p>ʌɪ ɑʊ ʌu ɒɪ</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
   </table>
-  <table class="tb-center row-headers tb-pair">
+  <p>
+    <clone class="tb-center row-headers tb-pair"></clone>
+  </p>
+  <table>
     <thead>
       <tr>
-        <th style="font-style:italic">Phonemes</th>
+        <th><em>Graphemes</em></th>
         <th>Front</th>
         <th>Central</th>
         <th>Back</th>
       </tr>
     </thead>
-    <tr>
-      <th>High</th>
-      <td>i</td>
-      <td>u</td>
-      <td>w</td>
-    </tr>
-    <tr>
-      <th>Mid</th>
-      <td>e<a href="#phon-footnote-3">³</a> ę</td>
-      <td>a</td>
-      <td>o a</td>
-    </tr>
-    <tr>
-      <th>Low</th>
-      <td>ae</td>
-      <td></td>
-      <td>ą oą</td>
-    </tr>
-    <tr>
-      <th>Dipthongs</th>
-      <td colspan=3>ai ąo ao oąi</td>
-    </tr>
+    <tbody>
+      <tr>
+        <td>High</td>
+        <td>ii i</td>
+        <td>u</td>
+        <td>w</td>
+      </tr>
+      <tr>
+        <td>Mid</td>
+        <td>ee e</td>
+        <td>a</td>
+        <td>o a</td>
+      </tr>
+      <tr>
+        <td>Low</td>
+        <td>ę</td>
+        <td></td>
+        <td>ą oą</td>
+      </tr>
+      <tr>
+        <td>Dipthongs</td>
+        <td>
+          <clone-p colspan=3/></clone-p>ai ąo ao oąi</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
   </table>
   <ul>
-    <li><a name="phon-footnote-1">¹</a>: Intervocalically, /f s ç/ are spelled as ‹ff ss cc›, rather than ‹f s c›.</li>
-    <li><a name="phon-footnote-2">²</a>: As /v z ɣ/ only appear intervocalically, they are spelled the same as their “voiceless counterparts”, /f s ç/.</li>
-    <li><a name="phon-footnote-3">³</a>: /e/ are weak sounds, and often is reduced to [j] in non-word-initial unstressed syllables.</li>
+    <li><a name="phon-footnote-1">¹</a>: Intervocalically, /s ç/ are spelled as ‹ss cc›, rather than ‹s c›.</li>
+    <li><a name="phon-footnote-2">²</a>: As /z ɣ/ only appear intervocalically, they are spelled the same as their &quot;voiceless counterparts&quot;, /s ç/ (‹s c›).</li>
+  </ul>
+  <h3>Allophony</h3>
+  <ul>
+    <li>Before /ɾ/, the following changes occur:
+      <table>
+        <thead>
+          <tr>
+            <th>Original</th>
+            <th>New</th>
+            <th></th>
+            <th>Original</th>
+            <th>New</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>t</td>
+            <td>θ</td>
+            <td></td>
+            <td>d</td>
+            <td>ð</td>
+          </tr>
+          <tr>
+            <td>s</td>
+            <td>sə</td>
+            <td></td>
+            <td>z</td>
+            <td>zə</td>
+          </tr>
+          <tr>
+            <td>ʃ</td>
+            <td>ʃə</td>
+            <td></td>
+            <td>ʒ</td>
+            <td>ʒə</td>
+          </tr>
+        </tbody>
+      </table>
+    </li>
+    <li>/ɾ/ becomes [d] after a nasal; the nasal is geminated.</li>
+    <li>/ç/ is allophonous with [ɸ] before /ɯ/.</li>
   </ul>
   <h3>General rules</h3>
   <ul>
     <li>All plosives are devoiced at word-finally.</li>
+    <li>All consonant clusters assimilate to the voicing of the initial consonant, except for /x/, which does not have an analysed voiced counterpart.</li>
+    <li>Nasals tend to assimilate in place with following consonants.</li>
   </ul>
+  <h3>Syllable Structure</h3>
+  <p>The syllable structure I've imagined is quite complex to me, so I may not write it down right. Here's my best shot: syllables are analysed as being of two different
+    structures, to simplify the overall model.</p>
+  <h4>Structure 1: Normal Structure</h4> <pre><code>((F)C|F|C(F)|(F)N)(R)V(l|F|N)(C)(t|s(t))
+</code></pre>
+  <p>Where:</p>
+  <ul>
+    <li><strong>C</strong>: /p b t d k g/</li>
+    <li><strong>F</strong>: /s ʃ ʒ ç x/</li>
+    <li><strong>N</strong>: /m n ŋ/</li>
+    <li><strong>R</strong>: /w l ɾ j/</li>
+    <li><strong>V</strong>: Any vowel.</li>
+  </ul>
+  <p>Final /t/ may only occur when not immediately preceeded by another /t/. /ɾ/ may not appear after a nasal consonant. The long vowels /eː/ and /iː/ may only appear
+    in stressed syllables; elsewhere, they are reduced to /ɛ/ and /ɪ/, respectively.</p>
+  <h4>Structure 2: Non-vowel Structure</h4>
+  <p>Additionally, a non-dorsal fricative may stand in as the nucleus.</p> <pre><code>(C)F
+</code></pre>
+  <p>Where <strong>C</strong> is any of /p b t d k/, and <strong>F</strong> is any of /s ʃ ʒ x/. Except for when /x/ is the nucleus, any onset consonant must have the
+    same voicing as the nucleus fricative.</p>
+  <!--### Isochrony and Prosody
+
+Isochrony and prosody vary between casual and formal speech: the more casual the language, the more stress-timed and lyrical it becomes; on the other hand, formal speaking is generally more syllable-timed, with a flatter intonation.
+
+In formal speaking, the intonation is generally flat, as stated above. There are, however, several spots where that differs: at the beginning of a minor group, the intonation falls to the baseline pitch; at the end of a major group the intonation falls from the baseline pitch downward.
+However, in interrogative sentences, major groups instead end on a rising intonation. Emphasized terms have a higher intonation that the baseline as well. There are additional rules, but I don't know enough to write them down properly. Assume they follow GenAm elsewhere.-->
+  <h2>Grammar Testing Bed</h2>
+  <div data-gloss>
+    <p>Example</p>
+    <p>example</p>
+    <p>gloss</p>
+    <p>ipa</p>
+    <p>"Example"</p>
+  </div>
+  <p>
+    <a name="bottom_of_page"></a>
+  </p>
 </body>
 
 </html>

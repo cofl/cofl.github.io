@@ -1,4 +1,4 @@
-.PHONY: clean build install all clean-npm show
+.PHONY: clean build install all clean-npm show build-watched
 
 all: build
 
@@ -16,7 +16,11 @@ clean-npm:
 
 build: clean
 	cd src;\
-	"node_modules/.bin/metalsmith"
+	"node_modules/.bin/metalsmith" -c build-production.json
 
 clean:
-	ls | grep -v -P "Makefile|README|src|show" | xargs rm -r -f
+	ls | grep -v -P "Makefile|README|src" | xargs rm -r -f
+
+build-watched: clean
+	cd src;\
+	"node_modules/.bin/metalsmith" -c build-development.json

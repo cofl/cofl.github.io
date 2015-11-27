@@ -1,5 +1,5 @@
 {
-  "source": "./src/render",
+  "source": "./src",
   "destination": "../",
   "metadata": {},
   "clean": false,
@@ -10,7 +10,7 @@
       "pattern": "\\.md$"
     },
     "metalsmith-markdownit": {
-      "typographer": true,
+      "typographer": false,
       "html": true
     },
     "metalsmith-beautify": {
@@ -23,9 +23,6 @@
         "end_with_newline": true,
         "space_before_conditional": false
       }
-    },
-    "metalsmith-assets": {
-      "source": "./src/static"
     }
   }
 }

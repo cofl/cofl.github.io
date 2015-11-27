@@ -15,9 +15,9 @@
     {{#each static-scripts}}
     <script src="/static/scripts/{{{this}}}"></script>
     {{/each}}
-    {{#each templates}}
-    <template id="{{{@key}}}">{{{this}}}</template>
-    {{/each}}
+    {{#if generate.nav}}
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+    {{/if}}
     {{#if style}}
     <style>{{{style}}}</style>
     {{/if}}

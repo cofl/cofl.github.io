@@ -1,8 +1,12 @@
 ---
 title: Concepts Game
 style: ol {list-style-type:decimal-leading-zero}
+generate:
+  nav: true
+templates:
+  header-top: <a href="/">home</a><a href="#top">top of page</a>
 ---
-# Concepts
+# <a name="top"></a>Concepts
 Concepts is a translation game run by [/u/lanerdofchristian](http://reddit.com/u/lanerdofchristian) on [/r/conlangs](http://reddit.com/r/conlangs) in September 2015, though a single-day test run was done one week before on August 27^th. It was adapted from the 1940 reference book *__Semantic Frequency List__* by Helen S. Eaton, published by The University of Chicago Press in Chicago, Illinois.
 
 > The rules are simple: translate the following concepts into your conlang. Don't be afraid to play with semantic drift (please don't translate every concept one-for-one). If you can, please provide an IPA transcription and a simple definition. If you are unsure of what a term means, please check [Wiktionary](https://wiktionary.org).

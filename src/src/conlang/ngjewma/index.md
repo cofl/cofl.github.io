@@ -9,6 +9,7 @@ title: The Ngjewma Language
 <div id="nav"><div>
   <span id="tocm">TOC</span>
   <h2 id="toc">Table of Contents</h2>
+  <a href="/">home</a>
   <a href="#1">1. Introduction</a>
   <a href="#2">2. Phonology and Phonetics</a>
   <span>

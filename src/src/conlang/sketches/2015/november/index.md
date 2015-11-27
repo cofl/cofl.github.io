@@ -2,9 +2,10 @@
 title: Tsaihänni Sketch
 scripts:
   - index.js
+generate:
+  nav: true
 static-scripts:
   - main.js
-  - header-link.js
   - leipzig.js
 templates:
   header-top: >

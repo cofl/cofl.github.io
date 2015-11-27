@@ -1,7 +1,11 @@
 ---
 title: Sentences for Testing Conlang Syntax
+generate:
+  nav: true
+templates:
+  header-top: <a href="/">home</a><a href="#top">top of page</a>
 ---
-# Sentences for Testing Conlang Syntax (ŋ́e᷉ma).
+# <a name="top"></a>Sentences for Testing Conlang Syntax (ŋ́e᷉ma).
 ---
 1. The sun shines.  
   __pɑ pa᷉n ñolðïŋ.__

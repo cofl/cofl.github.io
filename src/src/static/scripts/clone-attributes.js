@@ -1,3 +1,10 @@
+/** === DEPRECATED ===
+ * Use instead the generation-time Metalsmith plugin cofl/metalsmith-cofl-util, with the metadata:
+ * generate:
+ *   clone: true
+ */
+console.log("=== DEPRECATED: clone-attributes.js ===\n  Use instead the generation-time Metalsmith plugin cofl/metalsmith-cofl-util,\n  with the metadata generate.clone=true");
+
 window.registerLoadScript(function(){
   function cloneAttributes(src, dest, rem){
     var old_attrs = src.attributes;

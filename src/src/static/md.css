@@ -51,3 +51,5 @@ em>em{font-style:normal}
 table.row-headers th,table.row-headers td:first-child,.__trh{font-weight:bold;text-align:left !important}
 ol.glossed-samples table,ol.glossed-samples td{border-collapse:collapse;border:1px solid #888}
 ol.glossed-samples thead{display:none}
+
+.link-icon{visibility:hidden;font-size:13pt} *:hover>.link-icon{visibility:visible}

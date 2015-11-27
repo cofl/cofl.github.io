@@ -1,5 +1,7 @@
 ---
 title: cofl's Stuff
+generate:
+  nav: true
 scripts:
   - /static/scripts/main.js
   - /static/scripts/header-link.js

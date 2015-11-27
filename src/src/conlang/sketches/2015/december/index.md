@@ -4,9 +4,10 @@ scripts:
   - index.js
 static-scripts:
   - main.js
-  - header-link.js
   - leipzig.js
-  - clone-attributes.js
+generate:
+  nav: true
+  clone: true
 templates:
   header-top: >
     <a href="/">home</a>

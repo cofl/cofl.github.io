@@ -1,3 +1,10 @@
+/** === DEPRECATED ===
+ * Use instead the generation-time Metalsmith plugin cofl/metalsmith-cofl-util, with the metadata:
+ * generate:
+ *   nav: true
+ */
+console.log("=== DEPRECATED: header-link.js ===\n  Use instead the generation-time Metalsmith plugin cofl/metalsmith-cofl-util,\n  with the metadata generate.nav=true");
+
 window.registerCSS(true, "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"); //font-awesome
 window.registerCSS(false, ".link-icon{visibility:hidden;font-size:13pt} *:hover>.link-icon{visibility:visible}");
 window.registerLoadScript(function(){

@@ -2,9 +2,6 @@
 title: cofl's Stuff
 generate:
   nav: true
-scripts:
-  - /static/scripts/main.js
-  - /static/scripts/header-link.js
 templates:
   header-top: >
     <a href="#top">top of page</a>
@@ -26,42 +23,56 @@ This page serves as a jumping-point for my resources and such. Please use the na
 This is a list of games I've run over on [/r/conlangs](http://reddit.com/r/conlangs).
 
 - __[Syntax Testing](/challenges/Syntax_Testing.html)__  
-  Adapted from [Fiziwig's Conlang Syntax Test Cases List](https://web.archive.org/web/20130603121930/http://fiziwig.com/conlang/syntax_tests.html). The point of these challenges was to develop syntax by exploring many possible cases. Fiziwig's list itself was adapted from a longer source, but cut out many duplicates.
-  
+  Adapted from [Fiziwig's Conlang Syntax Test Cases List][fiziwigcases]. The point of these challenges was to develop syntax by exploring many possible cases. Fiziwig's list itself was adapted from a longer source, but cut out many duplicates.
 - __[Concepts](/challenges/Concepts.html)__  
   Adapted from Helen S. Eaton's *Semantic Frequency List* (1940).
 
+## Mirror
+
+There are a few things that are available elsewhere, but I keep copies of them here.
+
+- __[Graded Sentences for Analysis](/mirror/gsfa.html)__  
+  An all-in-one rehost of the text files from <http://www.potterpcs.net/gsfa/>, which are themselves a mirror of files no longer available.
+- __[Conlang Syntax Test Cases](/mirror/cstc.html)__  
+  A mirror of the [Fiziwig list][fiziwigcases], on which the Syntax Testing game was based.
+
+[fiziwigcases]: https://web.archive.org/web/20130603121930/http://fiziwig.com/conlang/syntax_tests.html
+
 ## Conlangs
 ### Saadan Languages
+The Saadan Languages were the very first languages I ever created. In reality, they were the evolutions and restarts of the original, Plû'ua'sv'dÿner, which was a nooblang inspired into creation by Nreku, a conlang I'd found and met the creator of on a writer's chatroom. I wouldn't be where I was today without them.
 #### Naretvei
+Naretvei was the last of the major revisions before I abondoned the family. Documentation began in early 2015 for an English assignment. This documentation exists in two versions, neither of which is particularly better than the other. Version 0 I find has more info on the actual grammar, while Version 1 has conworld notes not found in Version 0.
 ##### Version 0
 - [Reference Grammar](/conlang/naretvei/0/reference.html)
 - [Text Samples](/conlang/naretvei/0/text_samples.html)
 - [Syntax Testing](/conlang/naretvei/0/gsfa.html)
-
 ##### Version 1
 - [Reference Grammar](/conlang/naretvei/1/reference.html)
 
 #### Naretsov
+Naretsov was *the* last revision, stemming from the work on Naretvei. It never got past a sketch and a few example sentences, but it does have what I think of as an interesting lexicon page.
 - [Sketch](/conlang/naretsov/sketch.html)
 - [Syntax Testing](/conlang/naretsov/gsfa.html)
 - [Examples](/conlang/naretsov/examples.html)
 - [Lexicon (beta)](/naretsov/lexicon.html)
 
 ### Sketches and one-off documents
-- [Qalij Sketch](/conlang/qalij/sketch.html)
+These have all occurred around when or after work stopped on the Saadan languages. Ultimately, they majority of them have been abandoned. My latest sketches and documents are at the bottom, organised by month and year.
+- [Qalij Sketch](/conlang/qalij/sketch.html)  
+  The Qalij sketch was created for the same English assignment as Naretvei's documentation. It was technically based off a prior work, called Qali, but I've lost most of the documents about that; everything except a FieldWorks lexicon with a few example sentences and words.
+#### Njema/Ngjawsu
 - [Njema GFSA version 0](/conlang/njema/gsfa.html)
 - [Njema GFSA version 1](/conlang/njema/njema.html)
 - [Ngjewma/Ngjawsu](/conlang/ngjewma/)
   - [Ngjewma Symbols](/conlang/ngjewma/symbol.html)
-
 #### Caållghia
 - [Sketch](/conlang/caallghia/sketch.html)
 - [Syntax Testing](/conlang/caallghia/gsfa.html)
 
 #### Misc. Sketches/Docs
-
 - [August 2015](/conlang/sketches/2015/august/gsfa.html)
 - [September 2015](/conlang/sketches/2015/september/)
 - [October 2015](/conlang/sketches/2015/october/) -- see November's, for an updated version.
 - [November 2015](/conlang/sketches/2015/november/)
+- [November 2015 - 2](/conlang/sketches/2015/november-2/)

@@ -1,5 +1,5 @@
 ---
-title: December 2015 Sketch
+title: November 2 2015 Sketch
 scripts:
   - index.js
 static-scripts:
@@ -18,7 +18,7 @@ templates:
     <a href="#bottom_of_page">bottom</a>
 ---
 # <a name="top">Tsoąićęn</a>
-<strong style="display:block;text-align:center">December 2015 Sketch</strong>
+<strong style="display:block;text-align:center">2<sup>nd</sup> November 2015 Sketch</strong>
 
 <div id="nav"></div>
 

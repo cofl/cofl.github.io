@@ -20,7 +20,6 @@
     "metalsmith-watch": {
       "paths": {
         "${source}/**/*":true,
-        "${source}/../static/**/*":true,
         "${source}/../layouts/**/*":true
       },
       "livereload": true

@@ -75,4 +75,5 @@ These have all occurred around when or after work stopped on the Saadan language
 - [September 2015](/conlang/sketches/2015/september/)
 - [October 2015](/conlang/sketches/2015/october/) -- see November's, for an updated version.
 - [November 2015](/conlang/sketches/2015/november/)
-- [November 2015 - 2](/conlang/sketches/2015/november-2/)
+- [November 2015 - 2](/conlang/sketches/2015/november-2/) -- Attempt to update November's sketch.
+- [November 2015 - 3](/conlang/sketches/2015/november-3/) -- An experiment in speech-first conlanging; didn't last long.

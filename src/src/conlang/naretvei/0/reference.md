@@ -4,6 +4,8 @@ style: >
   h1 a{text-align:center;display:block;}#nav{width: 240px;position:fixed;padding:5px 20px 30px 0;top:0;left:0;font-size:85%;}#nav a{display:block;padding-left:20px;text-indent:-20px;}body{padding-left:60px;}#nav span{display:block;padding-left:10px;margin:0;}h2,h3,h4{position:relative;left:-10px;}h2{left:-20px;}table{display:inline-block;}sc{display:inline;padding:0;margin:0;}#aspect-table td{padding:0 3px;}#szcj-chart{margin-left:100px;}#szcj-chart td{padding:3px 12px;}#gloss-table td:first-child,sc{font-variant:small-caps;}#toc,#tocm{display:none;}
   @media screen {#nav{background: #eee;z-index:5;height:100%;margin-left: -260px;border-right: 20px solid #888;transition: all 0.4s ease;overflow-y: scroll;} #nav:hover {margin-left: 0;padding:0 20px;border-right-width:0;} #tocm{font-family: sans-serif;padding:3px 6px;position:fixed;top:0;left:0;background:#000;color: #fff;z-index:20;transition: all 0.4s ease;display:block;} #nav:hover #tocm {margin-top: -30px;}}
   @media print {html,body,p a,ul a{color:#000;} #toc {display:block;} #nav{position:static;} body{padding-left:24px;}}
+generate:
+  clone: true
 ---
 # <a name="top">The Naretvei Language</a>
 <div style="text-align:center;font-weight:bold;">C. LaCourt<br/>4 April 2015</div>
@@ -95,36 +97,37 @@ For readers of the web version of this document, no link will be provided in the
 
 A more complete list may be found on [Wikipedia](http://en.wikipedia.org/wiki/List_of_glossing_abbreviations). These abbreviations are the ones used in this document.
 
-<table id="gloss-table"><thead><tr><th style="text-align:left;">Abbreviation</th><th style="text-align:left;">Meaning</th></tr></thead>
-  <tr><td>1</td><td>first person</td></tr>
-  <tr><td>2</td><td>second person</td></tr>
-  <tr><td>3</td><td>third person</td></tr>
-  <tr><td>adj</td><td>adjectivizer</td></tr>
-  <tr><td>a</td><td>animate gender<sup>1</sup></td></tr>
-  <tr><td>circ</td><td>[circumfix](http://en.wikipedia.org/wiki/Circumfix)</td></tr>
-  <tr><td>con</td><td>[conative](http://en.wikipedia.org/wiki/Conation)</td></tr>
-  <tr><td>dim</td><td>[diminutive]</td></tr>
-  <tr><td>fut</td><td>future tense</td></tr>
-  <tr><td>imp</td><td>[imperative](http://en.wikipedia.org/wiki/Imperative_mood)</td></tr>
-  <tr><td>i</td><td>inanimate gender<sup>2</sup></td></tr>
-  <tr><td>inf</td><td>[infinitive](http://en.wikipedia.org/wiki/Infinitive)</td></tr>
-  <tr><td>int</td><td>[intensive](http://en.wikipedia.org/wiki/Intensive)</td></tr>
-  <tr><td>neg</td><td>negation ("not")</td></tr>
-  <tr><td>nmz</td><td>nominalizer</td></tr>
-  <tr><td>obj</td><td>object ("the object marker")</td></tr>
-  <tr><td>pass</td><td>[passive voice](http://en.wikipedia.org/wiki/Passive_voice)</td></tr>
-  <tr><td>pl</td><td>plural</td></tr>
-  <tr><td>poss</td><td>possessive case</td></tr>
-  <tr><td>pot</td><td>[potential](http://en.wikipedia.org/wiki/Irrealis_mood#Potential)</td></tr>
-  <tr><td>pst</td><td>past tense</td></tr>
-  <tr><td>prog</td><td>[progressive aspect](http://en.wikipedia.org/wiki/Continuous_and_progressive_aspects)</td></tr>
-  <tr><td>prs / pres</td><td>present tense</td></tr>
-  <tr><td>q</td><td>[interrogative](http://en.wikipedia.org/wiki/Interrogative)</td></tr>
-  <tr><td>quot</td><td>[quotative](http://en.wikipedia.org/wiki/Quotative)</td></tr>
-  <tr><td>s</td><td>singular</td></tr>
-  <tr><td>subr / sr</td><td>[subordinationalizer](http://en.wikipedia.org/wiki/Subordination_%28linguistics%29)</td></tr>
-  <!--<tr><td></td><td></td></tr>-->
-</table>
+<clone id="gloss-table">
+
+|Abbreviation|Meaning|
+|------------|-------|
+|1           |first person|
+|2           |second person|
+|3           |third person|
+|adj         |adjectivizer|
+|a           |animate gender<sup>1</sup>|
+|circ        |[circumfix](http://en.wikipedia.org/wiki/Circumfix)|
+|con         |[conative](http://en.wikipedia.org/wiki/Conation)|
+|dim         |[diminutive](http://en.wikipedia.org/wiki/Diminutive)|
+|fut         |future tense|
+|imp         |[imperative](http://en.wikipedia.org/wiki/Imperative_mood)|
+|i           |inanimate gender<sup>2</sup>|
+|inf         |[infinitive](http://en.wikipedia.org/wiki/Infinitive)|
+|int         |[intensive](http://en.wikipedia.org/wiki/Intensive)|
+|neg         |negation ("not")|
+|nmz         |nominalizer|
+|obj         |object ("the object marker")|
+|pass        |[passive voice](http://en.wikipedia.org/wiki/Passive_voice)|
+|pl          |plural|
+|poss        |possessive case|
+|pot         |[potential](http://en.wikipedia.org/wiki/Irrealis_mood#Potential)|
+|pst         |past tense|
+|prog        |[progressive aspect](http://en.wikipedia.org/wiki/Continuous_and_progressive_aspects)|
+|prs / pres  |present tense|
+|q           |[interrogative](http://en.wikipedia.org/wiki/Interrogative)|
+|quot        |[quotative](http://en.wikipedia.org/wiki/Quotative)|
+|s           |singular|
+|subr / sr  |[subordinationalizer](http://en.wikipedia.org/wiki/Subordination_%28linguistics%29)|
 
 __<sup>1</sup>:__ By the list on Wikipedia, <sc>a</sc> marks the agent, but due to the lack of agent-marking in this document, the animate gender gloss <sc>an</sc> has been shortened to it.
 

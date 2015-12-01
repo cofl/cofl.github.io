@@ -13,6 +13,12 @@ templates:
 
 This page serves as a jumping-point for my resources and such. Please use the navigation sidebar to ease finding things. `Ctrl-F` works, too. Some pages may be broken, as I reworked the site structure and may have missed changing a few things.
 
+## Blog
+
+I have one of these. There's not much on it. You should read it, I guess, if you're into that sort of thing.
+
+[__Here it is/__](/blog/)
+
 ## Tools
 
 - [__Glossifier Glossing Formatting Assistant__](/tools/autoformatter.html)  

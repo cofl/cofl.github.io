@@ -15,8 +15,10 @@ style: >
   .small{font-size:70%}
   #abbreviation-table td:first-child{font-variant:small-caps}
   .left-headers th{text-align:left}
-  .references a {color:inherit;display:block;text-indent:-22px;padding:2px 0 2px 30px}
+  .references a {color:inherit;display:block;text-indent:-22px;padding:2px 0 2px 30px;line-height:30px}
   .references a:target{background:#f8f8a8}
+  .content p{text-indent: 22px;line-height:30px}
+  /*p,ul{font-family:"Palatino Linotype","Book Antiqua",Palatino,serif}*/
   @media (min-width: 680px) {
     .references {column-count:2;-moz-column-count:2;-webkit-column-count:2}
   }
@@ -55,11 +57,13 @@ Some further conventions are used to label affixes:
 |---------------|-------
 |[nom][wiki_nom]|Nominative case
 
+<div class=content>
+
 ## 1. Introduction
-Saan, a tongue with over fourteen billion speakers spread over sixty-seven worlds, originates along the famous Blue Coast of Anaret, a region known for its extensive fishing and shipping industries, and formerly for large salt mines that dotted the low hills at the western border, though many have closed by modern times. The region was rapidly entered a period of enlightenment following extensive colonial activity by the inland and island nations, and from those same nations the language gained extensive vocabulary in the disciplines of government and trade. Independence movements at the end of the first colonial era granted the region the freedom to build its own government, the very same government that when matured became the core founding member of the Anaretian Directory ([Pellu 2957](#pellu2957)). Today, the shore is dotted with some of the greatest cities in all the empire, which play host to to a burgeoning population of over half a billion Oran, Ngemans, and Qali. The region is also home to the prestigious Onizue Military Academy, named for one of the most prestigious families of the Ngeman aristocracy, and one of the two permanent venues for the semiannual Imperial Defense Expo.
+Saan, a tongue with over fourteen billion speakers spread over sixty-seven worlds, originates along the famous Blue Coast of Anaret, a region known for its extensive fishing and shipping industries, and formerly for large salt mines that dotted the low hills at the western border, though many have closed by modern times. The region rapidly entered a period of enlightenment following extensive colonial activity by the inland and island nations, and from those same nations the language gained extensive vocabulary in the disciplines of government and trade. Independence movements at the end of the first colonial era granted the region the freedom to build its own government, the very same government that when matured became the core founding member of the Anaretian Directory ([Pellu 2957](#pellu2957)). Today, the shore is dotted with some of the greatest cities in all the empire, which play host to to a burgeoning population of over half a billion Oran, Ngemans, and Qali. The region is also home to the prestigious Onizue Military Academy, named for one of the most prestigious families of the Ngeman aristocracy, and one of the two permanent venues for the semiannual Imperial Defense Expo.
 
 ### 1.1 People of the Blue Coast
-According to the introduction to Pellu and Mōra's *Cultural Index: 3<sup>rd</sup> edition* ([2961](#pellu2961)), the inhabitants of Anaret's Blue Coast region for centuries held a strange middle ground among their neighbours. Their communities were larger than the numerous villages dotting the Golden Plains, yet smaller than the cities that could be found tucked away out in the [TODO: name] Archipelago, all of which were dwarfed by the true urban centers built in the Grey Mountains and northern plains. Similarly, between the loose yet linear family structure found among the plains-dwwellers and the tigher, more nuclear families of the islands, on the Blue Coast, bonds between generations tend to be strong, with a repect and wisdom being traded equally; despite this, single family units are very nuclear&mdash;children are raised by their parents and the community, and are free to move as they see fit when they come of age. This system of community-rearing and strongly nuclear family units is unique on Anaret, though it has shown up on some colonial and client worlds ([ur Thíma 2966](#urthima2966)).
+According to the introduction to Pellu and Mōra's *Cultural Index: 3<sup>rd</sup> edition* ([2965](#pellu2965)), the inhabitants of Anaret's Blue Coast region for centuries held a strange middle ground among their neighbours. Their communities were larger than the numerous villages dotting the Golden Plains, yet smaller than the cities that could be found tucked away out in the [TODO: name] Archipelago, all of which were dwarfed by the true urban centers built in the Grey Mountains and northern plains. Similarly, between the loose yet linear family structure found among the plains-dwwellers and the tigher, more nuclear families of the islands, on the Blue Coast, bonds between generations tend to be strong, with a repect and wisdom being traded equally; despite this, single family units are very nuclear&mdash;children are raised by their parents and the community, and are free to move as they see fit when they come of age. This system of community-rearing and strongly nuclear family units is unique on Anaret, though it has shown up on some colonial and client worlds ([ur Thíma 2966](#urthima2966)).
 
 ### 1.2 The Oran
 The Oran, as a species, have fascinated me for as long as I've had the chance to study them. They, on the outside, are remarkably similar to humans, save for the nearly homogenous skin colour. Oran races are generally split amongst hair and eye colour, which are lines drawn partly by genetics, and partly by nutrition; metals in the food supply alter the production of pigments. It's on the inside that they being to be very different: an Oran's heart is a 12-chambered monstrosity not unlike a peristaltic pump, placed squarely in the middle of the chest, between the two lobes of the lung, which has a larger capacity than that of a human's two lungs combined.
@@ -72,7 +76,47 @@ Saan is a healthy language, with over fourteen billion native speakers on numero
 
 With widespread education, intantaneous communication, and as the result of early colonial policies, there are few dialects. The greatest number are found on Anaret itself, in the more rural coastal towns and villages and retreats nestled away in the forests spanning the northern part of the [TODO: continent name] Shield up to the Grey Mountains. Many of the earlier colonial worlds Saan is spoken on have developed distinct accents and dialects, but these will be ignored for the most part, save for examples that would be grammatical in them, but not in Standard Saan.
 
-On Anaret, the most distinct dialect is that of [TODO: translate "Stormwatch"], literally "Storm-watch", which is spoken on the southernmost headlands of the Blue Coast. The village there maintains a quaint, traditional air in the shadow of the [TODO: translate "Stormwatch"] lighthouse, which &mdash; along with its sister-tower across the straight on Em Island &mdash; guided merchant ships for two hundred years prior to the widespread use of a satellite global positioning system. ([Nora 2990](#nora2990))
+On Anaret, the most distinct dialect is that of [TODO: translate "Stormwatch"], literally "Storm-watch", which is spoken on the southernmost headlands of the Blue Coast. The village there maintains a quaint, traditional air in the shadow of the [TODO: translate "Stormwatch"] lighthouse, which &mdash; along with its sister-tower across the straight on Em Island &mdash; guided merchant ships for two hundred years prior to the widespread use of a satellite global positioning system ([Nora 2990](#nora2990)). According to official censuses in 2960, 2980, and 3000, the [TODO: translate "Stormwatch"] dialect speaking population is stagnant, however, as is the case with the majority of the Anaretian dialects.
+
+On most of the colonial worlds with populations under a billion, the majority of Saan speakers tend to be bilingual or trilingual in the other major languages of the worlds, though again, according to censuses taken every twenty years from 2900 to the present day, these numbers are stagnant or shrinking on almost every world, while the global population of Saan speakers continues to grow at a steady rate.
+
+### 1.4 Generic grammar
+
+Before I move on, I'd like to note some of the basic features of Saan grammar, to prepare you for the coming chapters. Saan, similar to its neighbours, is head-initial, though not nearly as strongly so as a language like Suånwe. In the general order of its sentences, verbs precede objects, and subjects come at the front of the sentence; other clauses tend to follow the object, save for temporal structures, which generally immediately follow the verb. Temporal constructions, and to a lesser extent adverbial constructions, are not fixed in their positions, however, and may move freely about the sentence, bar one location &mdash; they never appear between the subject and the verb&mdash;the only dialects that allow this are the [TODO: trns Stormwatch] dialect and its nearby neighbour, Southern Rural Saan. Nouns decline for the negative, singular and plural numbers, as well as clusivity, where the inclusive is marked. Adjectives are not marked. Verbs agree with the person of the subject&mdash;simple subjects may be dropped, and only remain in verb conjugation&mdash;and additionally are marked for one of several tenses. More on these will be covered in the sections [Nouns and Adjectives][self_nouns_and_adjectives], [Other Morphology][self_other_morphology], and [Verbs][self_verbs], respectively.
+
+## 2. Phonology
+
+The traditional phonology of Saan was described by the Oran linguist Tayme in the late 10<sup>th</sup> century ([Tayme circa 980](#tayme900)). While some things have changed since then, the bulk of their research is still valid, and is the basis for nearly all textbooks on the language; I will be presenting their phoneme inventory alongside my own, which I developed from their work and several many hours of recordings taped on the campus of the Onizue Academy, including several student news programs complemented with recordings of the state-run morning news program, and the university choir, which was complemented with my recordings of live entertainment events and concerts.
+
+### 2.1 Consonants
+
+<clone class="tb-center row-headers tb-pair"><caption>Tayme Analysis</caption></clone>
+|         |Labial|Coronal|Palatal|Dorsal|
+|---------|------|-------|-------|------|
+|Nasal    |m     |n      |ɲ      |ŋ     |
+|Stop     |p b   |t d    |c ɟ    |k g q |
+|Fricative|f v   |s z    |ɕ ʑ    |x χ   |
+|Affricate|      |ts tɕ dʑ|cɕ ɟʑ |      |
+|Other    |w     |r l    |ʎ      |      |
+
+<clone class="tb-center row-headers tb-pair"><caption>Tilghman Analysis</caption></clone>
+|         |Labial|Coronal|Palatal|Dorsal|
+|---------|------|-------|-------|------|
+|Nasal    |m     |n      |ɲ~ŋ<clone-p colspan=2></clonep>|
+|Stop     |p b   |t d    |c ɟ    |k g q |
+|Fricative|f     |s      |ʃ~ɕ    |x χ   |
+|Affricate|      |ts tʃ dʒ|cɕ ɟʑ |      |
+|Other    |ɯᵝ    |r l    |lʲ     |      |
+
+The primary difference is the reanalysis of voiced fricatives as allophones of the voiceless fricatives: when Tayme wrote their notes, voiced fricatives appeared word-initially and intervocalically; now, they appear only intervocalically or adjacent to voiced stops or affricates. Additionally, I have found that /ɲ/ and /ŋ/ have merged, giving /ɲ~ŋ/. /w/ long ago become /ɯᵝ/, though it remains /w/ in the [trns: Stormwatch] dialect, suggesting that the innovation occurred before widespread spacetravel. /ʎ/ has been found to actually be /lʲ/, though this innovation postdates spacetravel, many Anaretian dialects and the major dialects of two early colonies retain /ʎ/.
+
+#### 2.1.1 Pronunciation
+
+Pure voiceless stops are lenius, though many younger speakers are beginning to aspirate them in the onsets of stressed syllables, with a smaller minority&mdash;generally from the [TODO: name] colony&mdash;also aspirating word-finally. Voiced stops, similarly, are strongly voiced among older speakers, with a hint of implosion, whereas younger speakers use a weaker partial voicing instead.
+
+###
+
+</div>
 
 ## References
 
@@ -82,8 +126,12 @@ On Anaret, the most distinct dialect is that of [TODO: translate "Stormwatch"], 
 <a name="karsae2817">Karsae, Dacci. 2817. *Anatomy: 2<sup>nd</sup> edition*. Ennanö: Onizue Academy Press. 473-474.</a>
 <a name="nora2990">Nora 2990. Stormwatch diary. In Pellu, Kanna (ed.), *Lighthouses of the Blue Coast,* 54-99. Ennanö: Scakan Books.
 <a name="pellu2957">Pellu, Kanna. 2957. *The Blue Coast: Antiquity to the Nuclear Age*. Ennanö: Onizue Academy Press.</a>
-<a name="pellu2961">Pellu, Kanna & Mōra, Ryena. 2961. *Cultural Index: 3<sup>rd</sup> edition.* Ennanö: Onizue Academy Press.</a>
+<a name="pellu2965">Pellu, Kanna & Mōra, Ryena. 2965. *Cultural Index: 3<sup>rd</sup> edition.* Ennanö: Onizue Academy Press.</a>
+<a name="tayme900">Tayme. circa 980. *Notes.* (Handwritten, located in the Onizue Academy Digital Archive from 2300)
 <a name="urthima2966">ur Thíma, Nara T. & Pellu, Kanna & Minazukara, Kaide & Anaary, Adlei. 2966. *Demographic Survey of the Anaretian Empire*. Nó błau: Naretmisorikon.</a>
 
 <!-- markdown links -->
 [wiki_nom]: https://en.wikipedia.org/wiki/Nominative_case
+[self_nouns_and_adjectives]: #nanda
+[self_other_morphology]: #morpho
+[self_verbs]: #verbs

@@ -3,12 +3,11 @@ title: Saan -- March 2016
 generate:
   clone: true
   nav: true
-scripts:
-  - index.js
 static-scripts:
   - main.js
   - leipzig.js
 style: >
+  caption{text-decoration:underline}
   .center{text-align:center}
   .bold{font-weight:bold}
   .italic{font-style:italic}
@@ -22,11 +21,18 @@ style: >
   @media (min-width: 680px) {
     .references {column-count:2;-moz-column-count:2;-webkit-column-count:2}
   }
+script: >
+  window.leipzigAbbreviations = {
+    'ACNNR': 'action nominalizer'
+  };
 templates:
   header-top: >
     <a href="/">home</a>
     <a href="#top">top</a>
     <hr/>
+  header-trail: >
+    <hr/>
+    <a href="#bottom">bottom</a>
 ---
 
 # <a name="top">The Saan Language</a>
@@ -70,13 +76,15 @@ The Oran, as a species, have fascinated me for as long as I've had the chance to
 
 For the sake of this paper, the important thing to note, though, is the peculiarity of the Oran reproductive system, or, more specifically, the sexes each member may be. Life on Anaret is unique in being one of only three worlds with naturally-occurring quadrasexual life: the sexes traditionally male and female being, rather than being goverend by a single male-or-female gene, having male-or-not-male and female-or-not-female genes, indicating the growth of male or female reproductive structures and the hormones belonging to each; this gives the male and female we are accustomed with, as well as hermaphroditic individuals, which possess the dominant alleles of both genes, and sterile individuals, which possess the recessive alleles. Reproduction may only occur during a "heat", when female hormone production has increased enough to permit the release of a female gamete; these same hormones also trigger a drastic decrease in the production and viability of male gametes in hermaphroditic individuals, reducing the chance of accidental self-fertilization to zero in the month prior to release of the female gamete, and maintaining that level throughout the heat ([Karsae 2817: 473](#karsae2817); [Johnson 3020](#johnson3020)). Having four sexes, most Oran languages having grammatical gender either do not distinguish between them, or distinguish between all of them individually. The latter are in the minority of the sample, as are gendered terms&mdash;most Oran have no policemen or policewomen, husbands or wives, or sons or daughters.
 
+The Oran also exhibit lifespans longer than those of we humans, who only recently broke the two-hundred-year mark; the current life expectancy of a child born this year in the capital city of the Anaretian Directory, Ennanö, is just over three hundred fifty-two years, and one subspecies genetically engineered at the beginning of Oran expansion into space has lives extending well over a thousand years&mdash;the exact number is unknown, as only recently have they begun to die of natural causes. If you ask an Oran how old they are, be careful that they're giving you their age in Earth years, as is standard among humans, and not Anaret years, or "Standard Imperial Year" to the Oran, which is approximately four times longer. Some of the dates given in this paper will seem unrealistically out-of-date, but I assure you, they are not so long ago to the Oran.
+
 ### 1.3 State of Saan
 
 Saan is a healthy language, with over fourteen billion native speakers on numerous worlds. It is one of the three official languages of the Directory of Anaret, and by extension is one of the more numerous official languages of the Anaretian Empire. Its primary population centers are spread throughout the rimward side of the Luminous Veil, with the notable exception of the [TODO: planet name] colony.
 
 With widespread education, intantaneous communication, and as the result of early colonial policies, there are few dialects. The greatest number are found on Anaret itself, in the more rural coastal towns and villages and retreats nestled away in the forests spanning the northern part of the [TODO: continent name] Shield up to the Grey Mountains. Many of the earlier colonial worlds Saan is spoken on have developed distinct accents and dialects, but these will be ignored for the most part, save for examples that would be grammatical in them, but not in Standard Saan.
 
-On Anaret, the most distinct dialect is that of [TODO: translate "Stormwatch"], literally "Storm-watch", which is spoken on the southernmost headlands of the Blue Coast. The village there maintains a quaint, traditional air in the shadow of the [TODO: translate "Stormwatch"] lighthouse, which &mdash; along with its sister-tower across the straight on Em Island &mdash; guided merchant ships for two hundred years prior to the widespread use of a satellite global positioning system ([Nora 2990](#nora2990)). According to official censuses in 2960, 2980, and 3000, the [TODO: translate "Stormwatch"] dialect speaking population is stagnant, however, as is the case with the majority of the Anaretian dialects.
+On Anaret, the most distinct dialect is that of [TODO: translate "Stormwatch"], which may be translated as "Stormwatch", which is spoken on the southernmost headlands of the Blue Coast. The village there maintains a quaint, traditional air in the shadow of the [TODO: translate "Stormwatch"] lighthouse, which &mdash; along with its sister-tower across the straight on Em Island &mdash; guided merchant ships for two hundred years prior to the widespread use of a satellite global positioning system ([Nora 2990](#nora2990)). According to official censuses in 2960, 2980, and 3000, the [TODO: translate "Stormwatch"] dialect speaking population is stagnant, however, as is the case with the majority of the Anaretian dialects.
 
 On most of the colonial worlds with populations under a billion, the majority of Saan speakers tend to be bilingual or trilingual in the other major languages of the worlds, though again, according to censuses taken every twenty years from 2900 to the present day, these numbers are stagnant or shrinking on almost every world, while the global population of Saan speakers continues to grow at a steady rate.
 
@@ -97,24 +105,48 @@ The traditional phonology of Saan was described by the Oran linguist Tayme in th
 |Stop     |p b   |t d    |c ɟ    |k g q |
 |Fricative|f v   |s z    |ɕ ʑ    |x χ   |
 |Affricate|      |ts tɕ dʑ|cɕ ɟʑ |      |
-|Other    |w     |r l    |ʎ      |      |
+|Other    |w     |r l    |ʎ j    |      |
 
 <clone class="tb-center row-headers tb-pair"><caption>Tilghman Analysis</caption></clone>
 |         |Labial|Coronal|Palatal|Dorsal|
 |---------|------|-------|-------|------|
 |Nasal    |m     |n      |ɲ~ŋ<clone-p colspan=2></clonep>|
 |Stop     |p b   |t d    |c ɟ    |k g q |
-|Fricative|f     |s      |ʃ~ɕ    |x χ   |
+|Fricative|f     |s      |ʃ~ɕ    |x χ̝   |
 |Affricate|      |ts tʃ dʒ|cɕ ɟʑ |      |
-|Other    |ɯᵝ    |r l    |lʲ     |      |
+|Other    |β̞     |l      |lʲ j   |ʀ~ʁ   |
 
-The primary difference is the reanalysis of voiced fricatives as allophones of the voiceless fricatives: when Tayme wrote their notes, voiced fricatives appeared word-initially and intervocalically; now, they appear only intervocalically or adjacent to voiced stops or affricates. Additionally, I have found that /ɲ/ and /ŋ/ have merged, giving /ɲ~ŋ/. /w/ long ago become /ɯᵝ/, though it remains /w/ in the [trns: Stormwatch] dialect, suggesting that the innovation occurred before widespread spacetravel. /ʎ/ has been found to actually be /lʲ/, though this innovation postdates spacetravel, many Anaretian dialects and the major dialects of two early colonies retain /ʎ/.
-
-#### 2.1.1 Pronunciation
+The primary difference is the reanalysis of voiced fricatives as allophones of the voiceless fricatives: when Tayme wrote their notes, voiced fricatives appeared word-initially and intervocalically; now, they appear only intervocalically or adjacent to voiced stops or affricates. Additionally, I have found that /ɲ/ and /ŋ/ have merged, giving /ɲ~ŋ/. /w/ long ago lost its velar aspect and become /β̞/, though it remains /w/ in the [trns: Stormwatch] dialect, suggesting that the innovation occurred before widespread spacetravel. /ʎ/ has been found to actually be /lʲ/, though this innovation postdates spacetravel&mdash;many Anaretian dialects and the major dialects of two early colonies retain /ʎ/. Some time in the 16<sup>th</sup> century, /r/ became /ʀ~ʁ/, forcing /χ/ to rise up to /χ̝/.
 
 Pure voiceless stops are lenius, though many younger speakers are beginning to aspirate them in the onsets of stressed syllables, with a smaller minority&mdash;generally from the [TODO: name] colony&mdash;also aspirating word-finally. Voiced stops, similarly, are strongly voiced among older speakers, with a hint of implosion, whereas younger speakers use a weaker partial voicing instead.
 
-###
+#### 2.1.1 Allophony and Sandhi
+
+[TODO: this section needs filling out]
+
+### 2.2 Vowels
+
+<clone class="tb-center row-headers tb-pair"><caption>Tayme Analysis</caption></clone>
+|         |Front|Central|Back|
+|---------|-----|-------|----|
+|Close    |i    |ÿ      |u̞   |
+|Close-mid|e    |ə      |o̞   |
+|Open-mid |ɛ    |œ̈      |    |
+|Open     |     |ɐ̞      |ɒ   |
+|Dipthongs|æ͡i æ͡ə æ͡u|ə͡i ə͡u ɐ͡i ɜ͡i|o͡i u͡i|
+
+<clone class="tb-center row-headers tb-pair"><caption>Tilghman Analysis</caption></clone>
+|         |Front|Central|Back|
+|---------|-----|-------|----|
+|Close    |i    |       |u̞   |
+|Close-mid|e̞    |ə      |o̞   |
+|Open-mid |     |ɜ      |    |
+|Open     |æ    |ɐ̞      |ɒ   |
+|Dipthongs|æ͡ə y͡i|       |    |
+
+Tayme's analysis holds together similarly well for vowels, though again, some changes have occurred. I've found that /œ̈/ unrounded to become /ɜ/, and /ÿ/ merged with /u/ except for word-finally, where it became /ɜ/ as well. /e/ dropped to /e̞/ some time in the 16<sup>th</sup> century, forcing /ɛ/ down to /æ/. Many of what Tayme analyzed as dipthongs are actually combinations with /j/ and /β̞/, except for /u͡i/, which has become /y͡i/.
+
+/o̞/ has a tendency to become /ə/ in unstressed syllables. /i/, likewise, becomes [ɪ], and /e̞/ and /æ/ both become [ɛ]. In some cases, when consonants of high sonority like nasals (/m n ɲ~ŋ/) and approximants (/l lʲ ʀ~ʁ/) are in a coda position, and the vowel is /ə/, /ə/ may be dropped, and the nasal or approximant will become the new nucleus. This does not happen with /j/ and /β̞/ due to their vowel-like nature.
 
 </div>
 

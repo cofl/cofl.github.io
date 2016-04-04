@@ -12,6 +12,9 @@
     {{#each scripts}}
     <script src="{{{this}}}"></script>
     {{/each}}
+    {{#if script}}
+    <script>{{{script}}}</script>
+    {{/if}}
     {{#each static-scripts}}
     <script src="/static/scripts/{{{this}}}"></script>
     {{/each}}

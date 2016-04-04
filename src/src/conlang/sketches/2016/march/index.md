@@ -102,7 +102,7 @@ The traditional phonology of Saan was described by the Oran linguist Tayme in th
 |         |Labial|Coronal|Palatal|Dorsal|
 |---------|------|-------|-------|------|
 |Nasal    |m     |n      |ɲ      |ŋ     |
-|Stop     |p b   |t d    |c ɟ    |k g q |
+|Stop     |p b   |t d    |c ɟ    |k g   |
 |Fricative|f v   |s z    |ɕ ʑ    |x χ   |
 |Affricate|      |ts tɕ dʑ|cɕ ɟʑ |      |
 |Other    |w     |r l    |ʎ j    |      |
@@ -111,7 +111,7 @@ The traditional phonology of Saan was described by the Oran linguist Tayme in th
 |         |Labial|Coronal|Palatal|Dorsal|
 |---------|------|-------|-------|------|
 |Nasal    |m     |n      |ɲ~ŋ<clone-p colspan=2></clonep>|
-|Stop     |p b   |t d    |c ɟ    |k g q |
+|Stop     |p b   |t d    |c ɟ    |k g   |
 |Fricative|f     |s      |ʃ~ɕ    |x χ̝   |
 |Affricate|      |ts tʃ dʒ|cɕ ɟʑ |      |
 |Other    |β̞     |l      |lʲ j   |ʀ~ʁ   |
@@ -147,6 +147,60 @@ Pure voiceless stops are lenius, though many younger speakers are beginning to a
 Tayme's analysis holds together similarly well for vowels, though again, some changes have occurred. I've found that /œ̈/ unrounded to become /ɜ/, and /ÿ/ merged with /u/ except for word-finally, where it became /ɜ/ as well. /e/ dropped to /e̞/ some time in the 16<sup>th</sup> century, forcing /ɛ/ down to /æ/. Many of what Tayme analyzed as dipthongs are actually combinations with /j/ and /β̞/, except for /u͡i/, which has become /y͡i/.
 
 /o̞/ has a tendency to become /ə/ in unstressed syllables. /i/, likewise, becomes [ɪ], and /e̞/ and /æ/ both become [ɛ]. In some cases, when consonants of high sonority like nasals (/m n ɲ~ŋ/) and approximants (/l lʲ ʀ~ʁ/) are in a coda position, and the vowel is /ə/, /ə/ may be dropped, and the nasal or approximant will become the new nucleus. This does not happen with /j/ and /β̞/ due to their vowel-like nature.
+
+### 2.3 Syllable Structure
+
+The syllable structure of Saan is more complex than that of other major Oran languages like Naretsov, but only marginally so.
+--TODO
+
+### 2.4 Romanization
+
+The native script for Saan has not been added to Unicode, and so I have developed this romanization scheme for it.
+
+<clone class="tb-center tb-pair"><caption>Consonants</caption><clone>
+|Phoneme|Glyph|
+|-------|-----|
+|m      |m    |
+|n      |n    |
+|ɲ~ŋ    |ń    |
+|p      |p    |
+|b      |b    |
+|t      |t    |
+|d      |d    |
+|c      |c    |
+|ɟ      |j    |
+|k      |k    |
+|g      |g    |
+|f      |f    |
+|s      |s    |
+|ʃ~ɕ    |ś    |
+|x      |h    |
+|χ̝      |qh   |
+|ts     |ć    |
+|tʃ     |tś   |
+|dʒ     |dś   |
+|cɕ     |cś   |
+|ɟʑ     |jś   |
+|β̞      |w    |
+|l      |l    |
+|lʲ     |ł    |
+|j      |y    |
+|ʀ~ʁ    |r    |
+
+<clone class="tb-center tb-pair"><caption>Vowels</caption></clone>
+|Phoneme|Glyph|
+|-------|-----|
+|i      |i    |
+|u̞      |u    |
+|e̞      |e    |
+|ə      |ą    |
+|o̞      |o    |
+|ɜ      |eu   |
+|æ      |ę    |
+|ɐ̞      |a    |
+|ɒ      |ó    |
+|æ͡ə     |ęa   |
+|y͡i     |ui   |
 
 </div>
 

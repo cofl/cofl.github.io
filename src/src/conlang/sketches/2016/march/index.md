@@ -158,34 +158,21 @@ The syllable structure of Saan is more complex than that of other major Oran lan
 The native script for Saan has not been added to Unicode, and so I have developed this romanization scheme for it.
 
 <clone class="tb-center tb-pair"><caption>Consonants</caption><clone>
-|Phoneme|Glyph|
-|-------|-----|
-|m      |m    |
-|n      |n    |
-|ɲ~ŋ    |ń    |
-|p      |p    |
-|b      |b    |
-|t      |t    |
-|d      |d    |
-|c      |c    |
-|ɟ      |j    |
-|k      |k    |
-|g      |g    |
-|f      |f    |
-|s      |s    |
-|ʃ~ɕ    |ś    |
-|x      |h    |
-|χ̝      |qh   |
-|ts     |ć    |
-|tʃ     |tś   |
-|dʒ     |dś   |
-|cɕ     |cś   |
-|ɟʑ     |jś   |
-|β̞      |w    |
-|l      |l    |
-|lʲ     |ł    |
-|j      |y    |
-|ʀ~ʁ    |r    |
+|Phoneme|Glyph| |Phoneme|Glyph|
+|-------|-----|-|-------|-----|
+|m      |m    | |ʃ~ɕ    |ś    |
+|n      |n    | |x      |h    |
+|ɲ~ŋ    |ń    | |χ̝      |qh   |
+|p      |p    | |ts     |ć    |
+|b      |b    | |tʃ     |tś   |
+|t      |t    | |dʒ     |dś   |
+|d      |d    | |cɕ     |cś   |
+|c      |c    | |ɟʑ     |jś   |
+|ɟ      |j    | |β̞      |w    |
+|k      |k    | |l      |l    |
+|g      |g    | |lʲ     |ł    |
+|f      |f    | |j      |y    |
+|s      |s    | |ʀ~ʁ    |r    |
 
 <clone class="tb-center tb-pair"><caption>Vowels</caption></clone>
 |Phoneme|Glyph|

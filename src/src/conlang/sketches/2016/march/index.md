@@ -39,6 +39,20 @@ templates:
 <div class="center small italic">C. LaCourt &mdash; 31 March 2016</div>
 <div class="center bold">A. Tilghman<br/>21 August 3024</div>
 
+## Abstract
+
+<div class="content">
+
+This is a grammar of the Saan language of the Oran, of Anaret's Blue Coast Language Family. All aspects of the language are discussed, including phonology, morphology, and background.
+
+Keywords: *Saan*, *grammar*, *Oran*, *language*
+
+## Acknowledgements
+
+This paper would not have been possible without the invitation of the Anaretian Directory and prompting from my professor, Donald Smith, of the University of Valles Marineris. I'd also like to extend my most sincere gratitude to the students and faculty of Onizue Academy and the people of Ennanö and the other Blue Coast towns and cities I visited for their willingness to cooperate with my research, and for all the sources they provided for my further education. Lastly, I want to thank my guide and friend, Mora Adaarie, who has been extremely patient with me during my time on Anaret, and has always been willing to assist me in any way.
+
+</div>
+
 ## a. Conventions
 
 This document makes use of a few conventions:
@@ -69,7 +83,7 @@ Some further conventions are used to label affixes:
 Saan, a tongue with over fourteen billion speakers spread over sixty-seven worlds, originates along the famous Blue Coast of Anaret, a region known for its extensive fishing and shipping industries, and formerly for large salt mines that dotted the low hills at the western border, though many have closed by modern times. The region rapidly entered a period of enlightenment following extensive colonial activity by the inland and island nations, and from those same nations the language gained extensive vocabulary in the disciplines of government and trade. Independence movements at the end of the first colonial era granted the region the freedom to build its own government, the very same government that when matured became the core founding member of the Anaretian Directory ([Pellu 2957](#pellu2957)). Today, the shore is dotted with some of the greatest cities in all the empire, which play host to to a burgeoning population of over half a billion Oran, Ngemans, and Qali. The region is also home to the prestigious Onizue Military Academy, named for one of the most prestigious families of the Ngeman aristocracy, and one of the two permanent venues for the semiannual Imperial Defense Expo.
 
 ### 1.1 People of the Blue Coast
-According to the introduction to Pellu and Mōra's *Cultural Index: 3<sup>rd</sup> edition* ([2965](#pellu2965)), the inhabitants of Anaret's Blue Coast region for centuries held a strange middle ground among their neighbours. Their communities were larger than the numerous villages dotting the Golden Plains, yet smaller than the cities that could be found tucked away out in the [TODO: name] Archipelago, all of which were dwarfed by the true urban centers built in the Grey Mountains and northern plains. Similarly, between the loose yet linear family structure found among the plains-dwwellers and the tigher, more nuclear families of the islands, on the Blue Coast, bonds between generations tend to be strong, with a repect and wisdom being traded equally; despite this, single family units are very nuclear&mdash;children are raised by their parents and the community, and are free to move as they see fit when they come of age. This system of community-rearing and strongly nuclear family units is unique on Anaret, though it has shown up on some colonial and client worlds ([ur Thíma 2966](#urthima2966)).
+According to the introduction to Pellu and Mōra's *Cultural Index: 3<sup>rd</sup> edition* ([2965](#pellu2965)), the inhabitants of Anaret's Blue Coast region for centuries held a strange middle ground among their neighbours. Their communities were larger than the numerous villages dotting the Golden Plains, yet smaller than the cities that could be found tucked away out in the [TODO: name] Archipelago, all of which were dwarfed by the true urban centers built in the Grey Mountains and northern plains. Similarly, between the loose yet linear family structure found among the plains-dwellers and the tigher, more nuclear families of the islands, on the Blue Coast, bonds between generations tend to be strong, with a repect and wisdom being traded equally; despite this, single family units are very nuclear&mdash;children are raised by their parents and the community, and are free to move as they see fit when they come of age. This system of community-rearing and strongly nuclear family units is unique on Anaret, though it has shown up on some colonial and client worlds ([ur Thíma 2966](#urthima2966)).
 
 ### 1.2 The Oran
 The Oran, as a species, have fascinated me for as long as I've had the chance to study them. They, on the outside, are remarkably similar to humans, save for the nearly homogenous skin colour. Oran races are generally split amongst hair and eye colour, which are lines drawn partly by genetics, and partly by nutrition; metals in the food supply alter the production of pigments. It's on the inside that they being to be very different: an Oran's heart is a 12-chambered monstrosity not unlike a peristaltic pump, placed squarely in the middle of the chest, between the two lobes of the lung, which has a larger capacity than that of a human's two lungs combined.
@@ -84,13 +98,13 @@ Saan is a healthy language, with over fourteen billion native speakers on numero
 
 With widespread education, intantaneous communication, and as the result of early colonial policies, there are few dialects. The greatest number are found on Anaret itself, in the more rural coastal towns and villages and retreats nestled away in the forests spanning the northern part of the [TODO: continent name] Shield up to the Grey Mountains. Many of the earlier colonial worlds Saan is spoken on have developed distinct accents and dialects, but these will be ignored for the most part, save for examples that would be grammatical in them, but not in Standard Saan.
 
-On Anaret, the most distinct dialect is that of [TODO: translate "Stormwatch"], which may be translated as "Stormwatch", which is spoken on the southernmost headlands of the Blue Coast. The village there maintains a quaint, traditional air in the shadow of the [TODO: translate "Stormwatch"] lighthouse, which &mdash; along with its sister-tower across the straight on Em Island &mdash; guided merchant ships for two hundred years prior to the widespread use of a satellite global positioning system ([Nora 2990](#nora2990)). According to official censuses in 2960, 2980, and 3000, the [TODO: translate "Stormwatch"] dialect speaking population is stagnant, however, as is the case with the majority of the Anaretian dialects.
+On Anaret, the most distinct dialect is that of Jaaliförmaqh, which may be translated as "Stormwatch", which is spoken on the southernmost headlands of the Blue Coast. The village there maintains a quaint, traditional air in the shadow of the Jaaliförmeu lighthouse, which &mdash; along with its sister-tower across the straight on Em Island &mdash; guided merchant ships for two hundred years prior to the widespread use of a satellite global positioning system ([Nora 2990](#nora2990)). According to official censuses in 2960, 2980, and 3000, the Jaaliförmaqh dialect speaking population is stagnant, however, as is the case with the majority of the Anaretian dialects.
 
 On most of the colonial worlds with populations under a billion, the majority of Saan speakers tend to be bilingual or trilingual in the other major languages of the worlds, though again, according to censuses taken every twenty years from 2900 to the present day, these numbers are stagnant or shrinking on almost every world, while the global population of Saan speakers continues to grow at a steady rate.
 
 ### 1.4 Generic grammar
 
-Before I move on, I'd like to note some of the basic features of Saan grammar, to prepare you for the coming chapters. Saan, similar to its neighbours, is head-initial, though not nearly as strongly so as a language like Suånwe. In the general order of its sentences, verbs precede objects, and subjects come at the front of the sentence; other clauses tend to follow the object, save for temporal structures, which generally immediately follow the verb. Temporal constructions, and to a lesser extent adverbial constructions, are not fixed in their positions, however, and may move freely about the sentence, bar one location &mdash; they never appear between the subject and the verb&mdash;the only dialects that allow this are the [TODO: trns Stormwatch] dialect and its nearby neighbour, Southern Rural Saan. Nouns decline for the negative, singular and plural numbers, as well as clusivity, where the inclusive is marked. Adjectives are not marked. Verbs agree with the person of the subject&mdash;simple subjects may be dropped, and only remain in verb conjugation&mdash;and additionally are marked for one of several tenses. More on these will be covered in the sections [Nouns and Adjectives][self_nouns_and_adjectives], [Other Morphology][self_other_morphology], and [Verbs][self_verbs], respectively.
+Before I move on, I'd like to note some of the basic features of Saan grammar, to prepare you for the coming chapters. Saan, similar to its neighbours, is head-initial, though not nearly as strongly so as a language like Suånwe. In the general order of its sentences, verbs precede objects, and subjects come at the front of the sentence; other clauses tend to follow the object, save for temporal structures, which generally immediately follow the verb. Temporal constructions, and to a lesser extent adverbial constructions, are not fixed in their positions, however, and may move freely about the sentence, bar one location &mdash; they never appear between the subject and the verb&mdash;the only dialects that allow this are the Jaaliförmaqh dialect and its nearby neighbour, Southern Rural Saan. Nouns decline for the negative, singular and plural numbers, as well as clusivity, where the inclusive is marked. Adjectives are not marked. Verbs agree with the person of the subject&mdash;simple subjects may be dropped, and only remain in verb conjugation&mdash;and additionally are marked for one of several tenses. More on these will be covered in the sections [Nouns and Adjectives][self_nouns_and_adjectives], [Other Morphology][self_other_morphology], and [Verbs][self_verbs], respectively.
 
 ## 2. Phonology
 
@@ -116,7 +130,7 @@ The traditional phonology of Saan was described by the Oran linguist Tayme in th
 |Affricate|      |ts tʃ dʒ|cɕ ɟʑ |      |
 |Other    |β̞     |l      |lʲ j   |ʀ~ʁ   |
 
-The primary difference is the reanalysis of voiced fricatives as allophones of the voiceless fricatives: when Tayme wrote their notes, voiced fricatives appeared word-initially and intervocalically; now, they appear only intervocalically or adjacent to voiced stops or affricates. Additionally, I have found that /ɲ/ and /ŋ/ have merged, giving /ɲ~ŋ/. /w/ long ago lost its velar aspect and become /β̞/, though it remains /w/ in the [trns: Stormwatch] dialect, suggesting that the innovation occurred before widespread spacetravel. /ʎ/ has been found to actually be /lʲ/, though this innovation postdates spacetravel&mdash;many Anaretian dialects and the major dialects of two early colonies retain /ʎ/. Some time in the 16<sup>th</sup> century, /r/ became /ʀ~ʁ/, forcing /χ/ to rise up to /χ̝/.
+The primary difference is the reanalysis of voiced fricatives as allophones of the voiceless fricatives: when Tayme wrote their notes, voiced fricatives appeared word-initially and intervocalically; now, they appear only intervocalically or adjacent to voiced stops or affricates. Additionally, I have found that /ɲ/ and /ŋ/ have merged, giving /ɲ~ŋ/. /w/ long ago lost its velar aspect and become /β̞/, though it remains /w/ in the Jaaliförmaqh dialect, suggesting that the innovation occurred before widespread spacetravel. /ʎ/ has been found to actually be /lʲ/ in most dialects, though this innovation postdates spacetravel&mdash;many Anaretian dialects and the major dialects of two early colonies retain /ʎ/; in the dialect local to Ennanö, it has completely merged with /l/. Some time in the 16<sup>th</sup> century, /r/ became /ʀ~ʁ/, forcing /χ/ to rise up to /χ̝/.
 
 Pure voiceless stops are lenius, though many younger speakers are beginning to aspirate them in the onsets of stressed syllables, with a smaller minority&mdash;generally from the [TODO: name] colony&mdash;also aspirating word-finally. Voiced stops, similarly, are strongly voiced among older speakers, with a hint of implosion, whereas younger speakers use a weaker partial voicing instead.
 
@@ -146,7 +160,11 @@ Pure voiceless stops are lenius, though many younger speakers are beginning to a
 
 Tayme's analysis holds together similarly well for vowels, though again, some changes have occurred. I've found that /œ̈/ unrounded to become /ɜ/, and /ÿ/ merged with /u/ except for word-finally, where it became /ɜ/ as well. /e/ dropped to /e̞/ some time in the 16<sup>th</sup> century, forcing /ɛ/ down to /æ/. Many of what Tayme analyzed as dipthongs are actually combinations with /j/ and /β̞/, except for /u͡i/, which has become /y͡i/.
 
-/o̞/ has a tendency to become /ə/ in unstressed syllables. /i/, likewise, becomes [ɪ], and /e̞/ and /æ/ both become [ɛ]. In some cases, when consonants of high sonority like nasals (/m n ɲ~ŋ/) and approximants (/l lʲ ʀ~ʁ/) are in a coda position, and the vowel is /ə/, /ə/ may be dropped, and the nasal or approximant will become the new nucleus. This does not happen with /j/ and /β̞/ due to their vowel-like nature.
+/o̞/ and /ɐ̞/ have tendencies to become /ə/ in unstressed syllables. /i/, likewise, becomes [ɪ], and /e̞/ and /æ/ both become [ɛ]. In some cases, when consonants of high sonority like nasals (/m n ɲ~ŋ/) and approximants (/l lʲ ʀ~ʁ/) are in a coda position, and the vowel is /ə/, /ə/ may be dropped, and the nasal or approximant will become the new nucleus. This does not happen with /j/ and /β̞/ due to their vowel-like nature.
+
+### 2.2.1 Allophony and Sandhi
+
+There is some fronting of back vowels in the vicinity of front vowels; namely, /u/ becomes [y] when in a syllable adjacent to one containing /i/, and /o̞/ becomes [œ] when in a syllable adjacent to one containing /e̞/.
 
 ### 2.3 Syllable Structure
 
@@ -170,7 +188,7 @@ The native script for Saan has not been added to Unicode, and so I have develope
 |c      |c    | |ɟʑ     |jś   |
 |ɟ      |j    | |β̞      |w    |
 |k      |k    | |l      |l    |
-|g      |g    | |lʲ     |ł    |
+|g      |g    | |lʲ     |ll   |
 |f      |f    | |j      |y    |
 |s      |s    | |ʀ~ʁ    |r    |
 
@@ -182,12 +200,22 @@ The native script for Saan has not been added to Unicode, and so I have develope
 |e̞      |e    |
 |ə      |ą    |
 |o̞      |o    |
-|ɜ      |eu   |
+|ɜ      |ö    |
 |æ      |ę    |
 |ɐ̞      |a    |
-|ɒ      |ó    |
-|æ͡ə     |ęa   |
+|ɑ      |aa   |
+|æ͡ə     |ëa   |
 |y͡i     |ui   |
+
+### 3 
+
+
+
+
+
+
+
+
 
 </div>
 
@@ -197,11 +225,11 @@ The native script for Saan has not been added to Unicode, and so I have develope
 
 <a name="johnson3020">Johnson, Peter N. 3020. *Reproduction in Xenoanaretia sapiens.* Marineris DC: University of Valles Marineris. (Doctoral dissertation.)</a>
 <a name="karsae2817">Karsae, Dacci. 2817. *Anatomy: 2<sup>nd</sup> edition*. Ennanö: Onizue Academy Press. 473-474.</a>
-<a name="nora2990">Nora 2990. Stormwatch diary. In Pellu, Kanna (ed.), *Lighthouses of the Blue Coast,* 54-99. Ennanö: Scakan Books.
+<a name="nora2990">Nora 2990. Stormwatch diary. In Pellu, Kanna (ed.), *Lighthouses of the Blue Coast,* 54-99. Ennanö: Scakan Books.</a>
 <a name="pellu2957">Pellu, Kanna. 2957. *The Blue Coast: Antiquity to the Nuclear Age*. Ennanö: Onizue Academy Press.</a>
 <a name="pellu2965">Pellu, Kanna & Mōra, Ryena. 2965. *Cultural Index: 3<sup>rd</sup> edition.* Ennanö: Onizue Academy Press.</a>
 <a name="tayme900">Tayme. circa 980. *Notes.* (Handwritten, located in the Onizue Academy Digital Archive from 2300)
-<a name="urthima2966">ur Thíma, Nara T. & Pellu, Kanna & Minazukara, Kaide & Anaary, Adlei. 2966. *Demographic Survey of the Anaretian Empire*. Nó błau: Naretmisorikon.</a>
+<a name="urthima2966">ur Thíma, Nara T. & Pellu, Kanna & Minazukara, Kaide & Anaary, Adlei. 2966. *Demographic Survey of the Anaretian Empire*. Nö bllaaw: Naretmisorikon.</a>
 
 <!-- markdown links -->
 [wiki_nom]: https://en.wikipedia.org/wiki/Nominative_case

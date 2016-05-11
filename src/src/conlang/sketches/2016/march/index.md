@@ -83,7 +83,7 @@ Some further conventions are used to label affixes:
 Saan, a tongue with over fourteen billion speakers spread over sixty-seven worlds, originates along the famous Blue Coast of Anaret, a region known for its extensive fishing and shipping industries, and formerly for large salt mines that dotted the low hills at the western border, though many have closed by modern times. The region rapidly entered a period of enlightenment following extensive colonial activity by the inland and island nations, and from those same nations the language gained extensive vocabulary in the disciplines of government and trade. Independence movements at the end of the first colonial era granted the region the freedom to build its own government, the very same government that when matured became the core founding member of the Anaretian Directory ([Pellu 2957](#pellu2957)). Today, the shore is dotted with some of the greatest cities in all the empire, which play host to to a burgeoning population of over half a billion Oran, Ngemans, and Qali. The region is also home to the prestigious Onizue Military Academy, named for one of the most prestigious families of the Ngeman aristocracy, and one of the two permanent venues for the semiannual Imperial Defense Expo.
 
 ### 1.1 People of the Blue Coast
-According to the introduction to Pellu and Mōra's *Cultural Index: 3<sup>rd</sup> edition* ([2965](#pellu2965)), the inhabitants of Anaret's Blue Coast region for centuries held a strange middle ground among their neighbours. Their communities were larger than the numerous villages dotting the Golden Plains, yet smaller than the cities that could be found tucked away out in the [TODO: name] Archipelago, all of which were dwarfed by the true urban centers built in the Grey Mountains and northern plains. Similarly, between the loose yet linear family structure found among the plains-dwellers and the tigher, more nuclear families of the islands, on the Blue Coast, bonds between generations tend to be strong, with a repect and wisdom being traded equally; despite this, single family units are very nuclear&mdash;children are raised by their parents and the community, and are free to move as they see fit when they come of age. This system of community-rearing and strongly nuclear family units is unique on Anaret, though it has shown up on some colonial and client worlds ([ur Thíma 2966](#urthima2966)).
+According to the introduction to Pellu and Mōra's *Cultural Index: 3<sup>rd</sup> edition* ([2965](#pellu2965)), the inhabitants of Anaret's Blue Coast region for centuries held a strange middle ground among their neighbours. Their communities were larger than the numerous villages dotting the Golden Plains, yet smaller than the cities that could be found tucked away out in the ~~[TODO: name]~~ Archipelago, all of which were dwarfed by the true urban centers built in the Grey Mountains and northern plains. Similarly, between the loose yet linear family structure found among the plains-dwellers and the tigher, more nuclear families of the islands, on the Blue Coast, bonds between generations tend to be strong, with a repect and wisdom being traded equally; despite this, single family units are very nuclear&mdash;children are raised by their parents and the community, and are free to move as they see fit when they come of age. This system of community-rearing and strongly nuclear family units is unique on Anaret, though it has shown up on some colonial and client worlds ([ur Thíma 2966](#urthima2966)).
 
 ### 1.2 The Oran
 The Oran, as a species, have fascinated me for as long as I've had the chance to study them. They, on the outside, are remarkably similar to humans, save for the nearly homogenous skin colour. Oran races are generally split amongst hair and eye colour, which are lines drawn partly by genetics, and partly by nutrition; metals in the food supply alter the production of pigments. It's on the inside that they being to be very different: an Oran's heart is a 12-chambered monstrosity not unlike a peristaltic pump, placed squarely in the middle of the chest, between the two lobes of the lung, which has a larger capacity than that of a human's two lungs combined.
@@ -94,18 +94,74 @@ The Oran also exhibit lifespans longer than those of we humans, who only recentl
 
 ### 1.3 State of Saan
 
-Saan is a healthy language, with over fourteen billion native speakers on numerous worlds. It is one of the three official languages of the Directory of Anaret, and by extension is one of the more numerous official languages of the Anaretian Empire. Its primary population centers are spread throughout the rimward side of the Luminous Veil, with the notable exception of the [TODO: planet name] colony.
+Saan is a healthy language, with over fourteen billion native speakers on numerous worlds. It is one of the three official languages of the Directory of Anaret, and by extension is one of the more numerous official languages of the Anaretian Empire. Its primary population centers are spread throughout the rimward side of the Luminous Veil, with the notable exception of the ~~[TODO: planet name]~~ colony.
 
-With widespread education, intantaneous communication, and as the result of early colonial policies, there are few dialects. The greatest number are found on Anaret itself, in the more rural coastal towns and villages and retreats nestled away in the forests spanning the northern part of the [TODO: continent name] Shield up to the Grey Mountains. Many of the earlier colonial worlds Saan is spoken on have developed distinct accents and dialects, but these will be ignored for the most part, save for examples that would be grammatical in them, but not in Standard Saan.
+With widespread education, intantaneous communication, and as the result of early colonial policies, there are few dialects. The greatest number are found on Anaret itself, in the more rural coastal towns and villages and retreats nestled away in the forests spanning the northern part of the ~~[TODO: continent name]~~ Shield up to the Grey Mountains. Many of the earlier colonial worlds Saan is spoken on have developed distinct accents and dialects, but these will be ignored for the most part, save for examples that would be grammatical in them, but not in Standard Saan.
 
-On Anaret, the most distinct dialect is that of Jaaliförmaqh, which may be translated as "Stormwatch", which is spoken on the southernmost headlands of the Blue Coast. The village there maintains a quaint, traditional air in the shadow of the Jaaliförmeu lighthouse, which &mdash; along with its sister-tower across the straight on Em Island &mdash; guided merchant ships for two hundred years prior to the widespread use of a satellite global positioning system ([Nora 2990](#nora2990)). According to official censuses in 2960, 2980, and 3000, the Jaaliförmaqh dialect speaking population is stagnant, however, as is the case with the majority of the Anaretian dialects.
+On Anaret, the most distinct dialect is that of ~~Jaaliförmaqh~~, which may be translated as "Stormwatch", which is spoken on the southernmost headlands of the Blue Coast. The village there maintains a quaint, traditional air in the shadow of the ~~Jaaliförmeu~~ lighthouse, which &mdash; along with its sister-tower across the straight on Em Island &mdash; guided merchant ships for two hundred years prior to the widespread use of a satellite global positioning system ([Nora 2990](#nora2990)). According to official censuses in 2960, 2980, and 3000, the ~~Jaaliförmaqh~~ dialect speaking population is stagnant, however, as is the case with the majority of the Anaretian dialects.
 
 On most of the colonial worlds with populations under a billion, the majority of Saan speakers tend to be bilingual or trilingual in the other major languages of the worlds, though again, according to censuses taken every twenty years from 2900 to the present day, these numbers are stagnant or shrinking on almost every world, while the global population of Saan speakers continues to grow at a steady rate.
 
 ### 1.4 Generic grammar
 
-Before I move on, I'd like to note some of the basic features of Saan grammar, to prepare you for the coming chapters. Saan, similar to its neighbours, is head-initial, though not nearly as strongly so as a language like Suånwe. In the general order of its sentences, verbs precede objects, and subjects come at the front of the sentence; other clauses tend to follow the object, save for temporal structures, which generally immediately follow the verb. Temporal constructions, and to a lesser extent adverbial constructions, are not fixed in their positions, however, and may move freely about the sentence, bar one location &mdash; they never appear between the subject and the verb&mdash;the only dialects that allow this are the Jaaliförmaqh dialect and its nearby neighbour, Southern Rural Saan. Nouns decline for the negative, singular and plural numbers, as well as clusivity, where the inclusive is marked. Adjectives are not marked. Verbs agree with the person of the subject&mdash;simple subjects may be dropped, and only remain in verb conjugation&mdash;and additionally are marked for one of several tenses. More on these will be covered in the sections [Nouns and Adjectives][self_nouns_and_adjectives], [Other Morphology][self_other_morphology], and [Verbs][self_verbs], respectively.
+Before I move on, I'd like to note some of the basic features of Saan grammar, to prepare you for the coming chapters. Saan, similar to its neighbours, is head-initial, though not nearly as strongly so as a language like Suånwe. In the general order of its sentences, verbs precede objects, and subjects come at the front of the sentence; other clauses tend to follow the object, save for temporal structures, which generally immediately follow the verb. Temporal constructions, and to a lesser extent adverbial constructions, are not fixed in their positions, however, and may move freely about the sentence, bar one location &mdash; they never appear between the subject and the verb&mdash;the only dialects that allow this are the ~~Jaaliförmaqh~~ dialect and its nearby neighbour, Southern Rural Saan. Nouns decline for the negative, singular and plural numbers, as well as clusivity, where the inclusive is marked. Adjectives are not marked. Verbs agree with the person of the subject&mdash;simple subjects may be dropped, and only remain in verb conjugation&mdash;and additionally are marked for one of several tenses. More on these will be covered in the sections [Nouns and Adjectives][self_nouns_and_adjectives], [Other Morphology][self_other_morphology], and [Verbs][self_verbs], respectively.
 
+## 2. Phonology
+
+The traditional phonology of Saan was described by the Oran linguist Tayme in the late 10<sup>th</sup> century ([Tayme circa 980](#tayme900)). Many things have changed since then, but I will be presenting both their inventories and my own, as well as the known sound changes that have occurred in the intervening two millenia. My own analysis is derived from many hours of recordings taped around various locations in Ennanó and the Blue Coast, and on the campus of the Onizue Academy with the consent of several hundred students, including several student-run news programs complemented with national and international broadcasts, and the unviersity choir, which was complemented with personal recordings of live entertainment events and concerts.
+
+### 2.1 Consonants
+
+<clone class="tb-center row-headers tb-pair"><caption>Tayme Analysis</caption></clone>
+|         |Labial|Coronal|Palatal|Dorsal|
+|---------|------|-------|-------|------|
+|Nasal    |m     |n      |ɲ      |ŋ     |
+|Stop     |p b   |t d    |c ɟ    |k g   |
+|Fricative|f v   |s z    |ɕ ʑ    |x ʁ   |
+|Affricate|      |ts tɕ dʑ|cɕ ɟʑ |      |
+|Other    |w     |r l    |ʎ j    |      |
+
+<clone class="tb-center row-headers tb-pair"><caption>Modern Analysis</caption></clone>
+|           |Labial|Dental/Alveolar|Postalveolar|Dorsal|
+|-----------|------|---------------|------------|------|
+|Nasal      |m     |n              |            |ŋ     |
+|Stop       |p pʷ b|t tʷ d         |            |k kʲ g|
+|Fricative  |v     |s z zː         |ʃ ʃː ʒ      |ɣ     |
+|Other      |β̞     |l              |            |j ʀ~ʁ |
+
+The notable differences include an extra distinction that arose in the consonants&mdash;labialization, which evolved from the old /w/ sound, which in all other positions became /ʋ/. Notably missing are /kʷ/, merged with /k/, and the voiced series, which merged with the plain voiced series. /kʲ/ exists as a remnant of the old palatal /c/, whereas /ɟ/ (/gʲ/) was lost entirely to plain /g/. Also in the palatals, /ɲ/ merged entirely with /ŋ/, except for the rare cluster /ɲj/, which became /n/; /ʎ/ became /ɫ/ and then /w/, /ɕ/ became /ʃ/, /r/ became /ʀ~ʁ/, and /ʑ/ became /ʒ/.  
+All voiceless fricatives intervocalically debuccalized to /h/, which was then lost. /ʁ/ was pushed forward to /ɣ/. /v/ word-initially became /β̞/. The old /w/ that became /ʋ/ shited againt to become /v/.  
+In the affricates, /ts/ and /tɕ/ remain as /s/ and /ʃ/. /dʑ/ appears to have become /dz/, and then /zː/. /cɕ/ became /ʃː/ except word-initially, where it became plain /ʃ/; /ɟʑ/ would have similarly become /ʒː/, but due to the near-nonexistence of /ɟʑ/ in non-word-initial positions and the total lack of length distinctions word-initially, /ɟʑ/ merged completely with /ʒ/.
+
+While not apparent on this chart, additionally, all voiceless consonants bar the affricates became voiced intervocalically. All secondary articulations have been lost word-finally.
+
+#### 2.1.1 Allophony
+
+The only notable allophony is /ʀ~ʁ/ becoming /ɾ/ word-finally, which I recorded in only one-third of the sample population, all of whom were interplanetary students and immigrants.
+
+### 2.2 Vowels
+
+<clone class="tb-center row-headers tb-pair"><caption>Tayme Analysis</caption></clone>
+|         |Front|Central|Back|
+|---------|-----|-------|----|
+|Close    |i    |ÿ      |u̞   |
+|Close-mid|e    |ə      |o̞   |
+|Open-mid |ɛ    |œ̈      |    |
+|Open     |     |ɐ̞      |ɒ   |
+|Dipthongs|æ͡i æ͡ə|ɐ͡i|o͡i u͡i|
+<clone class="tb-center row-headers tb-pair"><caption>Modern Analysis</caption></clone>
+|         |Front|Central|Back|
+|---------|-----|-------|----|
+|Close    |i ʏ  |       |u   |
+|Close-mid|e̝    |ɞ      |o   |
+|Open-mid |ɛ̞    |       |    |
+|Open     |     |ɐ̞      |ɑ   |
+
+Not much as changed since Tayme's initial analysis as far as the vowels are concerned, save the monopthongization of all dipthongs and the loss of /ə/ as a distinct phoneme.
+
+### 2.3 Syllable Structure
+
+<!--
 ## 2. Phonology
 
 The traditional phonology of Saan was described by the Oran linguist Tayme in the late 10<sup>th</sup> century ([Tayme circa 980](#tayme900)). While some things have changed since then, the bulk of their research is still valid, and is the basis for nearly all textbooks on the language; I will be presenting their phoneme inventory alongside my own, which I developed from their work and several many hours of recordings taped on the campus of the Onizue Academy, including several student news programs complemented with recordings of the state-run morning news program, and the university choir, which was complemented with my recordings of live entertainment events and concerts.
@@ -206,6 +262,7 @@ The native script for Saan has not been added to Unicode, and so I have develope
 |ɑ      |aa   |
 |æ͡ə     |ëa   |
 |y͡i     |ui   |
+-->
 
 ### 3 
 

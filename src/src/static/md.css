@@ -48,7 +48,7 @@ em>em{font-style:normal}
   #nav{position:static;}
   body{padding-left:24px;}
 }
-table.row-headers th,table.row-headers td:first-child,.__trh{font-weight:bold;text-align:left !important}
+table.row-headers tbody th,table.row-headers td:first-child,.__trh{font-weight:bold;text-align:left !important}
 ol.glossed-samples table,ol.glossed-samples td{border-collapse:collapse;border:1px solid #888}
 ol.glossed-samples thead{display:none}
 

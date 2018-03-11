@@ -11,6 +11,9 @@ This page serves as a jumping-point for my resources and such. Please use the na
 - [__Blog__](/blog/)  
   I have one of these. There's not much on it. You should read it, I guess, if you're into that sort of thing.
 
+- [__root__](/directory.html)
+  The index of this site. Use it to find things if they're not linked here!
+
 ## Tools
 
 - [__Glossifier Glossing Formatting Assistant__](/tools/autoformatter.html)  
@@ -42,32 +45,7 @@ The Saadan Languages were the very first languages I ever created. In reality, t
 
 For more information, see the [Saadan Languages directory page](/conlang/named/saadan/).
 
-#### Naretsov
-Naretsov was *the* last revision, stemming from the work on Naretvei. It never got past a sketch and a few example sentences, but it does have what I think of as an interesting lexicon page.
-- [Sketch](/conlang/naretsov/sketch.html)
-- [Syntax Testing](/conlang/naretsov/gsfa.html)
-- [Examples](/conlang/naretsov/examples.html)
-- [Lexicon (beta)](/naretsov/lexicon.html)
+### Sketches
 
 ### Sketches and one-off documents
-These have all occurred around when or after work stopped on the Saadan languages. Ultimately, they majority of them have been abandoned. My latest sketches and documents are at the bottom, organised by month and year.
-- [Qalij Sketch](/conlang/qalij/sketch.html)  
-  The Qalij sketch was created for the same English assignment as Naretvei's documentation. It was technically based off a prior work, called Qali, but I've lost most of the documents about that; everything except a FieldWorks lexicon with a few example sentences and words.
-
-#### Njema/Ngjawsu
-- [Njema GFSA version 0](/conlang/njema/gsfa.html)
-- [Njema GFSA version 1](/conlang/njema/njema.html)
-- [Ngjewma/Ngjawsu](/conlang/ngjewma/)
-  - [Ngjewma Symbols](/conlang/ngjewma/symbol.html)
-
-#### Caållghia
-- [Sketch](/conlang/caallghia/sketch.html)
-- [Syntax Testing](/conlang/caallghia/gsfa.html)
-
-#### Misc. Sketches/Docs
-- [August 2015](/conlang/sketches/2015/august/gsfa.html)
-- [September 2015](/conlang/sketches/2015/september/)
-- [October 2015](/conlang/sketches/2015/october/) -- see November's, for an updated version.
-- [November 2015](/conlang/sketches/2015/november/)
-- [November 2015 - 2](/conlang/sketches/2015/november-2/) -- Attempt to update November's sketch.
-- [November 2015 - 3](/conlang/sketches/2015/november-3/) -- An experiment in speech-first conlanging; didn't last long.
+Most of these occurred around when or after work stopped on the Saadan languages. Ultimately, they majority of them have been abandoned. My latest sketches and documents can be found at the [Sketches directory page](/conlang/sketches/)

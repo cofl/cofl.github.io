@@ -18,6 +18,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # Other files
-src/node_modules/
-.cofl.github.io.komodoproject
-show.bat
+source/node_modules/
+source/build/

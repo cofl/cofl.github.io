@@ -1,0 +1,23 @@
+include mixins/tocItem.jade
+doctype html
+html(lang="en")
+    head
+        include mixins/html-head.jade
+        title= page.title
+        if(page.metadata.leipzig)
+            include mixins/leipzig.jade
+    body
+        div(id="table-of-contents")
+            div(class="toc-scroller")
+                h1 Table of Contents
+                div(class="toc-header")
+                    a(href="/") home
+                        span(class="fa fa-home")
+                    - var directory = env.helpers.directory.directoryListingUrl(page)
+                    if directory != null
+                        a(href=directory) up
+                            span(class="fa fa-level-up")
+                hr
+                +tocItem(1, env.helpers.tocGenerator.tocList(page))
+        div(class="page-content")
+            != page.html

@@ -1,0 +1,10 @@
+mixin tocItem(level, list)
+    for item in list
+        if (typeof item) === "string"
+            != item
+        else
+            div(class="toc-container toc-level-" + level)
+                if Array.isArray(item)
+                    +tocItem(level + 1, item)
+                else
+                    a.toc-item(href=item.link)= item.text

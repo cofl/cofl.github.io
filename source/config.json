@@ -1,0 +1,34 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "coflsite",
+    "owner": "cofl",
+    "description": ""
+  },
+  "plugins": [
+    "wintersmith-stylus",
+    "wintersmith-markdown-it",
+    "./plugins/directory-helper.js",
+    "./plugins/toc-generator.js"
+  ],
+  "output": "../",
+  "directory-helper": {
+    "template": "directory.jade"
+  },
+  "markdown-it": {
+    "settings": {
+      "html": true,
+      "linkify": true
+    },
+    "markdown-it-sup-alt": {},
+    "markdown-it-sub-alt-mod": {},
+    "markdown-it-decorate": {},
+    "markdown-it-footnote": {},
+    "markdown-it-multimd-table": {},
+    "markdown-it-anchor": {
+      "permalink": true,
+      "permalinkClass": "fa fa-link link-icon",
+      "permalinkSymbol": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "template": "raw.jade",
+    "index.html": {
+        "title": "Naretsov Lexicon (beta)"
+    }
+}

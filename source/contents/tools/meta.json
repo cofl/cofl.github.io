@@ -1,0 +1,6 @@
+{
+    "template": "raw.jade",
+    "autoformatter.html": {
+        "title": "Glossifier"
+    }
+}

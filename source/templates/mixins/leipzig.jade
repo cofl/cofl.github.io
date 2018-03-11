@@ -1,0 +1,8 @@
+link(rel="stylesheet", href="/static/leipzig.min.css")
+script(src="/static/leipzig.min.js")
+script.
+    document.addEventListener("DOMContentLoaded", function(e){
+        var leipzig = new Leipzig(window.leipzigConfig || {firstLineOrig: true})
+        leipzig.addAbbreviations(window.leipzigAbbreviations || {})
+        leipzig.gloss();
+    })

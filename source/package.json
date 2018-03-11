@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "jsdom": "^11.6.2",
+    "markdown-it-anchor": "^4.0.0",
+    "markdown-it-decorate": "^1.2.2",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-multimd-table": "^3.1.1",
+    "markdown-it-sub-alt-mod": "file:plugins/markdown-it-sub-alt-mod",
+    "markdown-it-sup-alt": "^1.0.2",
+    "moment": "2.3.x",
+    "plugin": "^0.3.3",
+    "typogr": "0.5.x",
+    "underscore": "1.4.x",
+    "wintersmith-markdown-it": "^0.1.1",
+    "wintersmith-stylus": "^0.5.1"
+  },
+  "private": true
+}

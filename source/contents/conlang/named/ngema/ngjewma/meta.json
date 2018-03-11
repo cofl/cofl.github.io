@@ -1,0 +1,6 @@
+{
+    "template": "raw.jade",
+    "symbol.js": {
+        "directory-exclude": true
+    }
+}

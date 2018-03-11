@@ -1,0 +1,661 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="/static/md.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"><title>The Naretvei Language</title></head><body><div id="table-of-contents"><div class="toc-scroller"><h1>Table of Contents</h1><div class="toc-header"><a href="/">home<span class="fa fa-home"></span></a><a href="../">up<span class="fa fa-level-up"></span></a></div><hr><div class="toc-container toc-level-1"><a href="#top" class="toc-item">The Naretvei Language</a></div><div class="toc-container toc-level-1"><div class="toc-container toc-level-2"><a href="#a-conventions-used" class="toc-item">a. Conventions used</a></div><div class="toc-container toc-level-2"><a href="#b-glossary-of-abbreviations" class="toc-item">b. Glossary of Abbreviations</a></div><div class="toc-container toc-level-2"><a href="#1-introduction" class="toc-item">1 Introduction</a></div><div class="toc-container toc-level-2"><a href="#2-phonology-and-phonetics" class="toc-item">2 Phonology and Phonetics</a></div><div class="toc-container toc-level-2"><div class="toc-container toc-level-3"><a href="#21-vowels" class="toc-item">2.1 Vowels</a></div><div class="toc-container toc-level-3"><a href="#22-consonants" class="toc-item">2.2 Consonants</a></div><div class="toc-container toc-level-3"><a href="#23-e-mutation" class="toc-item">2.3 E-mutation</a></div><div class="toc-container toc-level-3"><a href="#24-phonotactics-and-syllable-structure" class="toc-item">2.4 Phonotactics and Syllable Structure</a></div><div class="toc-container toc-level-3"><a href="#25-stress-and-timing" class="toc-item">2.5 Stress and Timing</a></div></div><div class="toc-container toc-level-2"><a href="#3-basic-syntax" class="toc-item">3 Basic Syntax</a></div><div class="toc-container toc-level-2"><div class="toc-container toc-level-3"><a href="#31-structure-of-the-verb-and-adverbs" class="toc-item">3.1 Structure of the Verb and Adverbs</a></div><div class="toc-container toc-level-3"><div class="toc-container toc-level-4"><a href="#examples" class="toc-item">Examples</a></div></div><div class="toc-container toc-level-3"><a href="#32-structure-of-the-noun-phrase" class="toc-item">3.2 Structure of the Noun Phrase</a></div></div><div class="toc-container toc-level-2"><a href="#4-verbs" class="toc-item">4 Verbs</a></div><div class="toc-container toc-level-2"><div class="toc-container toc-level-3"><a href="#41-verb-affixes" class="toc-item">4.1 Verb Affixes</a></div><div class="toc-container toc-level-3"><div class="toc-container toc-level-4"><a href="#411-tense" class="toc-item">4.1.1 Tense</a></div><div class="toc-container toc-level-4"><a href="#412-reduplication" class="toc-item">4.1.2 Reduplication</a></div></div><div class="toc-container toc-level-3"><a href="#42-verb-subordination" class="toc-item">4.2 Verb Subordination</a></div><div class="toc-container toc-level-3"><div class="toc-container toc-level-4"><a href="#examples-2" class="toc-item">Examples</a></div><div class="toc-container toc-level-4"><a href="#421-the-vo-de-nije-s-form" class="toc-item">4.2.1 The VO de nije S Form</a></div></div><div class="toc-container toc-level-3"><a href="#43-the-progressive-aspect" class="toc-item">4.3 The Progressive Aspect</a></div></div><div class="toc-container toc-level-2"><a href="#5-nouns" class="toc-item">5 Nouns</a></div><div class="toc-container toc-level-2"><div class="toc-container toc-level-3"><a href="#51-pluralization" class="toc-item">5.1 Pluralization</a></div><div class="toc-container toc-level-3"><a href="#52-noun-affixes" class="toc-item">5.2 Noun Affixes</a></div><div class="toc-container toc-level-3"><div class="toc-container toc-level-4"><a href="#521-possession" class="toc-item">5.2.1 Possession</a></div><div class="toc-container toc-level-4"><a href="#examples-3" class="toc-item">Examples</a></div></div><div class="toc-container toc-level-3"><a href="#53-pronouns-and-demonstratives" class="toc-item">5.3 Pronouns and Demonstratives</a></div></div><div class="toc-container toc-level-2"><a href="#6-adjectives-and-adverbs" class="toc-item">6 Adjectives and Adverbs</a></div><div class="toc-container toc-level-2"><a href="#7-other-affixes-and-word-building" class="toc-item">7 Other affixes and Word-building</a></div><div class="toc-container toc-level-2"><a href="#8-particles-and-prepositions" class="toc-item">8 Particles and Prepositions</a></div></div><div class="toc-container toc-level-1"><a href="#app" class="toc-item">Appendix</a></div><div class="toc-container toc-level-1"><div class="toc-container toc-level-2"><a href="#futher-reading" class="toc-item">Futher Reading</a></div></div><hr><div class="toc-footer">
+<p>See also:
+<a href="graded-sentences-for-analysis.html">Graded Sentences for Analysis</a>
+<a href="text-samples.html">Text Samples</a></p>
+</div></div></div><div class="page-content"><style>
+  #aspect-table td {padding:0 3px;}
+  #szcj-chart {margin-left:100px;}
+  #szcj-chart td {padding:3px 12px;}
+  #gloss-table td:first-child {font-variant:small-caps;}
+</style>
+<div class="hidden" id="toc-footer">
+<p>See also:
+<a href="graded-sentences-for-analysis.html">Graded Sentences for Analysis</a>
+<a href="text-samples.html">Text Samples</a></p>
+</div>
+<h1 id="top" class="center">The Naretvei Language <a class="fa fa-link link-icon" href="#top" aria-hidden="true"></a></h1>
+<div class="author">C. LaCourt<br/>4 April 2015</div>
+<h2 id="a-conventions-used">a. Conventions used <a class="fa fa-link link-icon" href="#a-conventions-used" aria-hidden="true"></a></h2>
+<p>Some prior knowledge is required before reading this document for full comprehension, and certain conventions are used in compliance with field standards.</p>
+<ul>
+<li>Forward slashes (//) are used around <a href="http://en.wikipedia.org/wiki/Phoneme">phonemes</a>.<br>
+These are the recognized distinct sounds found in a language. This format is called <strong>broad transcription</strong>.</li>
+<li>Square brackets ([]) are used around <a href="http://en.wikipedia.org/wiki/Phone_(linguistics)">phones</a>.<br>
+These sounds are absolutes, many of which may be covered by a single phoneme. This format is called <strong>narrow transcription</strong>.</li>
+<li>Pointy braces (&lt;&gt;) are used around <a href="http://en.wikipedia.org/wiki/Grapheme">graphemes</a>.<br>
+These symbols are used to write down language. They may or may not correlate to phonemes.</li>
+<li><strong>Bold font</strong> is used to highlight important terms, and words and phrases in the Naretvei language. It is also used for column and row headers in tables, and to label notes.</li>
+<li><em>Italics</em> are used to highlight important text in contrast to surrounding text.</li>
+<li><em><strong>Bold italic font</strong></em> is used to highlight contrasting text within Naretvei samples, and to label tables when more than one being in a section may cause confusion.</li>
+<li><code>Code blocks</code> are used to neatly organize glosses, and <code>Code spans</code> are used to highlight technical terms and phenomena in the Naretvei language. Code spans are not used to highlight technical terms in any other areas.</li>
+<li>&quot;Double quotes&quot; are used around inline text samples not in the Naretvei language, for example: inline translations, explanations, etc. They may also be used around dubious terms and for sarcasm.</li>
+<li>This glosses found in this document follow the <a href="https://www.eva.mpg.de/lingua/resources/glossing-rules.php">Leipzig Glossing Rules</a>, using optional rules 4A and 4B.</li>
+<li>The glossing abbreviations used in this document may be found <a href="http://en.wikipedia.org/wiki/List_of_glossing_abbreviations">here</a> or in <a href="#b-glossary-of-abbreviations">(§b) the glossary of abbreviations</a>.</li>
+</ul>
+<p>Please forgive the lack of proper usage of small-caps for abbreviations found in code blocks. There is no current workaround. Number markers may also be found in lowercase instead of small-caps, this is a bad habit formed over months of improper practices.</p>
+<p>Some further conventions are used to label affixes:</p>
+<ul>
+<li>Suffixes are marked with a preceding hyphen. (ex.: <strong>-xo</strong>)</li>
+<li>Prefixes are marked with a trailing hyphen. (ex.: <strong>xo-</strong>)</li>
+<li>Circumfixes are marked with a hyphen between the parts. (ex.: <strong>ha-ne</strong>)</li>
+<li>Infixes are marked with hyphens on both sides of the affix. (ex.: <strong>-e-</strong>)</li>
+</ul>
+<p>Lastly, the abbreviation &quot;f.r.&quot; may be used to refer the reader to the Further Reading section, noting that additional material is available. Example:</p>
+<blockquote>
+<p>The cat is in may cultures considered to be divine in nature, and the subject of worship (f.r. cats, cat worship).</p>
+</blockquote>
+<p>For readers of the web version of this document, no link will be provided in these circumstances, and the Further Reading section must be navigated to manually with the Table of Contents on the left.</p>
+<h2 id="b-glossary-of-abbreviations">b. Glossary of Abbreviations <a class="fa fa-link link-icon" href="#b-glossary-of-abbreviations" aria-hidden="true"></a></h2>
+<p>A more complete list may be found on <a href="http://en.wikipedia.org/wiki/List_of_glossing_abbreviations">Wikipedia</a>. These abbreviations are the ones used in this document.</p>
+<table>
+<thead>
+<tr>
+<th>Abbreviation</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>first person</td>
+</tr>
+<tr>
+<td>2</td>
+<td>second person</td>
+</tr>
+<tr>
+<td>3</td>
+<td>third person</td>
+</tr>
+<tr>
+<td>adj</td>
+<td>adjectivizer</td>
+</tr>
+<tr>
+<td>a</td>
+<td>animate gender<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></td>
+</tr>
+<tr>
+<td>circ</td>
+<td><a href="http://en.wikipedia.org/wiki/Circumfix">circumfix</a></td>
+</tr>
+<tr>
+<td>con</td>
+<td><a href="http://en.wikipedia.org/wiki/Conation">conative</a></td>
+</tr>
+<tr>
+<td>dim</td>
+<td><a href="http://en.wikipedia.org/wiki/Diminutive">diminutive</a></td>
+</tr>
+<tr>
+<td>fut</td>
+<td>future tense</td>
+</tr>
+<tr>
+<td>imp</td>
+<td><a href="http://en.wikipedia.org/wiki/Imperative_mood">imperative</a></td>
+</tr>
+<tr>
+<td>i</td>
+<td>inanimate gender<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></td>
+</tr>
+<tr>
+<td>inf</td>
+<td><a href="http://en.wikipedia.org/wiki/Infinitive">infinitive</a></td>
+</tr>
+<tr>
+<td>int</td>
+<td><a href="http://en.wikipedia.org/wiki/Intensive">intensive</a></td>
+</tr>
+<tr>
+<td>neg</td>
+<td>negation (&quot;not&quot;)</td>
+</tr>
+<tr>
+<td>nmz</td>
+<td>nominalizer</td>
+</tr>
+<tr>
+<td>obj</td>
+<td>object (&quot;the object marker&quot;)</td>
+</tr>
+<tr>
+<td>pass</td>
+<td><a href="http://en.wikipedia.org/wiki/Passive_voice">passive voice</a></td>
+</tr>
+<tr>
+<td>pl</td>
+<td>plural</td>
+</tr>
+<tr>
+<td>poss</td>
+<td>possessive case</td>
+</tr>
+<tr>
+<td>pot</td>
+<td><a href="http://en.wikipedia.org/wiki/Irrealis_mood#Potential">potential</a></td>
+</tr>
+<tr>
+<td>pst</td>
+<td>past tense</td>
+</tr>
+<tr>
+<td>prog</td>
+<td><a href="http://en.wikipedia.org/wiki/Continuous_and_progressive_aspects">progressive aspect</a></td>
+</tr>
+<tr>
+<td>prs / pres</td>
+<td>present tense</td>
+</tr>
+<tr>
+<td>q</td>
+<td><a href="http://en.wikipedia.org/wiki/Interrogative">interrogative</a></td>
+</tr>
+<tr>
+<td>quot</td>
+<td><a href="http://en.wikipedia.org/wiki/Quotative">quotative</a></td>
+</tr>
+<tr>
+<td>s</td>
+<td>singular</td>
+</tr>
+<tr>
+<td>subr / sr</td>
+<td><a href="http://en.wikipedia.org/wiki/Subordination_%28linguistics%29" id="gloss-table">subordinationalizer</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="1-introduction">1 Introduction <a class="fa fa-link link-icon" href="#1-introduction" aria-hidden="true"></a></h2>
+<p>The Naretvei language was begun in February 2015, as another re-imagining of the Saadan language that I’d been concocting for over a year. It’s intended to be spoken by a fictional race known as the Oran for a series of stories that have been around longer than the idea for the language itself.</p>
+<p>The language features a VSO sentence order, with little distinction between subject and object. It also incorporates ideas and features from multiple previous language sketches going back about two years.</p>
+<p>Naretvei is agglutinative and semi-analytic, with each morpheme having only a single meaning, and tending to keep the number of affixes to a minimum. It does however feature some elements of fusional languages, namely the plural nominalizer <strong>-nen</strong> and a technicality resulting from vowel harmony.</p>
+<h2 id="2-phonology-and-phonetics">2 Phonology and Phonetics <a class="fa fa-link link-icon" href="#2-phonology-and-phonetics" aria-hidden="true"></a></h2>
+<h3 id="21-vowels">2.1 Vowels <a class="fa fa-link link-icon" href="#21-vowels" aria-hidden="true"></a></h3>
+<table style="margin-right:60px;">
+  <thead><tr><th style="font-style:italic;">Phonemes</th>
+    <th>Front</th>
+    <th>Center</th>
+    <th>Back</th></tr></thead>
+    <tr><td style="font-weight:bold;">High</td>
+      <td style="text-align:center;">/i/ /y/</td><td></td>
+      <td style="text-align:center;">/u/</td></tr>
+    <tr><td style="font-weight:bold;">Middle</td>
+      <td style="text-align:center;">/e̞/ /ø̞/</td><td></td>
+      <td style="text-align:center;">/o/</td></tr>
+    <tr><td style="font-weight:bold;">Low</td>
+      <td style="text-align:center;">/æ/</td>
+      <td style="text-align:center;">/a/*</td></tr></table>
+<table>
+  <thead><tr><th style="font-style:italic;">Orthography</th>
+    <th>Front</th>
+    <th>Center</th>
+    <th>Back</th></tr></thead>
+    <tr><td style="font-weight:bold;">High</td>
+      <td style="text-align:center;">&lt;i&gt; &lt;ü&gt;</td><td></td>
+      <td style="text-align:center;">&lt;u&gt;</td></tr>
+    <tr><td style="font-weight:bold;">Middle</td>
+      <td style="text-align:center;">&lt;e&gt; &lt;ö&gt;</td><td></td>
+      <td style="text-align:center;">&lt;o&gt;</td></tr>
+    <tr><td style="font-weight:bold;">Low</td>
+      <td style="text-align:center;">&lt;ä&gt;</td>
+      <td style="text-align:center;">&lt;a&gt;</td></tr></table>
+<p><span style="font-weight:bold;">Note *:</span> Technically /ɐ̞/, but displayed as /a/ here for simplicity.</p>
+<ul>
+<li>Naretvei features long and short vowel qualities.</li>
+<li>Vowel harmony is present: &lt;a o u&gt; are fronted to &lt;ä ö ü&gt; and likewise &lt;ä ö ü&gt; are dropped back to &lt;a o u&gt; when the first vowel of them stem that is not &lt;e&gt; or &lt;i&gt; is of either group.
+<ul>
+<li>&lt;a o u&gt; often undergo fronting after &lt;i&gt; in single-syllable words containing only &lt;e i&gt; as vowels.</li>
+</ul>
+</li>
+<li>/u/ is often devoiced to /ʷù̥/ when there is no coda, especially after &lt;c j p&gt;.</li>
+<li>/i/ is often devoiced to /í̥/ when there is no coda, especially after &lt;c j p&gt;</li>
+<li>/e̞/ becomes [ɛ] between consonants.</li>
+<li>The rules governing /e̞/ are covered in <a href="#23-e-mutation">§2.3: E-mutation</a>.</li>
+</ul>
+<h3 id="22-consonants">2.2 Consonants <a class="fa fa-link link-icon" href="#22-consonants" aria-hidden="true"></a></h3>
+<table style="margin-right:60px;">
+  <thead>
+    <tr><th style="font-style:italic;">Phonemes</th>
+      <th>Bilabial</th>
+      <th>Dental~Palatal</th>
+      <th>Velar</th>
+      <th>Uvular</th></tr></thead>
+    <tr>
+      <td style="font-weight:bold;">Plosive</td>
+      <td style="text-align:center;">/p/ /b/</td>
+      <td style="text-align:center;">/t/ /d/</td>
+      <td style="text-align:center;" colspan="2">/k~q/</td></tr>
+    <tr>
+      <td style="font-weight:bold;">Nasal</td>
+      <td style="text-align:center;">/m/</td>
+      <td style="text-align:center;">/n/ [ɳ]</td>
+      <td style="text-align:center;" colspan="2" >/ŋ~ɴ/</td>
+    <tr>
+      <td style="font-weight:bold;">Fricative</td>
+      <td style="text-align:center;">/v/</td>
+      <td style="text-align:center;">/s/ /z/</td>
+      <td style="text-align:center;">/x/</td>
+      <td style="text-align:center;">/χ/</td></tr>
+    <tr>
+      <td style="font-weight:bold;">Affricate</td>
+      <td style="text-align:center;"></td>
+      <td style="text-align:center;">/t͡s/ /d͡z/</td></tr>
+    <tr>
+      <td style="font-weight:bold;">Other</td>
+      <td style="text-align:center;">/w/</td>
+      <td style="text-align:center;">/l/ /r~ɾ/ /j/ [ɥ]</td>
+      <td></td><td style="text-align:center;">/ʁ/</td></tr></table>
+<table>
+  <thead>
+    <tr><th style="font-style:italic;">Orthography</th>
+      <th>Bilabial</th>
+      <th>Dental~Palatal</th>
+      <th>Velar</th>
+      <th>Uvular</th></tr></thead>
+    <tr>
+      <td style="font-weight:bold;">Plosive</td>
+      <td style="text-align:center;">&lt;p&gt; &lt;b&gt;</td>
+      <td style="text-align:center;">&lt;t&gt; &lt;d&gt;</td>
+      <td style="text-align:center;" colspan="2">&lt;k&gt;</td></tr>
+    <tr>
+      <td style="font-weight:bold;">Nasal</td>
+      <td style="text-align:center;">&lt;m&gt;</td>
+      <td style="text-align:center;">&lt;n&gt;</td>
+      <td style="text-align:center;" colspan="2">&lt;nq&gt;</td></tr>
+    <tr>
+      <td style="font-weight:bold;">Fricative</td>
+      <td style="text-align:center;">&lt;v&gt;</td>
+      <td style="text-align:center;">&lt;s&gt; &lt;z&gt;</td>
+      <td style="text-align:center;">&lt;h&gt;</td>
+      <td style="text-align:center;">&lt;x&gt;</td></tr>
+    <tr>
+      <td style="font-weight:bold;">Affricate</td>
+      <td style="text-align:center;"></td>
+      <td style="text-align:center;">&lt;c&gt; &lt;j&gt;</td></tr>
+    <tr>
+      <td style="font-weight:bold;">Other</td>
+      <td style="text-align:center;">&lt;w&gt;</td>
+      <td style="text-align:center;">&lt;l&gt; &lt;r&gt; &lt;y&gt;</td>
+      <td></td><td style="text-align:center;">&lt;rr&gt;</td></tr></table>
+<ul>
+<li>No aspiration is noted here, but may occur in speech.</li>
+<li>/x/ is allophonic with [h], and is sometimes dropped or pushed back to [χ].</li>
+<li>All consonants except &lt;r&gt; can become geminate, or long. The orthography for /ŋː/ is &lt;nqq&gt;, for /tt͡s/ is &lt;cc&gt;, and for /dd͡z/ is &lt;jj&gt;.</li>
+<li>[ɳ] and [ɥ] appear from /n/ and /w/ as products of e-mutation, documented in <a href="#23-e-mutation">§2.3: E-mutation</a>.</li>
+<li>In consonant clusters, consonants undergo voicing assimilation, where voiceless consonants following an initial voiced consonant themselves become voiceless, though voiced consonants following and initial voiceless consonant do not become voiceless, nor does the initial consonant become voiced to match the rest. The exception to this is consonants whose only distinction is voicing, for example /p/ and /b/, for which the pair always becomes the long form of the initial consonant.</li>
+<li>The clusters &lt;c cc&gt; and &lt;j jj&gt; as well as the consonants &lt;s z&gt; shift around depending on the following vowel:</li>
+</ul>
+<table id="szcj-chart">
+    <thead>
+      <tr><td></td>
+        <th>c cc</th>
+         <th>j jj</th>
+         <th>s</th>
+         <th>z</th></tr></thead>
+       <tr><th>e</th><td>t͡ʃɛ</td><td>d͡ʒɛ</td><td>ʃe̞</td><td>ʒʲe̞</td></tr>
+       <tr><th>ü</th><td>t͡ʃy</td><td>d͡ʒy</td><td>ʃy</td><td>ʒy</td></tr>
+       <tr><th>i</th><td>t͡ʃi</td><td>ʒi</td><td>ʃi</td><td>zi</td></tr>
+       <tr><th>ö</th><td>t͡ʃø</td><td>ʒø</td><td>ʃø</td><td>zø</td></tr>
+       <tr><th>a</th><td>t͡sa</td><td>d͡zɛ</td><td>sa</td><td>za</td></tr>
+       <tr><th>o</th><td>t͡sɛ</td><td>d͡zɛ</td><td>so</td><td>zo</td></tr>
+       <tr><th>u</th><td>t͡s̻ɛ</td><td>d͡z̻u</td><td>s̻u</td><td>z̻u</td></tr>
+       <tr><th>ä</th><td>t͡s̻æ</td><td>d͡z̻æ</td><td>s̻æ</td><td>z̻æ</td></tr>
+   </table>
+<p><strong>Note:</strong> &lt;z j&gt; are currently undergoing a shift, become purely /z/ and /ʒ/ respectively. The standard pronunciation remains /ʑ d͡ʑ/, however, so for this document they will be written as such.</p>
+<h3 id="23-e-mutation">2.3 E-mutation <a class="fa fa-link link-icon" href="#23-e-mutation" aria-hidden="true"></a></h3>
+<p>E-mutation is the process by which the sound /e̞/ mutates or palatalizes the previous consonant. The effect only occurs with the /e̞/, not the long /e̞ː/ (which becomes [eː]), and only after single consonants, not consonant clusters or long consonants, where it becomes /ɛ/. It does not alter the consonants &lt;v r rr x nq&gt;. Lastly, it does not apply to &lt;s&gt;, which has its own rules. This rule does operate across morpheme and word boundaries.</p>
+<p>In all applicable cases, the existence of /e̞/ causes palatalization, effectively becoming /ʲe̞/, so, for example:</p>
+<ul>
+<li>[be̞]→[bʲe̞]</li>
+<li>[ke̞]→[kʲe̞]</li>
+<li>[me̞]→[mʲe̞]</li>
+</ul>
+<p>The special cases for this are as follows:</p>
+<ul>
+<li>[we̞]→[ɥe̞]*</li>
+<li>[ne̞]→[ɳe̞]</li>
+</ul>
+<p><span style="font-weight:bold;">Note *:</span> /ɥ/ is functionally equivalent to /jʷ/, which I treat as functionally equivalent to /wʲ/.</p>
+<h3 id="24-phonotactics-and-syllable-structure">2.4 Phonotactics and Syllable Structure <a class="fa fa-link link-icon" href="#24-phonotactics-and-syllable-structure" aria-hidden="true"></a></h3>
+<p>The syllable structure of Naretvei is a fairly loose (h)(C)(R|F)V(V)(R)(C(C)). A final &lt;y&gt; may appear after long consonants to separate them from adjacent identical consonants, i.e. *&lt;nnn&gt;→&lt;nnyn&gt;.</p>
+<p><strong>C</strong>, consonants: &lt;p b t d k m n nq v s z h x c j l&gt;<br>
+<strong>R</strong>, glides: &lt;rr r l y w&gt;<br>
+<strong>F</strong>, fricatives: &lt;s h&gt;
+<strong>V</strong>, vowels:  &lt;i e o ö u ü a ä&gt;</p>
+<p><strong>Note:</strong> For all intents and purposes, affricates are treated as single consonants.</p>
+<ul>
+<li>The following rules regulate the onset, (h)(C)(R|F):
+<ul>
+<li>No doubled or long consonants.</li>
+<li>Initial &lt;h&gt; can only appear if there is no other fricative in the onset.</li>
+</ul>
+</li>
+<li>These rules regulate the nucleus, V(V):
+<ul>
+<li>No mixing of vowel harmony groups.</li>
+<li>If a second vowel is present, the two form a dipthong, or a long vowel if they are the same.</li>
+</ul>
+</li>
+<li>These rules regulate the coda, ((R)C(C)):
+<ul>
+<li>Long vowels are allowed, but not with a second consonant.</li>
+<li>For plosive clusters, only &lt;pt pk kt&gt; are allowed.</li>
+<li>Plosive may appear following fricatives, or preceding the fricatives &lt;s z v&gt;.</li>
+<li>Nasals never appear after plosives or affricates.</li>
+</ul>
+</li>
+</ul>
+<h3 id="25-stress-and-timing">2.5 Stress and Timing <a class="fa fa-link link-icon" href="#25-stress-and-timing" aria-hidden="true"></a></h3>
+<p>Stress almost always falls on the first syllable of the word, regardless of affixes, though if affixes are present then a secondary stress tends to fall on the first syllable of the root.</p>
+<ul>
+<li>ex.: <strong>hademone</strong>, &quot;to go&quot;: /ˈxaˌdʲe̞moɳe̞/</li>
+<li>ex.: <strong>aneallemiaa</strong>, &quot;will want to try to learn&quot;: /ˈaɳe̞alːɛˌmiaː/</li>
+<li>ex.: <strong>kouxopeen</strong>, &quot;must (now) seem to make&quot;: /ˈko͡uχoˌpeːn/</li>
+</ul>
+<p>Naretvei is also mora-timed (f.r. morae, mora timing). Plain consonants, single-consonant clusters, affricates, and approximates have no morae, single vowels, dipthongs, and long consonants make one, and long vowels constitute two. The theoretical highest number of morae any syllable can have is three, a plain onset with a long vowel and long consonant in the coda.</p>
+<p>Perhaps more plainly, onsets never constitute a mora, nuclei may constitute one or two morae by length of the vowel, and codas may constitute zero or one morae depending on the existence of a long consonant. The three kinds of syllables, therefore, are monomoraic, bimoraic, and trimoraic, or more friendily &quot;light,&quot; &quot;heavy,&quot; and &quot;superheavy.&quot;</p>
+<h2 id="3-basic-syntax">3 Basic Syntax <a class="fa fa-link link-icon" href="#3-basic-syntax" aria-hidden="true"></a></h2>
+<p>As stated in the <a href="#1-introduction">Introduction</a>, Naretvei is a VSO language, meaning that verb precedes subject, both of which proceed any objects the verb may take. By there being little difference between subject and objects, it was meant that other than its position directly after the verb and the lack of an object marker. Objects may in fact also appear in that same position, also without the marker, so the fact that they aren't the subject of the verb must be distinguished with context, or assumption if context is unavailable.</p>
+<p>Do note that while VSO is the dominant word order, by no means is it fixed. Any subject or object can be fronted off into a separate clause, and the subject may appear at the end of the sentence when following the <a href="#421-the-vo-de-nije-s-form">(§4.2.1) VO de nije S</a> form.</p>
+<h3 id="31-structure-of-the-verb-and-adverbs">3.1 Structure of the Verb and Adverbs <a class="fa fa-link link-icon" href="#31-structure-of-the-verb-and-adverbs" aria-hidden="true"></a></h3>
+<p>Naretvei is primarily head-final for all parts below the level of sentence. That is to say, any adverbs on the verb or adjectives on a noun precede the word they describe. Adverbs have less restrictions on them than adjectives, with no required order beyond their location between aspect particles and the negation particle. Times such as &quot;tomorrow&quot; or &quot;last weekend&quot; always come before the aspect particles, however, and are the only exception to the rule. The negation particle always appears directly before the thing it is negating, so both adverb and verb may be negated without confusion.</p>
+<h4 id="examples">Examples <a class="fa fa-link link-icon" href="#examples" aria-hidden="true"></a></h4>
+<ol>
+<li>
+<p><strong>Dussi miie hanu de hämäyne.</strong><br>
+The animal quickly learns to survive.</p>
+<pre><code>dussi   mii-e     hanu   de  hä-mäy-ne
+quickly learn-PRS animal OBJ INF-survive-CIRC
+</code></pre>
+</li>
+<li>
+<p><strong>Es mot ooce zal.</strong><br>
+The sun is not rising.</p>
+<pre><code>es       mot ooc-e     zal
+PRS_PROG NEG bloom-PRS sun
+</code></pre>
+</li>
+<li>
+<p><strong>Dussi mot ooce zal.</strong><br>
+The sun does not rise quickly.</p>
+<pre><code>dussi   mot ooc-e     zal
+quickly NEG bloom-PRS sun
+</code></pre>
+</li>
+<li>
+<p><strong>Mot dussi ooce zal.</strong><br>
+The sun rises unquickly.</p>
+<pre><code>mot dussi   ooc-e    zal
+NEG quickly rise-PRS sun
+</code></pre>
+</li>
+</ol>
+<h3 id="32-structure-of-the-noun-phrase">3.2 Structure of the Noun Phrase <a class="fa fa-link link-icon" href="#32-structure-of-the-noun-phrase" aria-hidden="true"></a></h3>
+<p>In Noun phrases, similar to Verb phrases, descriptors precede the noun, except for <a href="#42-verb-subordination">(§4.2) subordinated verb constructs</a>. Also like Verb phrases, negation may be used on any noun or adjective, the negation particle appearing immediately before the term to which it applies. In contrast to them, in Noun phrases adjectives have heavier restrictions put on them compared to the adverbs in Verb phrases. Like English and many other languages, Naretvei features an adjective order. Adjectives fall into categories based on what they describe, be it shape, or colour, or age, etc. The adjective order is something not well understood, and hard to define, but appears to be the following (in order said):</p>
+<ul>
+<li>Possessives</li>
+<li>Number</li>
+<li>Temperature</li>
+<li>Colour</li>
+<li>Size</li>
+<li>Shape</li>
+<li>Texture</li>
+<li>Age</li>
+</ul>
+<p>Adjectives of the same category may be placed in any sub-order within their respective zones, but may not leave it.</p>
+<p>Relative and subordinate clauses always come after the noun they describe. More on verb subordination can be found in <a href="#42-verb-subordination">section §4.2</a>.</p>
+<h2 id="4-verbs">4 Verbs <a class="fa fa-link link-icon" href="#4-verbs" aria-hidden="true"></a></h2>
+<p>Verbs can be considered the most important part of the Naretvei language, and the most important part of that is tense. Tense is a core to how the language functions, appearing in conjugation, prepositions, the progressive aspect particles, and other places. No sentence is complete without some description of tense, save when the verb is dropped. The three tenses are:</p>
+<ul>
+<li>Past</li>
+<li>Present</li>
+<li>Future</li>
+</ul>
+<p>This contrasts with English, which technically has only past and non-past tenses. It isn't as complex as some systems, lacking things like hodiernal or crastinal tense, but for I feel this system best matches the culture: it's done, being done, or will be done shortly. The same action-oriented ideology is why I placed the verb at the start of sentences, as it's the most important part. Earlier iterations of the language also featured a non-future tense, but this was dropped after it was found to be more or less useless and confusing.</p>
+<h3 id="41-verb-affixes">4.1 Verb Affixes <a class="fa fa-link link-icon" href="#41-verb-affixes" aria-hidden="true"></a></h3>
+<p>To begin, the infinitive forms of verbs is a circumfix, beginning with <strong>ha-</strong> and ending with <strong>-ne</strong>, written for ease as <strong>ha-ne</strong>. A number of prefixes can also be placed on the verb. They are:</p>
+<ul>
+<li><strong>alle-:</strong> <sc>con</sc>, the Conative. This prefix means &quot;to try&quot; or &quot;attempt.&quot;<br>
+Compare:  <strong>demoe</strong>, &quot;(I) go&quot;, with <strong>alledemoe</strong>, &quot;(I) try to go.&quot;</li>
+<li><strong>ane-:</strong> <sc>pot</sc>, the Potential. This prefix correlates with &quot;may&quot;, though it also means &quot;to want.&quot;<br>
+Compare: <strong>demoe</strong>, &quot;(I) go,&quot; with <strong>anedemoe</strong>, &quot;(I) want to go&quot; or &quot;I may go.&quot;</li>
+<li><strong>xo-:</strong> <sc>imp</sc>, the Imperative. This prefix correlates with &quot;must&quot; or &quot;should.&quot;</li>
+</ul>
+<p>The imperative <strong>xo-</strong> always proceeds the others, which may switch, and all lie with the infinitive <strong>ha-ne</strong> if the infinitive is present. Always outside, though, are the prefixes for the evidentiality-like system, of which only one can be used at a time. They are:</p>
+<ul>
+<li><strong>vei-:</strong> This prefix is best explained with this example:
+<ul>
+<li><strong>rrae</strong>: &quot;(I) love&quot;</li>
+<li><strong>veirrae</strong>: &quot;(I) say that I love&quot; or &quot;It is said that (someone) loves...&quot;</li>
+</ul>
+</li>
+<li><strong>kou-:</strong> To continue the above example:
+<ul>
+<li><strong>kourrae</strong>: &quot;(I) appear to love&quot; or &quot;It appears that (someone) loves&quot;</li>
+</ul>
+</li>
+</ul>
+<p>And as for the suffixes, they are:</p>
+<ul>
+<li><strong>-(e)n:</strong> <sc>nmz</sc>, Nominalization. This suffix turns verbs of the inanimate gender into singular nouns, with the &lt;e&gt; present if the last syllable of the verb does not have an open consonant slot in the coda.
+<ul>
+<li>ex.: <strong>ucae</strong>, &quot;(I) wait&quot; → <strong>ucan</strong>, &quot;a/the wait&quot;</li>
+<li>ex.: <strong>zaze</strong>, &quot;(I) whine&quot; → <strong>zazen</strong>, &quot;a/the whine&quot;</li>
+</ul>
+</li>
+<li><strong>-(e)nn</strong> <sc>nmz</sc>, Nominalization. This suffix turns verbs of the animate gender into singular nouns, with the &lt;e&gt; present if the last syllable of the verb does not have an open consonant slot in the coda.
+<ul>
+<li>ex.: <strong>tae</strong>, &quot;(I) sing&quot; → <strong>tann</strong>, &quot;a/the song&quot;</li>
+</ul>
+</li>
+<li><strong>-nen:</strong> <sc>pl.nmz</sc>, Plural nominalization. This suffix functions identically to <strong>-(e)n</strong> and <strong>-(e)nn</strong>, but converts the verb to a <em>plural</em> noun, and does not change for gender. A plural infix must also be used; see <a href="#42-verb-subordination">§4.2</a>.
+<ul>
+<li>ex.: <strong>tae</strong>, &quot;(I) sing&quot; → <strong>temanen</strong>, &quot;songs&quot;</li>
+<li>ex.: <strong>ucae</strong>, &quot;(I) wait&quot; →__ucavanen__, &quot;(some) waits&quot;</li>
+</ul>
+</li>
+<li><strong>-ci:</strong> <sc>adj</sc>, Adjectivization. This suffix turns a verb into an adjective or, despite the name, an adverb, as there is almost no line between the two.
+<ul>
+<li>ex.: <strong>tae</strong>, &quot;(I) sing&quot; → <strong>taci</strong>, &quot;songlike&quot; or &quot;musical&quot;</li>
+</ul>
+</li>
+</ul>
+<h4 id="411-tense">4.1.1 Tense <a class="fa fa-link link-icon" href="#411-tense" aria-hidden="true"></a></h4>
+<p>On tense: there are technically two classes of verbs in Naretvei: those that conjugate tense with a suffix, and those that conjugate tense with a suffix, and those that conjugate it with an infix. Suffixing verbs are far more common. The suffixes are:</p>
+<ul>
+<li><strong>-e:</strong> <sc>prs</sc>, Present tense</li>
+<li><strong>-o:</strong> <sc>pst</sc>, Past tense</li>
+<li><strong>-a:</strong> <sc>fut</sc>, Future tense</li>
+</ul>
+<p>Infixes work a bit differently. The default is <strong>-e-</strong>, which also marks the present tense. The other two are:</p>
+<ul>
+<li><strong>-o-</strong>: <sc>pst</sc>, Past tense</li>
+<li><strong>-a-</strong>: <sc>fut</sc>, Future tense</li>
+</ul>
+<h4 id="412-reduplication">4.1.2 Reduplication <a class="fa fa-link link-icon" href="#412-reduplication" aria-hidden="true"></a></h4>
+<p>Though not technically an affix, when the first syllable of a verb stem is reduplicated, the reduplicated segment marks an <sc>int</sc> (intensive) upon the verb.</p>
+<p>Compare:</p>
+<ul>
+<li><strong>demoe</strong>: &quot;(I) walk&quot;</li>
+<li><strong>dedemoe</strong>: &quot;(I) run&quot;</li>
+</ul>
+<p>In the case of an infixing verb where the first syllable contains the tense infix, the default infix is instead used in the reduplication.</p>
+<p>Compare:</p>
+<ul>
+<li><strong>won</strong>: &quot;(I) was&quot;</li>
+<li><strong>wewon</strong>: &quot;(I) really was&quot;</li>
+</ul>
+<h3 id="42-verb-subordination">4.2 Verb Subordination <a class="fa fa-link link-icon" href="#42-verb-subordination" aria-hidden="true"></a></h3>
+<p>Subordination of a verb to a noun is a common way to make complex sentences. It functions by adding the infix <strong>-j-</strong>  between the stem and the tense suffix, or the suffix <strong>-je</strong> to infixing verbs. Neither the suffixes <strong>-n</strong> or <strong>-ci</strong> would work here, as these verbs still take objects (usually only one) and can function as either adjectives or complete noun phrases.</p>
+<p>Subordination is almost never found in the Subject.</p>
+<h4 id="examples-2">Examples <a class="fa fa-link link-icon" href="#examples-2" aria-hidden="true"></a></h4>
+<ol>
+<li><strong>niie de nije tama.</strong><br>
+&quot;I know what you do.&quot;</li>
+</ol>
+<pre><code>nii-e    de  ni-j-e      tama
+know-PRS OBJ do-SUBR-PRS 2[s]
+</code></pre>
+<ol start="2">
+<li><strong>rrae de neko veijo acanq.</strong><br>
+&quot;I like the cat she saw.&quot;</li>
+</ol>
+<pre><code>rra-e    de  neko vei-j-o      acanq
+like-PRS OBJ cat  see-SUBR-PST 3[s]
+</code></pre>
+<ol start="3">
+<li><strong>mot konne de ol anealletaoja</strong><br>
+&quot;There is nothing that I will want to try to sell.&quot;</li>
+</ol>
+<pre><code>mot konn-e       de  ol   ane-alle-tao-j-a
+NEG there_is-PRS OBJ zero POT-CON-sell-SUBR-FUT
+</code></pre>
+<h4 id="421-the-vo-de-nije-s-form">4.2.1 The <code>VO de nije S</code> Form <a class="fa fa-link link-icon" href="#421-the-vo-de-nije-s-form" aria-hidden="true"></a></h4>
+<p>The <code>VO de nije S</code> form is fairly simple despite its name. It makes use of the subordination of verbs to noun phrases to transform the Subject into an active Object.  Only active subjects may be moved in such a manner; passive subjects must remain immediately after the verb. It works by subordinating the verb <strong>hanine</strong> (to do) and grouping the subject with it.</p>
+<p>An example like <strong>zanqe ponna de nije haci</strong> would translate to &quot;Eat an apple do I.&quot;</p>
+<pre><code>zanq-e  ponna de  ni-j-e      haci
+eat-PRS apple OBJ do-SUBR-PRS 1[s]
+</code></pre>
+<p>This example also demonstrates the earlier note about how objects may be confused with subjects by relocation and dropping of the object marker. The object marker could of course been inserted here (<b>zanqe <i>de</i> ponna...</b>), but it remains optional.</p>
+<h3 id="43-the-progressive-aspect">4.3 The Progressive Aspect <a class="fa fa-link link-icon" href="#43-the-progressive-aspect" aria-hidden="true"></a></h3>
+<p>The above examples demonstrated one of the more interesting of the Verbal features, the aspect system. The particles are:</p>
+<ul>
+<li><strong>os</strong>, the Past Progressive</li>
+<li><strong>es</strong>, the Present Progressive</li>
+<li><strong>as</strong>, the Future Progressive</li>
+</ul>
+<p>When combined with tense on the verb, these particles form a time span during which action occurs. For example, the phrase &quot;I am eating&quot; would be translated as <strong>es zanqe haci</strong>, with the present progressive and present tense on the verb combining to form a time span in the present, a current ongoing action. By changing the <strong>es</strong> to and <strong>os</strong>, however, the sentence would translate to &quot;I <em>have been</em> eating&quot;, the <strong>os</strong> being in the past tense drawing the start of the action into the past. An <strong>as</strong> instead would describe the action, eating, as happening now and going to be happening in the future as well, a far easier way of saying &quot;am and will be doing.&quot;</p>
+<table id="aspect-table">
+  <thead><tr><th></th>
+    <th>PST Tense</th>
+    <th>PRS Tense</th>
+    <th>FUT Tense</th>
+  </tr></thead>
+  <tr>
+    <td style="font-weight:bold;">os</td>
+    <td>had been</td>
+    <td>have been</td>
+    <td>then had and will be</td>
+  </tr>
+  <tr>
+    <td style="font-weight:bold;">es</td>
+    <td>was and am now</td>
+    <td>am</td>
+    <td>am and will then be</td>
+  </tr>
+  <tr>
+    <td style="font-weight:bold;">as</td>
+    <td>had and will be</td>
+    <td>am and will be</td>
+    <td>will be</td>
+  </tr>
+</table>
+<p>As a final note, aspect particles may not be negated.</p>
+<h2 id="5-nouns">5 Nouns <a class="fa fa-link link-icon" href="#5-nouns" aria-hidden="true"></a></h2>
+<p>The nouns come in two genders: animate and inanimate. The gender system is almost vestigial as in English, but retains importance beyond the realm of pronouns, where it's actually disappeared entirely. Things like animals, people, machines, non-static things like fire or rain, and actions tend to be animate, whereas things like trees, rocks, waiting and other non-moving, passive things and actions tend to be inanimate.</p>
+<h3 id="51-pluralization">5.1 Pluralization <a class="fa fa-link link-icon" href="#51-pluralization" aria-hidden="true"></a></h3>
+<p>Pluralization functions through an affix placed after the first consonant(s) in a word. The affixes are:</p>
+<ul>
+<li><strong>-em-:</strong> <sc>a.pl</sc>, the Animate plural. This one is fairly simple.
+<ul>
+<li>ex.: <strong>yan</strong>, &quot;person&quot; → <strong>yeman</strong>, &quot;people&quot;</li>
+<li>ex.: <strong>hanu</strong>, &quot;animal&quot; → <strong>hemanu</strong>, &quot;animals&quot;</li>
+<li>ex.: <strong>pworr</strong>, &quot;fire&quot; → <strong>pwemorr</strong>, &quot;fires&quot;</li>
+</ul>
+</li>
+<li><strong>-Vv-:</strong> <sc>i.pl</sc>, the Inanimate plural. This infix is more complex than its animate counterpart. The capital &quot;V&quot; stands for &quot;Vowel,&quot; as in the vowel sound class. It is filled by the first vowel to come after the infix, or the first vowel before it if there isn't one.
+<ul>
+<li>ex.: <strong>domo</strong>, &quot;voice&quot; → <strong>dovomo</strong>, &quot;voices&quot;</li>
+<li>ex.: <strong>dyurr</strong>, &quot;water&quot; → <strong>dyuvurr</strong>, &quot;waters&quot;</li>
+<li>ex.: <strong>nyakan</strong>, &quot;idiot&quot; → <strong>nyavakanen</strong>, &quot;idiots&quot;
+<ul>
+<li><strong>nyakan</strong> is formed from <strong>nyaka</strong>, &quot;stupid&quot;</li>
+</ul>
+</li>
+<li>ex.: <strong>änn</strong>, &quot;fenn, marsh&quot; → <strong>ännäv</strong>, &quot;fenns, marshes&quot;</li>
+</ul>
+</li>
+</ul>
+<p>Both are often marked as only <sc>pl</sc>, as gender is not terribly important and the usual glosser can be lazy.</p>
+<h3 id="52-noun-affixes">5.2 Noun Affixes <a class="fa fa-link link-icon" href="#52-noun-affixes" aria-hidden="true"></a></h3>
+<p>Unlike verbs, most affixes on nouns come after the stem. It is not known why they are there rather than before the stem.</p>
+<ul>
+<li><strong>-mo:</strong> <sc>dim</sc>, the Diminutive.
+<ul>
+<li>ex.: <strong>neko</strong>, &quot;cat&quot; → <strong>nekomo</strong>, &quot;kitten&quot;</li>
+<li>ex.: <strong>jorr</strong>, &quot;money&quot; → <strong>jorrmo</strong>, &quot;penny&quot; or &quot;little money&quot; (colloquial)</li>
+</ul>
+</li>
+<li><strong>-ci:</strong> <sc>adj</sc>, the Adjectivizer.</li>
+</ul>
+<h4 id="521-possession">5.2.1 Possession <a class="fa fa-link link-icon" href="#521-possession" aria-hidden="true"></a></h4>
+<p>Possession functions with the suffix <strong>-(o)v</strong>, with the &lt;o&gt; present if there is no available consonant slot the &lt;v&gt; can fit in, or if the previous consonant was &lt;v&gt;. It's used, however, for far more than just simple possession. Any time English would use &quot;-'s&quot; or &quot;of&quot;, <strong>-(o)v</strong> will be found. There is no complex possession system like in English, with a clitic; see the examples.</p>
+<p><strong>-(o)v</strong> is glossed as <sc>-poss</sc>.</p>
+<h4 id="examples-3">Examples <a class="fa fa-link link-icon" href="#examples-3" aria-hidden="true"></a></h4>
+<ol>
+<li>
+<p><strong>Enqlandov derratyan.</strong><br>
+The King of England.</p>
+<pre><code>Enqland-ov   derrat-yan
+England-POSS direct-person
+</code></pre>
+</li>
+<li>
+<p><strong>Prransov derratyanov yoppo.</strong><br>
+The child of the King of France.</p>
+<pre><code>Prrans-ov   derratyan-ov  yoppo
+France-POSS director-POSS child
+</code></pre>
+</li>
+</ol>
+<h3 id="53-pronouns-and-demonstratives">5.3 Pronouns and Demonstratives <a class="fa fa-link link-icon" href="#53-pronouns-and-demonstratives" aria-hidden="true"></a></h3>
+<p>It is safe to say that no spoken language can effectively get away without pronouns or demonstratives of any sort for long, and Naretvei is no exception.</p>
+<h2 id="6-adjectives-and-adverbs">6 Adjectives and Adverbs <a class="fa fa-link link-icon" href="#6-adjectives-and-adverbs" aria-hidden="true"></a></h2>
+<h2 id="7-other-affixes-and-word-building">7 Other affixes and Word-building <a class="fa fa-link link-icon" href="#7-other-affixes-and-word-building" aria-hidden="true"></a></h2>
+<p>These affixes came around following grammaticalization of previously separate words joined with possession, though they now apply to all types of words, be it verb or noun or adjective, etc. Most of these terms replace nominalization affixes if present.</p>
+<ul>
+<li><strong>-miin:</strong> &quot;-学&quot; (&quot;-gaku&quot;). Denotes the study of the stem.
+<ul>
+<li>ex.: <strong>morr</strong>, &quot;number&quot; → <strong>morrmiin</strong>, &quot;mathematics&quot;</li>
+<li>ex.: <strong>veinn</strong>, &quot;language&quot; → <strong>veimiin</strong>, &quot;linguistics&quot;</li>
+<li>ex.: <strong>oryeman</strong>, &quot;old people&quot; → <strong>oryemanmiin</strong>, &quot;archeology&quot;</li>
+</ul>
+</li>
+<li><strong>-yan:</strong> &quot;-er, -man&quot;. Denotes the stem as an aspect of a person.
+<ul>
+<li>ex.: <strong>morr</strong>, &quot;number&quot; → <strong>morryan</strong>, &quot;counter&quot;</li>
+<li>ex.: <strong>bütti</strong>, &quot;book&quot; → <strong>büttiyan</strong>, &quot;reader&quot;</li>
+<li>ex.: <strong>hasrritne</strong>, &quot;to write&quot; → <strong>srrityan</strong>, &quot;author&quot;</li>
+<li>ex.: <strong>Nippon</strong>, &quot;Japan&quot; (borrowed term) → <strong>Nipponyan</strong>, &quot;Japanese person&quot;</li>
+</ul>
+</li>
+<li><strong>-vei:</strong> Denotes the language of the stem, where the stem is usually a place.
+<ul>
+<li>ex.: <strong>Prrans</strong>, &quot;France&quot; (borrowed term) → <strong>Prransvei</strong>, &quot;French&quot;</li>
+<li>ex.: <strong>Naret</strong> → <strong>Naretvei</strong>, &quot;Naretese&quot; or &quot;language of Naret&quot;
+<ul>
+<li>Note how silly &quot;the Naretvei language&quot; sounds now.</li>
+</ul>
+</li>
+<li>ex.: <strong>veimiin</strong>, &quot;linguistics&quot; → <strong>veimiinvei</strong>, &quot;linguistics jargon&quot;</li>
+</ul>
+</li>
+</ul>
+<h2 id="8-particles-and-prepositions">8 Particles and Prepositions <a class="fa fa-link link-icon" href="#8-particles-and-prepositions" aria-hidden="true"></a></h2>
+<h1 id="app">Appendix <a class="fa fa-link link-icon" href="#app" aria-hidden="true"></a></h1>
+<h2 id="futher-reading">Futher Reading <a class="fa fa-link link-icon" href="#futher-reading" aria-hidden="true"></a></h2>
+<p>Morae and Mora Timing:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Mora_(linguistics)">https://en.wikipedia.org/wiki/Mora_(linguistics)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Isochrony#Mora_timing">https://en.wikipedia.org/wiki/Isochrony#Mora_timing</a></li>
+</ul>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>By the list on Wikipedia, <em><em>a</em></em> marks the agent, but due to the lack of agent-marking in this document, the animate gender gloss <em><em>an</em></em> has been shortened to it. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Again, <em><em>i</em></em> means something different, but for ease the inanimate gender gloss <em><em>inan</em></em> has been shortened to it. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+</div></body></html>

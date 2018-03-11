@@ -1,0 +1,6 @@
+{
+    "template": "raw.jade",
+    "index.js": {
+        "directory-exclude": true
+    }
+}

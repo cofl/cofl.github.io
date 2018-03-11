@@ -1,0 +1,16 @@
+{
+    "name": "markdown-it-sub-alt-mod",
+    "version": "1.0.0",
+    "description": "<sub> tag for markdown-it markdown parser.",
+    "keywords": [
+      "markdown-it-plugin",
+      "markdown-it",
+      "markdown",
+      "subscript",
+      "sub"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "private": true
+  }
+  

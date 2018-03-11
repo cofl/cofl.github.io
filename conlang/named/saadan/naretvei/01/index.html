@@ -1,0 +1,441 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="/static/md.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"><title>The Naretvei Language</title></head><body><div id="table-of-contents"><div class="toc-scroller"><h1>Table of Contents</h1><div class="toc-header"><a href="/">home<span class="fa fa-home"></span></a><a href="../">up<span class="fa fa-level-up"></span></a></div><hr><div class="toc-container toc-level-1"><a href="#top" class="toc-item">The Naretvei Language</a></div><div class="toc-container toc-level-1"><div class="toc-container toc-level-2"><a href="#a-conventions-used" class="toc-item">a. Conventions used</a></div><div class="toc-container toc-level-2"><a href="#header" class="toc-item">Header</a></div><div class="toc-container toc-level-2"><a href="#b-glossary-of-abbreviations" class="toc-item">b. Glossary of Abbreviations</a></div><div class="toc-container toc-level-2"><a href="#1-introduction" class="toc-item">1. Introduction</a></div><div class="toc-container toc-level-2"><div class="toc-container toc-level-3"><a href="#11-in-world-introduction" class="toc-item">1.1 In-World Introduction</a></div></div><div class="toc-container toc-level-2"><a href="#2-phonology" class="toc-item">2. Phonology</a></div><div class="toc-container toc-level-2"><div class="toc-container toc-level-3"><a href="#sounds-of-naretvei" class="toc-item">Sounds of Naretvei</a></div><div class="toc-container toc-level-3"><a href="#consonants" class="toc-item">Consonants</a></div><div class="toc-container toc-level-3"><a href="#22-vowels" class="toc-item">2.2 Vowels</a></div><div class="toc-container toc-level-3"><div class="toc-container toc-level-4"><a href="#221-dipthongs" class="toc-item">2.2.1 Dipthongs</a></div></div><div class="toc-container toc-level-3"><a href="#23-other-orthography" class="toc-item">2.3 Other Orthography</a></div><div class="toc-container toc-level-3"><a href="#24-phonotactics" class="toc-item">2.4 Phonotactics</a></div><div class="toc-container toc-level-3"><div class="toc-container toc-level-4"><a href="#onset" class="toc-item">Onset</a></div><div class="toc-container toc-level-4"><a href="#nucleus" class="toc-item">Nucleus</a></div><div class="toc-container toc-level-4"><a href="#coda" class="toc-item">Coda</a></div></div></div><div class="toc-container toc-level-2"><a href="#3-morphology-and-syntax" class="toc-item">3. Morphology and Syntax</a></div><div class="toc-container toc-level-2"><div class="toc-container toc-level-3"><a href="#31-nouns" class="toc-item">3.1 Nouns</a></div><div class="toc-container toc-level-3"><div class="toc-container toc-level-4"><a href="#311-pronouns" class="toc-item">3.1.1 Pronouns</a></div><div class="toc-container toc-level-4"><a href="#pronouns" class="toc-item">Pronouns</a></div><div class="toc-container toc-level-4"><div class="toc-container toc-level-5"><a href="#3111-honorific-affixes" class="toc-item">3.1.1.1 Honorific affixes</a></div></div><div class="toc-container toc-level-4"><a href="#312-gender-and-pluralization" class="toc-item">3.1.2 Gender and Pluralization</a></div><div class="toc-container toc-level-4"><a href="#class" class="toc-item">Class</a></div><div class="toc-container toc-level-4"><a href="#313-other-affixes" class="toc-item">3.1.3 Other Affixes</a></div></div></div></div></div></div><div class="page-content"><style>
+  div.iw {font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif}
+  div.iw h1, div.iw h2, div.iw h3, div.iw h4, div.iw h5, div.iw h6 {color:#dd4b39}
+  #aspect-table td{padding:0 3px;}
+  #gloss-table td:first-child,sc{font-variant:small-caps;}
+</style>
+<h1 id="top" class="center">The Naretvei Language <a class="fa fa-link link-icon" href="#top" aria-hidden="true"></a></h1>
+<div class="author">C. LaCourt<br/>4 April 2015</div>
+<h2 id="a-conventions-used">a. Conventions used <a class="fa fa-link link-icon" href="#a-conventions-used" aria-hidden="true"></a></h2>
+<p>Some prior knowledge is required before reading this document for full comprehension, and certain conventions are used in compliance with field standards.</p>
+<ul>
+<li>Forward slashes (//) are used around <a href="http://en.wikipedia.org/wiki/Phoneme">phonemes</a>.<br>
+These are the recognized distinct sounds found in a language. This format is called <strong>broad transcription</strong>.</li>
+<li>Square brackets ([]) are used around <a href="http://en.wikipedia.org/wiki/Phone_(linguistics)">phones</a>.<br>
+These sounds are absolutes, many of which may be covered by a single phoneme. This format is called <strong>narrow transcription</strong>.</li>
+<li>Pointy braces (&lt;&gt;) are used around <a href="http://en.wikipedia.org/wiki/Grapheme">graphemes</a>.<br>
+These symbols are used to write down language. They may or may not correlate to phonemes.</li>
+<li><strong>Bold font</strong> is used to highlight important terms, and words and phrases in the Naretvei language. It is also used for column and row headers in tables, and to label notes.</li>
+<li><em>Italics</em> are used to highlight important text in contrast to surrounding text.</li>
+<li><em><strong>Bold italic font</strong></em> is used to highlight contrasting text within Naretvei samples, and to label tables when more than one being in a section may cause confusion.</li>
+<li><code>Code blocks</code> are used to neatly organize glosses, and <code>Code spans</code> are used to highlight technical terms and phenomena in the Naretvei language. Code spans are not used to highlight technical terms in any other areas.</li>
+<li>&quot;Double quotes&quot; are used around inline text samples not in the Naretvei language, for example: inline translations, explanations, etc. They may also be used around dubious terms and for sarcasm.</li>
+<li>This glosses found in this document follow the <a href="https://www.eva.mpg.de/lingua/resources/glossing-rules.php">Leipzig Glossing Rules</a>, using optional rules 4A and 4B.</li>
+<li>The glossing abbreviations used in this document may be found <a href="http://en.wikipedia.org/wiki/List_of_glossing_abbreviations">here</a> or in <a href="#b">(§b) the glossary of abbreviations</a>.</li>
+</ul>
+<p>Please forgive the lack of proper usage of small-caps for abbreviations found in code blocks. There is no current workaround. Number markers may also be found in lowercase instead of small-caps, this is a bad habit formed over months of improper practices.</p>
+<p>Some further conventions are used to label affixes when they stand alone:</p>
+<ul>
+<li>Suffixes are marked with a preceding hyphen. (ex.: <strong>-mo</strong>)</li>
+<li>Prefixes are marked with a trailing hyphen. (ex.: <strong>hko-</strong>)</li>
+<li>Infixes are marked with hyphens on both sides of the affix. (ex.: <strong>-e-</strong>)</li>
+</ul>
+<p>Lastly, the abbreviation &quot;f.r.&quot; may be used to refer the reader to the Further Reading section, noting that additional material is available. Example:</p>
+<blockquote>
+<p>The cat is in may cultures considered to be divine in nature, and the subject of worship (f.r. cats, cat worship).</p>
+</blockquote>
+<p>For readers of the web version of this document, no link will be provided in these circumstances, and the Further Reading section must be navigated to manually with the Table of Contents on the left.</p>
+<p>In-world texts will be marked with an red header, like so:</p>
+<div class="iw">
+<blockquote>
+<h2 id="header">Header <a class="fa fa-link link-icon" href="#header" aria-hidden="true"></a></h2>
+</blockquote>
+</div>
+<h2 id="b-glossary-of-abbreviations">b. Glossary of Abbreviations <a class="fa fa-link link-icon" href="#b-glossary-of-abbreviations" aria-hidden="true"></a></h2>
+<p>In this section are located the non-standard glosses used by this document. A more complete list of standard glosses may be found on <a href="http://en.wikipedia.org/wiki/List_of_glossing_abbreviations">Wikipedia</a>. These abbreviations are the ones used in this document.</p>
+<table id="gloss-table">
+<thead>
+<tr>
+<th>Abbreviation</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="1-introduction">1. Introduction <a class="fa fa-link link-icon" href="#1-introduction" aria-hidden="true"></a></h2>
+<p>The Naretvei language was begun in February 2015, as another re-imagining of the Saadan language I'd been concocting for over a year. Though intended to be spoken by a fictional race known as the Oran found in a series of stories yet to be completed, it is designed to be both learnable and speakable by real human beings<sup>&amp;trade;</sup>, though different enough to English to be confusing.</p>
+<p>The language features a Verb-Subject-Object sentence order. It is primarily a synthetic language by way of agglutination, though it does feature numerous analytic-style appositions and particles and a single fusional affix, <strong>-nen</strong>. It incorporates ideas and features from mutliple previous language sketches going back about two years to the very first version of &quot;Plû'ua'sv'dýner&quot; that popped up during <a href="http://nanowrimo.org">NaNoWriMo</a> 2013. In-world text is written from the point of view of a scholar going by the name &quot;Dacci&quot;, if there's any interest.</p>
+<div class="iw">
+<h3 id="11-in-world-introduction"><span class="blue">1.1</span> In-World Introduction <a class="fa fa-link link-icon" href="#11-in-world-introduction" aria-hidden="true"></a></h3>
+<p>The Naretvei language is the last surviving branch of the so-called &quot;True&quot; languages, the Greater Tayme family, descended from the early Savidenyrr language spoken on the shores of Anared's Koylum-Savahos region. It is by far the most wide-spread of that family, spoken even on the homeworld itself all the way out to the furthest reaches of the Ossinn arm of this galaxy. Most famously, it is the native tongue of the colony Naret, imaginatively named for the language's word for 'planet'. The native term for the language derives from that name, appending the suffix '-vei', meaning 'language' or 'speech'. In turn, the people are the 'Naretyan', though in this case it applies strictly to inhabits of Naret itself, the whole still being Oran of the empire as same any found on the homeworld.</p>
+<p>This document is a collection of notes I have produced after years living among and studying the Naretvei-speakers. I hope it will provide insight to both non-speakers and speakers alike.</p>
+</div>
+<h2 id="2-phonology"><a name="2">2</a>. Phonology <a class="fa fa-link link-icon" href="#2-phonology" aria-hidden="true"></a></h2>
+<p>The phonology of Naretvei was heavily inspired by Japanese, with influence from French and English.</p>
+<div class="iw">
+<h3 id="sounds-of-naretvei">Sounds of Naretvei <a class="fa fa-link link-icon" href="#sounds-of-naretvei" aria-hidden="true"></a></h3>
+<p>Naretvei's sound inventory is overall a simplification of its ancestor's, losing not only the sound /l/ but /f/, /θ/, /ð/, and /ɴ/ as well. The vowel inventory lost many similar sounds as they merged, but has developed a kind of vowel-harmony in their place, maintaining approximately the same number of sounds, but in more reasonable locations, and never more than from a set of five at a time.</p>
+</div>
+<h3 id="consonants">Consonants <a class="fa fa-link link-icon" href="#consonants" aria-hidden="true"></a></h3>
+<div class="flex-parent">
+<div class="flex-child">
+<table class="tb-center row-headers auto-layout">
+<thead>
+<tr>
+<th>Phonemes</th>
+<th>Bilabial</th>
+<th>Dental~Palatal</th>
+<th>Velar~Uvular</th>
+<th>Glottal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Plosive</td>
+<td>p b</td>
+<td>t d</td>
+<td>k g</td>
+<td></td>
+</tr>
+<tr>
+<td>Nasal</td>
+<td>m</td>
+<td>n</td>
+<td>ŋ~ɴ</td>
+<td></td>
+</tr>
+<tr>
+<td>Fricative</td>
+<td>v</td>
+<td>s~ʃ z~ʑ [ç]</td>
+<td>[x] [ɣ] χ</td>
+<td>h</td>
+</tr>
+<tr>
+<td>Affricate</td>
+<td></td>
+<td>t͡s d͡z</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Other</td>
+<td>w</td>
+<td>ɾ~ɺ j [ɥ]</td>
+<td>ʁ~ʀ</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="flex-child">
+<table class="tb-center row-headers auto-layout">
+<thead>
+<tr>
+<th>Orthography</th>
+<th>Bilabial</th>
+<th>Dental~Palatal</th>
+<th>Velar~Uvular</th>
+<th>Glottal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Plosive</td>
+<td>p b</td>
+<td>t d</td>
+<td>k g</td>
+<td></td>
+</tr>
+<tr>
+<td>Nasal</td>
+<td>m</td>
+<td>n</td>
+<td>nq</td>
+<td></td>
+</tr>
+<tr>
+<td>Fricative</td>
+<td>v</td>
+<td>s z (h)</td>
+<td>(h) (g) x</td>
+<td>h</td>
+</tr>
+<tr>
+<td>Affricate</td>
+<td></td>
+<td>c j</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Other</td>
+<td>w</td>
+<td>r y (w)</td>
+<td>rr</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<ul>
+<li>In clusters, the voicedness of the initial consonant carries through. Voiced consonants following voiceless ones become voiceless, and vice-versa.</li>
+<li>All consonants except &lt;rr&gt; can become geminate. Geminate &lt;c j nq&gt; are written as &lt;cc jj nqq&gt;. Geminate &lt;r&gt; is written as &lt;ll&gt; to distinguish it from &lt;rr&gt;, and is pronounced exclusively as [lː].</li>
+<li>Except for the geminate versions, /p b t d k g m n/ become palatalized before /e̞/.
+<ul>
+<li>/m/ and /n/ also become palatalized before /i/.</li>
+<li>/we̞/ → [ɥe̞]. No exceptions.</li>
+</ul>
+</li>
+<li>Voiceless plosives become aspirated before /i/.</li>
+<li>/s/ and /z/ becomes [ʃ~ɕ] and [ʒ~ʑ] before /i/. This is reflected in the affricates /t͡s/ and /d͡z/ as well.</li>
+<li>/h/ becomes [ç] before /i/.</li>
+<li>/h/ often becomes [x] at the beginning or end of utterances, and between vowels in non-duplicate syllables.</li>
+<li>/h/ is dropped or becomes [j] in duplicate syllables, i.e.: /haha/ → [haja] or [ha.a].</li>
+<li>[g] and [ɣ] are in free variation between vowels. They may be [gj] and [ɣj].
+<ul>
+<li>/g/ is dropped or becomes [ɣ] in duplicate syllables, i.e.: /gaga/ → [gaɣa] or [ga.a], except before back vowels.</li>
+<li>/k/ is also dropped or becomes [ɣ] in duplicate syllables, except before back vowels.</li>
+</ul>
+</li>
+</ul>
+<h3 id="22-vowels">2.2 Vowels <a class="fa fa-link link-icon" href="#22-vowels" aria-hidden="true"></a></h3>
+<p>The vowel system was inspired by Finnish, with later influence from Japanese. It features vowel harmony, where back vowels become fronted. The line can be drawn as &lt;a o u&gt;/&lt;ä ö ü&gt;, with &lt;e&gt; neutral and tending toward fronted, and &lt;i&gt; also neutral but tending toward &lt;a o u&gt;. Affixes take the fronting of the stem. Compound words are treated as distinct words, not subject to fronting assimilation.</p>
+<div class="flex-parent">
+<div class="flex-child">
+<table class="tb-center row-headers">
+<thead>
+<tr>
+<th>Phonemes</th>
+<th>Front</th>
+<th>Center</th>
+<th>Back</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High</td>
+<td>i y</td>
+<td></td>
+<td>ɯᵝ~u</td>
+</tr>
+<tr>
+<td>Center</td>
+<td>e̞ ø̞</td>
+<td></td>
+<td>o̞</td>
+</tr>
+<tr>
+<td>Low</td>
+<td>æ</td>
+<td colspan="2">ä~ɑ</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="flex-child">
+<table class="tb-center row-headers">
+<thead>
+<tr>
+<th>Orthography</th>
+<th>Front</th>
+<th>Center</th>
+<th>Back</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High</td>
+<td>i ü</td>
+<td></td>
+<td>u</td>
+</tr>
+<tr>
+<td>Center</td>
+<td>e ö</td>
+<td></td>
+<td>o</td>
+</tr>
+<tr>
+<td>Low</td>
+<td>ä</td>
+<td colspan="2">a</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<ul>
+<li>
+<p>All vowels can become long.</p>
+</li>
+<li>
+<p>It is common for glottal stops ([ʔ]) to be placed at the begin and end of utterances, much as in Japanese and English. In writing, &lt;-&gt; is used to show the glottal stop in other positions, as in the English &quot;uh-oh.&quot;</p>
+<p><strong>Examples</strong></p>
+<ul>
+<li>/kä/ → [käʔ]</li>
+<li>/mo̞ɺe̞/ → [mo̞ɺe̞ʔ]*</li>
+<li>/u/ → [ʔɯᵝʔ]</li>
+</ul>
+</li>
+<li>
+<p>Vowels become lightly nasalized preceding a nasal consonant, and moderately nasalized when following one.</p>
+</li>
+<li>
+<p>The vowels /ä/ and /o̞/ drop to heavily nasalized [ɑ] and [ɔ] preceding a word-final /n/, which drops to [ɴ].</p>
+</li>
+<li>
+<p>The vowels /i/ and /u/ devoice between voiceless consonants and following voiceless consonants at the end of words (the glottal stop inserted is treated as a voiceless consonant).</p>
+</li>
+<li>
+<p>Between adjacent back vowels at word boundaries, a pharyngeal approximant ([ɑ̯]) may be inserted.</p>
+</li>
+</ul>
+<h4 id="221-dipthongs">2.2.1 Dipthongs <a class="fa fa-link link-icon" href="#221-dipthongs" aria-hidden="true"></a></h4>
+<p>When combining affixes with stems, the affix takes the rounding of the stem. However, when combining stems with other stems of different roundings, one of two things may occur:</p>
+<ul>
+<li>Either stem may shift its rounding, but this is rare.</li>
+<li>A dominant stem's rounding may be taken, and &lt;ä ö ü&gt;/&lt;a o u&gt; not following that rounding will become &lt;á ó ú&gt;, forming a vowel cluster with that vowel and [i̯].</li>
+<li>Nothing may happen. This is even rarer.</li>
+</ul>
+<h3 id="23-other-orthography">2.3 Other Orthography <a class="fa fa-link link-icon" href="#23-other-orthography" aria-hidden="true"></a></h3>
+<p>Diacritics are used to break apart clusters of vowels across syllable boundaries that may be confused for dipthongs. The diacritic is placed on the first vowel of the new syllable. For &lt;e i&gt;, the diacritic is ◌̈, the umlaut or diaresis. For &lt;a o u ä ö ü&gt;, the diacritic is ◌́, the grave accent. The grave accent is used in preference to the umlaut on those letters to prevent confusion with rounding. The combining high tone mark may be used if full diacritic support is not available. If no diacritic support is available at all, ignore all extra orthography.</p>
+<p>Punctuation is also used. The preferred method is listed first, with the alternate method listed in parenthesis following:</p>
+<ul>
+<li><strong>.</strong> (。): Period, full stop. Used to end continuous sentences, and as a decimal place seperator in numerals.</li>
+<li><strong>,</strong> (、): Comma. Used to break up unrelated phrases and list items, but is not common.</li>
+<li><strong>;</strong> (；): Semicolon. Used to break up related sentences in a similar way to English, but is not common.</li>
+<li><strong>:</strong> (：): Colon. Used to denote a following list of items, or a block quote after <strong>to</strong>.</li>
+<li><strong>?</strong> (？): Question mark. Used in place of the full stop at the end of a question.</li>
+<li><strong>!</strong> (！): Exclamation point. Used for emphasis at the end of a statement, and replaces the full stop if one is there.</li>
+<li><strong>()</strong> (（）): Parenthesis. Used to separate off side notes and clarifications, as in English.</li>
+<li><strong>「」</strong> ('', &quot;&quot;): Single-quotes. Used for top-level quotation. Double quotes are used on American keyboards.</li>
+<li><strong>''</strong> (&quot;&quot;, 『』): &quot;Double&quot;-quotes. Used for second-level quotation. Single quotes are used on American keyboards.</li>
+<li><strong>—</strong> (-, --): Em-dash, hyphen, etc. Used to break off a statement suddenly.</li>
+<li><strong>～</strong> (~, ~~): Wave dash, tilde. Used at the end of phrases in place of the full stop to inflect a &quot;kawaii&quot; tone. Also used between items to indicate a range, or before an item to indicate approximaticality.</li>
+</ul>
+<h3 id="24-phonotactics">2.4 Phonotactics <a class="fa fa-link link-icon" href="#24-phonotactics" aria-hidden="true"></a></h3>
+<p>Naretvei is a mora-timed language with a simple <strong>(h)(C)(R)V(V)(r|y|h)(C)(C)</strong> syllable structure. Orthographically, a final &lt;y&gt; may appear after long consonants in the coda to separate them from identical following consonants, i.e.: *&lt;nnn&gt; → &lt;nnyn&gt;.</p>
+<ul>
+<li><strong>C</strong>, consonants: &lt;p b t d k g m n nq v s z x c j&gt;.</li>
+<li><strong>R</strong>, transitions: &lt;rr r y s h&gt;</li>
+<li><strong>V</strong>, vowels: &lt;a o u e i ä ö ü&gt;, and long forms.</li>
+</ul>
+<h4 id="onset">Onset <a class="fa fa-link link-icon" href="#onset" aria-hidden="true"></a></h4>
+<p>The onset is patterned <strong>(h)(C)(R)</strong>. The rules governing it are simple:</p>
+<ul>
+<li>Initial &lt;h&gt; may not appear if <strong>C</strong> or <strong>R</strong> are &lt;s z x c j&gt; or &lt;h&gt;.</li>
+<li><strong>R</strong> may not be &lt;s&gt; or &lt;h&gt; if initial &lt;h&gt; is present or if <strong>C</strong> is &lt;s z x c&gt; or &lt;j&gt;.</li>
+</ul>
+<p>Basically, only one fricative is allowed, even if it's locked away in affricates.</p>
+<p>The onset carries no morae.</p>
+<h4 id="nucleus">Nucleus <a class="fa fa-link link-icon" href="#nucleus" aria-hidden="true"></a></h4>
+<p>The nucleus is simply <strong>V(V)</strong>. If the vowel is short or a dipthong (the second vowel is present), the syllable carries 1 mora. If it is a long vowel, in which case the second vowel may never appear, the syllable carries 2 morae.</p>
+<h4 id="coda">Coda <a class="fa fa-link link-icon" href="#coda" aria-hidden="true"></a></h4>
+<p>Similar to the nucleus, the coda is <strong>(r|y|h)(C)(C)</strong>. Disregarding &lt;r y h&gt;, the first consonant may be geminate, in which case the second consonant never appears and one mora is added to the syllable. As for when the second consonant is present, far harsher rules restrict it. The following are the acceptable consonant clusters able to be found in the coda:</p>
+<ul>
+<li>&lt;pt&gt;</li>
+<li>&lt;pk&gt;</li>
+<li>&lt;kt&gt;</li>
+<li>&lt;p t k n m&gt; + &lt;s&gt;</li>
+<li>&lt;h&gt; + &lt;p t k n m&gt;</li>
+<li>&lt;s&gt; + &lt;p t k n m&gt;</li>
+<li>&lt;z&gt; + &lt;b d g&gt;</li>
+</ul>
+<p>&lt;r y&gt; and &lt;h&gt; may be found before any of these, with &lt;r&gt; trending toward [l] rather than [ɺ] or [ɾ].</p>
+<h2 id="3-morphology-and-syntax">3. Morphology and Syntax <a class="fa fa-link link-icon" href="#3-morphology-and-syntax" aria-hidden="true"></a></h2>
+<p>Naretvei features a Verb-Subject-Object(s) sentence order, with optional fronting of the subject with a nominative postposition, and optional fronting of an object with an oblique postposition. Inside the sentence itself, each piece is more or less head-final, with head-inital elements occuring when dealing with complements and appearing to occur with prepositions such as the oblique preposition or the locative prepositions. Beyond the numerous particles, adjectives, and adverbs, words are built agglutinatively with both prefixes and suffixes, and can feature noun incorporation, though verbs never directly link together.</p>
+<h3 id="31-nouns">3.1 Nouns <a class="fa fa-link link-icon" href="#31-nouns" aria-hidden="true"></a></h3>
+<p>Nouns are marked for singular and plural numbers, and do feature a distinction with animate and inanimate gender, but for most use cases gender is unimportant. The number of affixes available for them is potentially greater than those for other parts of speech, as many small nouns are becoming grammaticalized as suffixes to others.</p>
+<h4 id="311-pronouns">3.1.1 Pronouns <a class="fa fa-link link-icon" href="#311-pronouns" aria-hidden="true"></a></h4>
+<p>More prelevant than gender is register, at least in the pronouns. There are several registers available, the greatest number of which can be found in the second-person pronouns.</p>
+<div class="iw">
+<h4 id="pronouns">Pronouns <a class="fa fa-link link-icon" href="#pronouns" aria-hidden="true"></a></h4>
+<p>An innovation from Early Naretvei, many speakers of other Tayme languages like Saadan will be unfamiliar with the registers of Naretvei, which are realised the most in the pronoun system, which features up to five of the six registers: familiar, default, polite, formal, humble, and disrespectful. Only one of the three base persons achieves this count, the 2<sup>nd</sup> person, with the 1<sup>st</sup> person having four and the 3<sup>rd</sup> three. I analysed another person, the 4<sup>th</sup>, which is used to refer to a vague non-present party. This category was deduced from the existence of the pronoun &quot;<strong>bejin</strong>&quot;, and a similar use case for the otherwise 3<sup>rd</sup>-person pronoun &quot;<strong>acanq</strong>&quot;.</p>
+</div>
+<p><strong>1<sup>st</sup> person:</strong></p>
+<ul>
+<li><strong>haci</strong> (<strong>hemaci</strong>). This is both the default, polite-register, and formal-register pronoun for the first person. Speakers will most commonly use this in everday conversation and more or less everywhere else, too.</li>
+<li><strong>ocai</strong> (<strong>emocai</strong>), the humble register. Speakers prefer this pronoun when referring to themselves in communications with persons of especially higher rank than them, or to raise up the listener or other persons as being greater than them. Children also use this pronoun when speaking with teachers and family members not in their own generation, though they're likely to use either <strong>haci</strong> with their preferred guardian.</li>
+<li><strong>melle</strong>, the singular familiar register. This is commonly found in conversation between very close friends, family, and lovers, and so doesn't see much use outside of the home. Note that it is purely singular, and cannot be made plural, though it does carry the animate gender.</li>
+<li><strong>oellemen</strong>, the plural familiar register. Similar to <strong>melle</strong>, it is used strictly between very close persons. This pronoun is even rarer than <strong>melle</strong> simply by the rarity of circumstance.</li>
+</ul>
+<p><strong>2<sup>nd</sup> person:</strong></p>
+<ul>
+<li><strong>tama</strong> (<strong>temama</strong>). This is the default register, used in everday conversation. See the notes for <strong>haci</strong>.</li>
+<li><strong>ganmo</strong> (<strong>girumo</strong>), the polite register. <strong>ganmo</strong> is often used when speaking with strangers, customers, and people outside one's circle of friends and family, though children will often use it in reverence to their parents.</li>
+<li><strong>atiri</strong> (<strong>ematiri</strong>), the formal register. Speakers most commonly use this referring to listeners of higher rank than them, and in publications if the need arises. It can also be used to distance oneself from the listener, marking a notable distinction.</li>
+<li><strong>koro</strong> (<strong>kemoro</strong>), the familiar register. See the notes for <strong>melle</strong>. This pronoun is can be marked as plural, and does so with the animate infix.</li>
+<li><strong>tajin</strong> (<strong>tavajin</strong>), the disrespectful register. Used when the listener looked down upon by the speaker, such as with criminals or rivals. It is considered very rude, being derived from the demonstrative <strong>taji</strong>, &quot;that by you,&quot; effectively referring to the person as a thing rather than a being. In English, this would be accomplished by referring to the listener as &quot;it.&quot;</li>
+</ul>
+<p><strong>3<sup>rd</sup> person animate:</strong></p>
+<ul>
+<li><strong>aci</strong> (<strong>acemi</strong>), or <strong>ace</strong> (<strong>aceme</strong>), the default, polite, and familiar registers. This is the most third-person pronoun, filling the approximte roles of both <strong>haci</strong> and _<em>melle</em> for the third person.</li>
+<li><strong>acanq</strong> (<strong>acemanq</strong>), the formal register.</li>
+<li><strong>ajin</strong> (<strong>avajin</strong>), the disrespectful register. See the notes for <strong>tajin</strong>. It is derived from the demonstrative <strong>aji</strong>, &quot;that over there.&quot;</li>
+</ul>
+<p><strong>4<sup>th</sup> person:</strong><br>
+<em>These are used to refer to an unknown party, like the &quot;they&quot; in &quot;what do they know?&quot;.</em></p>
+<ul>
+<li><strong>acanq</strong> (<strong>acemanq</strong>), the default register. It is lifted directly from the third-person pronouns, just like in English.</li>
+<li><strong>bejin</strong> (<strong>bevejin</strong>), the other default regsiter. This one is formed in the same way as <strong>ajin</strong> and <strong>tajin</strong>, from the demonstrative <strong>beji</strong>, and does carry a slightly condescending tone, but is just as acceptable as <strong>acanq</strong>.</li>
+</ul>
+<p><strong>Demonstrative pronouns/adjectives/adverbs:</strong><br>
+<em>These, though treated as pronouns, can function freely as adjectives and adverbs.</em></p>
+<ul>
+<li><strong>haji</strong> (<strong>havaji</strong>): either &quot;here&quot; or &quot;this here by me.&quot;</li>
+<li><strong>taji</strong> (<strong>tavaji</strong>): either &quot;there by you&quot; or &quot;that there by you.&quot;</li>
+<li><strong>aji</strong> (<strong>avaji</strong>): either &quot;over there&quot; or &quot;that over there&quot; (or &quot;yon&quot; and &quot;that yon&quot; if those sound better).</li>
+<li><strong>beji</strong> (<strong>beveji</strong>): either &quot;yonder&quot; or &quot;that yonder.&quot;</li>
+</ul>
+<div class="iw">
+<h5 id="3111-honorific-affixes"><span class="blue">3.1.1.1</span> Honorific affixes <a class="fa fa-link link-icon" href="#3111-honorific-affixes" aria-hidden="true"></a></h5>
+<p>In addition to the various registers of pronouns, a number of affixes exist to further refine them. These affixes can be placed on both pronouns, proper nouns, or regular nouns acting as titles. Many of these affixes cannot be attested to have existed before Naretvei. It is assumed that a local substratum of a long-gone species' language provided these, though no archaeological evidence has turned up in support of this theory.</p>
+</div>
+<p>These affixes are:</p>
+<ul>
+<li><strong>-moo</strong>, from the diminutive <strong>-mo</strong>. Students of Japanese will recognize similar functionality to &quot;-ちゃん&quot;, both adding a tone of familiarity or &quot;cuteness.&quot; It also carries the meaning of &quot;younger,&quot; but should never be used in that meaning outside of family or immediate friends.</li>
+<li><strong>-nata</strong>. A suffix of respect, similar to Japanese &quot;-さん&quot;. It is used in reference to most superiors, including teachers, government officials, and parents.</li>
+<li><strong>-anikai</strong>. A suffix of extreme respect, similar to Japanese &quot;-さま&quot;. It is used commonly with the humble register and formal registers in place of <strong>-nata</strong>.</li>
+</ul>
+<h4 id="312-gender-and-pluralization">3.1.2 Gender and Pluralization <a class="fa fa-link link-icon" href="#312-gender-and-pluralization" aria-hidden="true"></a></h4>
+<p>Naretvei has two grammatical genders, an animate and an inanimate. Every non-grammatical word in the language has a gender: all the nouns, all the adjectives, all the verbs; this leaves out appositions and particles.</p>
+<div class="iw">
+<h4 id="class">Class <a class="fa fa-link link-icon" href="#class" aria-hidden="true"></a></h4>
+<p>Another feature that will seem alien to speakers of other Tayme languages is classes. Noun classes are mostly vestigial, a recent innovation stemming from pronunciation changes that produced a second form of pluralisation that spread across the entire language to also cover nominalisation. Many outside learners find it an annoyance, though I see it as an interesting way to resolve the fluidity issues of the original pluralisation strategy.</p>
+</div>
+<p>The animate gender contains things such as people, animals, and active actions, though there are several exceptions as in any tongue having gender. Its pluralization strategy is the infix <strong>-em-</strong>, placed before the first nucleus like so:</p>
+<ul>
+<li><strong>yan</strong>, &quot;person&quot; → <strong>yeman</strong>, &quot;people&quot;</li>
+<li><strong>ahvia</strong>, &quot;bird&quot; → <strong>emahvia</strong>, &quot;birds&quot;</li>
+</ul>
+<p>In perfect contrast, the inanimate gender contains static objects and passive actions, with the same exceptions. It functions by the infix <strong>-Vv-</strong> before the first nucleus, where <strong>V</strong> is the first vowel in the word.</p>
+<ul>
+<li><strong>änn</strong>, &quot;fenn&quot; → <strong>ävänn</strong>, &quot;fenns&quot;</li>
+<li><strong>noot</strong>, &quot;door&quot; → <strong>novoot</strong>, &quot;doors&quot;</li>
+</ul>
+<p>When a number is provided, the noun must agree with it: zero and one are singular, more than one is plural. Negative numbers are also treated in the singular, but seeing as they almost never appear in any communications it isn't terribly important to follow that rule. Some speakers even always use the plural in reference to negative numbers.</p>
+<h4 id="313-other-affixes">3.1.3 Other Affixes <a class="fa fa-link link-icon" href="#313-other-affixes" aria-hidden="true"></a></h4>
+<p>This is a list of all current productive affixes. If a letter occurs in parenthesis, it only occurs when adjacent to a consonant. Unless noted, each affix follows the vowel harmony rules and is written with the preferred vowels. Examples will be indented below each point.</p>
+<ul>
+<li><strong>-(o)v</strong>: Genetive case, glossed as the Possessive case. It is used to denote possession or constructs where &quot;of&quot; would be used, though the latter usage is being replaced by compound words across all levels of society, including official documents. Hence, the latter usage is considered archaic.
+<ul>
+<li><strong>haciv</strong>, &quot;my&quot;</li>
+<li><strong>näyünöv hwöhnn</strong>, &quot;night's winds&quot; (commonly <strong>näyünhwöhnn</strong>)</li>
+</ul>
+</li>
+<li><strong>-yan</strong>: One who does, one who is from.
+<ul>
+<li><strong>Naretyan</strong>, &quot;a person from Naret&quot;</li>
+<li><strong>tayan</strong>, &quot;singer&quot;</li>
+</ul>
+</li>
+<li><strong>-miin</strong>: &quot;The studay of,&quot; equivalent to the Japanese suffix &quot;学&quot;.
+<ul>
+<li><strong>Naretveimiin</strong>, &quot;Study of the Naret language&quot;</li>
+<li><strong>zaalmiin</strong>, &quot;astronomy&quot;</li>
+</ul>
+</li>
+<li><strong>-mo</strong>: Diminutive.
+<ul>
+<li><strong>neko</strong>, &quot;cat&quot; → <strong>nekomo</strong>, &quot;kitten&quot;</li>
+</ul>
+</li>
+</ul>
+</div></body></html>

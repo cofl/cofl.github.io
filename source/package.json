@@ -7,7 +7,7 @@
     "markdown-it-multimd-table": "^3.1.1",
     "markdown-it-sub-alt-mod": "file:plugins/markdown-it-sub-alt-mod",
     "markdown-it-sup-alt": "^1.0.2",
-    "moment": "2.3.x",
+    "moment": "^2.19.3",
     "plugin": "^0.3.3",
     "typogr": "0.5.x",
     "underscore": "1.4.x",

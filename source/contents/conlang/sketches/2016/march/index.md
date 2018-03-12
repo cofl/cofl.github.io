@@ -6,7 +6,6 @@ uplink: ../
 ---
 
 <style>
-  caption{text-decoration:underline}
   .center{text-align:center}
   .bold{font-weight:bold}
   .italic{font-style:italic}

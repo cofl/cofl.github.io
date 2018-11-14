@@ -8,6 +8,39 @@ uplink: ../
 <!--{#top.center}-->
 <div class="author">cofl</div>
 
+<div class="scratchpad">
+
+# Scratch Pad
+
+```text
+PREP? ADJ* COUNT* CLASSFR? NOUN-NUMBER-CASE
+SUBJ? ADV* VERB-TENSE COVERB OBJ*
+```
+
+```example
+An-Séra na hjamme kaú hnaoisefren.
+
+An-    Séra       na   hjamme   kaú          hnao-i -sefr-en
+DEF.SG-South_Wind POSS thousand small_bit.CL snow-GEN-flake-PL
+
+"The South Wind's thousand snowflakes"
+```
+
+```example
+Ha ra-s-an-Séras na hjamme kaú hnaoisefren.
+
+Ha  ra       an-Séra-s             na   hjamme   kaú          hnao-i -sefr-en
+1SG like.1SG DEF.SG-South_Wind-OBL POSS thousand small_bit.CL snow-GEN-flake-PL
+
+"I like the south wind's many snowflakes."
+```
+
+```example
+Ha mnih
+```
+
+</div>
+
 ## Phonology
 ### Inventory
 #### Consonants

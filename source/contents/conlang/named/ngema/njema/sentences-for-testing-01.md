@@ -1,6 +1,6 @@
 ---
 title: "Ńēma: Sentences for Testing Conlang Syntax"
-template: index.jade
+template: index.pug
 uplink: ../
 ---
 # Sentences for Testing Conlang Syntax (Ńēma).

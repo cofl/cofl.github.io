@@ -1,0 +1,16 @@
+
+{
+  "name": "markdown-it-anchor-mod",
+  "version": "5.0.2",
+  "description": "Header anchors for markdown-it.",
+  "keywords": [
+    "markdown",
+    "markdown-it",
+    "markdown-it-plugin",
+    "header",
+    "anchor"
+  ],
+  "license": "Unlicense",
+  "private": true
+}
+  

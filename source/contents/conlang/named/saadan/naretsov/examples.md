@@ -1,6 +1,6 @@
 ---
 title: Naretsov Examples
-template: index.jade
+template: index.pug
 uplink: ../
 ---
 <style>

@@ -1,6 +1,6 @@
 ---
 title: The Ngjewma Language
-template: index.jade
+template: index.pug
 uplink: ../
 ---
 <div class="hidden" id="toc-footer">

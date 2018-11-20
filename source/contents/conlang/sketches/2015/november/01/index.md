@@ -1,6 +1,6 @@
 ---
 title: November 2 2015 Sketch
-template: index.jade
+template: index.pug
 leipzig: true
 uplink: ../
 ---

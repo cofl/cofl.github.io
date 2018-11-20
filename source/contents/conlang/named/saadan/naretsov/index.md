@@ -1,6 +1,6 @@
 ---
 title: Naretsov Sketch
-template: index.jade
+template: index.pug
 uplink: ../
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: March 2018 Sketch
-template: index.jade
+template: index.pug
 uplink: ../
 ---
 

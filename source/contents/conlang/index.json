@@ -1,4 +1,4 @@
 {
-    "template": "directory.jade",
+    "template": "directory.pug",
     "uplink": "../directory.html"
 }

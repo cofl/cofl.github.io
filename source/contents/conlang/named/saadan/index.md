@@ -1,6 +1,6 @@
 ---
 title: Saadan
-template: directory.jade
+template: directory.pug
 ---
 
 # Saadan Languages

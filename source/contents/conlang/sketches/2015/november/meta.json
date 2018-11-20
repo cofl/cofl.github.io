@@ -1,5 +1,5 @@
 {
-    "template": "raw.jade",
+    "template": "raw.pug",
     "00": {
         "title": "00 Tsaihänni"
     },

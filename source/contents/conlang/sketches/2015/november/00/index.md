@@ -1,6 +1,6 @@
 ---
 title: Tsaihänni Sketch
-template: index.jade
+template: index.pug
 leipzig: true
 uplink: ../
 ---

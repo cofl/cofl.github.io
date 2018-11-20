@@ -1,5 +1,5 @@
 {
-    "template": "raw.jade",
+    "template": "raw.pug",
     "index.html": {
         "title": "Naretsov Lexicon (beta)"
     }

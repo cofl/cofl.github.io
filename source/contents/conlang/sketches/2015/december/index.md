@@ -1,6 +1,6 @@
 ---
 title: Saan
-template: index.jade
+template: index.pug
 leipzig: true
 uplink: ../
 ---

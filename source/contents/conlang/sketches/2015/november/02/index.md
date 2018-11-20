@@ -1,6 +1,6 @@
 ---
 title: November 3 Sketch
-template: index.jade
+template: index.pug
 leipzig: true
 uplink: ../
 ---

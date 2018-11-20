@@ -1,6 +1,6 @@
 ---
 title: Saan -- March 2016
-template: index.jade
+template: index.pug
 leipzig: true
 uplink: ../
 ---

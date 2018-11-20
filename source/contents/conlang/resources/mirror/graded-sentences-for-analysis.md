@@ -1,6 +1,6 @@
 ---
 title: Graded Sentences
-template: index.jade
+template: index.pug
 ---
 <div class="hidden" id="toc-footer">
 See also:

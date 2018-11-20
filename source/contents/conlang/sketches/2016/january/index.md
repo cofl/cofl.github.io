@@ -1,6 +1,6 @@
 ---
 title: January 2016 sketch 0
-template: index.jade
+template: index.pug
 leipzig: true
 uplink: ../
 ---

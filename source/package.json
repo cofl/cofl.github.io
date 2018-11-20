@@ -5,7 +5,7 @@
     "wintersmith-stylus": "0.5.1",
     "jsdom": "^13.0.0",
     "markdown-it": "8.4.2",
-    "markdown-it-anchor": "5.0.2",
+    "markdown-it-anchor-mod": "file:plugins/markdown-it-anchor-mod",
     "markdown-it-decorate": "1.2.2",
     "markdown-it-footnote": "3.0.1",
     "markdown-it-multimd-table": "3.1.3",

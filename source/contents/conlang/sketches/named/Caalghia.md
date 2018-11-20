@@ -1,6 +1,6 @@
 ---
 title: Caållghia Sketch
-template: index.jade
+template: index.pug
 ---
 
 # Caållghia (/kˠɔɫɣʲə/)

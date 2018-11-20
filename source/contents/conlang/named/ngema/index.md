@@ -1,6 +1,6 @@
 ---
 title: Ngema
-template: directory.jade
+template: directory.pug
 ---
 
 # Ngema Languages

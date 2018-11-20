@@ -1,6 +1,6 @@
 ---
 title: Concepts Game
-template: index.jade
+template: index.pug
 ---
 <style>
   ol {list-style-type: decimal-leading-zero}

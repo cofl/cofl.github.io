@@ -13,19 +13,18 @@
   ],
   "output": "../",
   "directory-helper": {
-    "template": "directory.jade"
+    "template": "directory.pug"
   },
   "markdown-it": {
     "settings": {
       "html": true,
       "linkify": true
     },
-    "markdown-it-sup-alt": {},
     "markdown-it-sub-alt-mod": {},
     "markdown-it-decorate": {},
     "markdown-it-footnote": {},
     "markdown-it-multimd-table": {},
-    "markdown-it-anchor": {
+    "markdown-it-anchor-mod": {
       "permalink": true,
       "permalinkClass": "fa fa-link link-icon",
       "permalinkSymbol": ""

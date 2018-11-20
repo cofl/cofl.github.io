@@ -9,6 +9,13 @@ div.page-content {
   width: 60em;
   text-align: justify;
 }
+div.scratchpad {
+  width: 90%;
+  margin: 0 auto;
+  border-left: 3px solid #d33;
+  border-right: 3px solid #d33;
+  padding: 5px;
+}
 #table-of-contents {
   background: #eee;
   height: 100%;
@@ -165,6 +172,9 @@ img.noborder {
   color: #4183c4;
   background: none;
 }
+caption {
+  text-decoration: underline;
+}
 table {
   vertical-align: top;
   border-collapse: collapse;
@@ -183,7 +193,7 @@ table tr:nth-child(even) {
 table td,
 table th {
   padding: 2px 6px;
-  vertical-align: top;
+  vertical-align: middle;
 }
 table.tb-center td {
   text-align: center;

@@ -1,6 +1,6 @@
 ---
 title: cofl's stuff
-template: index.jade
+template: index.pug
 ---
 
 # cofl's stuff

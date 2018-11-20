@@ -1,6 +1,6 @@
 ---
 title: "ŋ́e᷉ma: Sentences for Testing Conlang Syntax"
-template: index.jade
+template: index.pug
 uplink: ../
 ---
 

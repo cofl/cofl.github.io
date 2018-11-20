@@ -1,6 +1,6 @@
 ---
 title: Qal̀i Sketch
-template: index.jade
+template: index.pug
 ---
 # Qal̀i Sketch
 <!--{#top.center}-->

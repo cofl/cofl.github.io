@@ -1,6 +1,6 @@
 ---
 title: The Naretvei Language
-template: index.jade
+template: index.pug
 uplink: ../
 ---
 <style>

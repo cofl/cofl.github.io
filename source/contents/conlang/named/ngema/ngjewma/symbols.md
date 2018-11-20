@@ -1,6 +1,6 @@
 ---
 title: Ngjewma Symbols Script Generator
-template: index.jade
+template: index.pug
 uplink: ../
 ---
 <div class="hidden" id="toc-footer">

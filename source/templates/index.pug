@@ -1,11 +1,11 @@
-include mixins/tocItem.jade
+include mixins/tocItem.pug
 doctype html
 html(lang="en")
     head
-        include mixins/html-head.jade
+        include mixins/html-head.pug
         title= page.title
         if(page.metadata.leipzig)
-            include mixins/leipzig.jade
+            include mixins/leipzig.pug
     body
         div(id="table-of-contents")
             div(class="toc-scroller")

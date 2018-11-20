@@ -1,0 +1,51 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "wintersmith build",
+            "dependsOn": "clean",
+            "presentation": {
+                "reveal": "always",
+                "clear": true
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/source"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "./clean.ps1 -Confirm:$false",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "clear": false
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/source"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "preview",
+            "type": "shell",
+            "command": "wintersmith preview",
+            "presentation": {
+                "echo": false,
+                "reveal": "always",
+                "clear": true
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/source"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

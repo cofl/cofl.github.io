@@ -16,6 +16,8 @@ module.exports = function(env, callback){
             document.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach(element => {
                 if(!element.hasAttribute("id"))
                     return
+                if(element.classList.contains("no-toc-link"))
+                    return
                 const level = parseInt(element.tagName.charAt(1))
                 while(level > currentLevel){
                     stack.push([])

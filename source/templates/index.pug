@@ -6,6 +6,8 @@ html(lang="en")
         title= page.title
         if(page.metadata.leipzig)
             include mixins/leipzig.pug
+        if(page.metadata.paper)
+            link(rel="stylesheet", href="/static/paper.css")
     body
         div(id="table-of-contents")
             div(class="toc-scroller")

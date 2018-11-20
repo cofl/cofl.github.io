@@ -2,24 +2,10 @@
 title: Saan -- March 2016
 template: index.pug
 leipzig: true
+paper: true
 uplink: ../
 ---
 
-<style>
-  .center{text-align:center}
-  .bold{font-weight:bold}
-  .italic{font-style:italic}
-  .small{font-size:70%}
-  #abbreviation-table td:first-child{font-variant:small-caps}
-  .left-headers th{text-align:left}
-  .references a, .references a:hover {color:inherit;display:block;text-indent:-22px;padding:2px 0 2px 30px;line-height:30px;background:none}
-  .references a:target{background:#f8f8a8}
-  .content p{text-indent: 22px;line-height:30px}
-  /*p,ul{font-family:"Palatino Linotype","Book Antiqua",Palatino,serif}*/
-  @media (min-width: 680px) {
-    .references {column-count:2;-moz-column-count:2;-webkit-column-count:2}
-  }
-</style>
 <script>
   window.leipzigAbbreviations = {
     'ACNNR': 'action nominalizer'
@@ -29,7 +15,7 @@ uplink: ../
 # The Saan Language
 <!--{#top.center}-->
 <div class="center small italic">C. LaCourt &mdash; 31 March 2016</div>
-<div class="center bold">A. Tilghman<br/>21 August 3024</div>
+<div class="author">A. Tilghman<br/>21 August 3024</div>
 
 ## Abstract
 

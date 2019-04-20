@@ -248,6 +248,9 @@ pre tt {
   background: transparent;
   border: none;
 }
+dt {
+  font-weight: bold;
+}
 /*
 pre code{margin:0;padding:0;white-space:pre;border:none;background:transparent}
 pre{background:#fefefe;border:1px solid #cccccc;font-size:13px;line-height:19px;overflow:auto;overflow-y:hidden;width:97%;padding:6px 10px;border-radius:3px}

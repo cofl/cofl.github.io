@@ -28,6 +28,7 @@
       "permalink": true,
       "permalinkClass": "fa fa-link link-icon",
       "permalinkSymbol": ""
-    }
+    },
+    "markdown-it-deflist": {}
   }
 }

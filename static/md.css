@@ -251,6 +251,27 @@ pre tt {
 dt {
   font-weight: bold;
 }
+div.spell-block {
+  border-left: 3px solid #c13d3d;
+  padding: 4pt 12pt 4pt 20pt;
+  background: #eaeaea;
+  margin-bottom: 12pt;
+}
+div.spell-block span:first-child {
+  font: 18pt bold sans-serif;
+  margin-left: -8pt;
+}
+div.spell-block p {
+  margin: 0;
+  line-height: 1.2rem;
+}
+div.spell-block p:not(:last-child):not(:nth-child(2)) {
+  font-size: 90%;
+}
+div.spell-block p:last-child {
+  margin-top: 0.4rem;
+  text-indent: 2em;
+}
 /*
 pre code{margin:0;padding:0;white-space:pre;border:none;background:transparent}
 pre{background:#fefefe;border:1px solid #cccccc;font-size:13px;line-height:19px;overflow:auto;overflow-y:hidden;width:97%;padding:6px 10px;border-radius:3px}

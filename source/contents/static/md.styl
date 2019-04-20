@@ -1,6 +1,8 @@
 background_color = #fafafa
+darker_background = #eaeaea
 text_color = #555
 link_color = #4183C4
+clean_red = #C13D3D
 body
     font: 15px/1.62 sans-serif
     background: background_color
@@ -174,6 +176,22 @@ pre
         border: none
 dt
     font-weight: bold
+div.spell-block
+    border-left: 3px solid clean_red
+    padding: 4pt 12pt 4pt 20pt
+    background: darker_background
+    margin-bottom: 12pt
+    span:first-child
+        font: 18pt bold sans-serif
+        margin-left: -8pt
+    p
+        margin: 0
+        line-height: 1.2rem
+    p:not(:last-child):not(:nth-child(2))
+        font-size: 90%
+    p:last-child
+        margin-top: 0.4rem
+        text-indent: 2em
 /*
 pre code{margin:0;padding:0;white-space:pre;border:none;background:transparent}
 pre{background:#fefefe;border:1px solid #cccccc;font-size:13px;line-height:19px;overflow:auto;overflow-y:hidden;width:97%;padding:6px 10px;border-radius:3px}

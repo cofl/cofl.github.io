@@ -20,3 +20,4 @@ $RECYCLE.BIN/
 # Other files
 source/node_modules/
 source/build/
+node_modules/

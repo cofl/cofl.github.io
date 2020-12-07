@@ -11,7 +11,9 @@
     "./plugins/directory-helper.js",
     "./plugins/toc-generator.js"
   ],
-  "output": "../docs",
+  "contents": "./source/contents",
+  "templates": "./templates",
+  "output": "./docs",
   "directory-helper": {
     "template": "directory.pug"
   },

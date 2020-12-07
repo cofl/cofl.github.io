@@ -4,14 +4,13 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "wsl wintersmith build",
-            "dependsOn": "clean",
+            "command": "npx wintersmith build",
             "presentation": {
                 "reveal": "always",
                 "clear": true
             },
             "options": {
-                "cwd": "${workspaceFolder}/source"
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": [],
             "group": {
@@ -20,30 +19,16 @@
             }
         },
         {
-            "label": "clean",
-            "type": "shell",
-            "command": "./clean.ps1 -Confirm:$false",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "clear": false
-            },
-            "options": {
-                "cwd": "${workspaceFolder}/source"
-            },
-            "problemMatcher": []
-        },
-        {
             "label": "preview",
             "type": "shell",
-            "command": "wsl wintersmith preview",
+            "command": "npx wintersmith preview",
             "presentation": {
                 "echo": false,
                 "reveal": "always",
                 "clear": true
             },
             "options": {
-                "cwd": "${workspaceFolder}/source"
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": []
         }

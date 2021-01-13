@@ -37,9 +37,9 @@ html(lang="en")
             != ".page-content ul {list-style-type: none; margin: 0 0 0 -1.7em}"
             != ".more {color:#777;font-size: 80%}"
     body
-        - const listing = context.directory.listing(pugContext);
-        - const files = listing.filter(a => a.isPage);
-        - const dirs = listing.filter(a => !a.isPage);
+        - const children = context.directory.listing(pugContext);
+        - const files = children.filter(a => a.isPage);
+        - const dirs = children.filter(a => !a.isPage);
         - const parent = context.directory.parentLink(pugContext, '..');
         div(id="table-of-contents")
             div(id="toc-scroller")
@@ -50,17 +50,17 @@ html(lang="en")
                     if !data.nouplink
                         a(href=parent) Up
                             span(class="fa fa-level-up")
-                hr/
-                if(page.html)
+                hr
+                if(page.content)
                     h4.toc-item Contents:
                     +tocItem(1, context.tocGenerator.tocList(page))
-                    hr/
+                    hr
                     h4.toc-item Directory:
-                +tocItem(1, context.tocGenerator.directory([{name: parentName, isPage: false, listing, id: 'top'}]))
+                +tocItem(1, context.tocGenerator.directory([{title: parentName, isPage: false, children, id: 'top'}]))
         div(class="page-content")
             if page.content
                 != page.content
-                hr/
+                hr
             if !data.nouplink
                 a(href=parent) Up
                     span(class="fa fa-level-up")

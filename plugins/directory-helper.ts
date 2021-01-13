@@ -44,7 +44,7 @@ export default function (ctx: ViperContext) {
             return 'root';
         },
         listing: function _listing(ctx: ViperPugPageContext) {
-            let number = 0;
+            let number = 1;
             function get(item: ViperDirectoryData): DirectoryListing[] {
                 return item.children
                     .filter(a => {

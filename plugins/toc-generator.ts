@@ -1,11 +1,27 @@
 import type { ViperContext } from '@cofl/viper';
 import type { ViperPugPageData } from '@cofl/viper-pug';
-import { parse } from 'node-html-parser';
-import { DirectoryListing, titleCase } from './directory-helper';
+import type { DirectoryListing } from './directory-helper';
+import { parse, Node, NodeType, HTMLElement } from 'node-html-parser';
 
 type TocElement = { link: string, text: string };
 type Toc = (TocElement | string | Toc)[];
 type NonEmpty<T extends any[]> = T extends Array<infer U> ? T & { 0: U } : never;
+
+function isHtmlElement(node: Node): node is HTMLElement {
+    return node.nodeType === NodeType.ELEMENT_NODE;
+}
+
+function *findAllElementsInOrder(node: Node, tags: string[]): Generator<HTMLElement, void, unknown> {
+    tags = tags.map(a => a.toLowerCase());
+    const queue = [ node ].filter(isHtmlElement);
+    while(queue.length > 0){
+        const current = queue.shift()!;
+        if(current.rawTagName && tags.includes(current.rawTagName.toLowerCase()))
+            yield current;
+        queue.unshift(...current.childNodes.filter(isHtmlElement));
+    }
+}
+
 export default function (ctx: ViperContext) {
     ctx.tocGenerator = {
         tocList: (page: ViperPugPageData): Toc => {
@@ -17,9 +33,9 @@ export default function (ctx: ViperContext) {
                 header.setAttribute('class', 'toc-header');
                 header.removeAttribute('id');
                 stack[stack.length - 1]!.push(header.outerHTML);
-                stack[stack.length - 1]!.push('<hr/>');
+                stack[stack.length - 1]!.push('<hr>');
             }
-            for (const element of root.querySelectorAll('h1,h2,h3,h4,h5,h6')) {
+            for (const element of findAllElementsInOrder(root, [ 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'])) {
                 if (!element.hasAttribute('id'))
                     continue;
                 if (/\bno-toc-link\b/.test(element.getAttribute('class') || ''))
@@ -45,7 +61,7 @@ export default function (ctx: ViperContext) {
             }
             const footer = root.querySelector('#toc-footer')
             if (footer) {
-                stack[stack.length - 1]!.push('<hr/>');
+                stack[stack.length - 1]!.push('<hr>');
                 footer.setAttribute('class', 'toc-footer');
                 footer.removeAttribute('id');
                 stack[stack.length - 1]!.push(footer.outerHTML);
@@ -54,13 +70,13 @@ export default function (ctx: ViperContext) {
         },
         directory: function _directory(listing: DirectoryListing[], level = 1): Toc {
             const stack: Toc = [];
-            listing.filter(it => !it.isPage).forEach(it => {
+            listing.filter(a => !a.isPage).forEach(a => {
                 stack.push({
-                    link: "#" + it.id,
-                    text: titleCase(it.name)
+                    link: `#${a.id}`,
+                    text: a.title
                 });
-                if (level <= 4 && it.children != null) {
-                    let i = _directory(it.children, level + 1);
+                if (level <= 4 && a.children != null) {
+                    let i = _directory(a.children, level + 1);
                     if (i.length > 0)
                         stack.push(i);
                 }

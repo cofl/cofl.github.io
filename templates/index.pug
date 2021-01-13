@@ -19,7 +19,7 @@ html(lang="en")
                     if parent != null
                         a(href=parent) up
                             span(class="fa fa-level-up")
-                hr/
+                hr
                 +tocItem(1, context.tocGenerator.tocList(page))
         div(class="page-content")
             != page.content

@@ -7,4 +7,4 @@ mixin tocItem(level, list)
                 if Array.isArray(item)
                     +tocItem(level + 1, item)
                 else
-                    a.toc-item(href=item.link)= item.text
+                    a.toc-item(href=item.link)!= item.text

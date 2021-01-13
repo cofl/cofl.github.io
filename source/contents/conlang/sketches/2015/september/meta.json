@@ -1,9 +1,0 @@
-{
-    "template": "raw.pug",
-    "index.js": {
-        "directory-exclude": true
-    },
-    "Lexicon.xlsx": {
-        "directory-exclude": true
-    }
-}

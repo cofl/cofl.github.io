@@ -16,11 +16,11 @@ Naretvei was the last of the major revisions before I abondoned the family. Docu
 - [Syntax Testing](naretvei/00/graded-sentences-for-analysis.html)
 
 ### Version 1
-- [Reference Grammar](/conlang/naretvei/1/reference.html)
+- [Reference Grammar](naretvei/1/reference.html)
 
 ## Naretsov
 Naretsov was *the* last revision, stemming from the work on Naretvei. It never got past a sketch and a few example sentences, but it does have what I think of as an interesting lexicon page.
-- [Sketch](/conlang/naretsov/sketch.html)
-- [Syntax Testing](/conlang/naretsov/gsfa.html)
-- [Examples](/conlang/naretsov/examples.html)
-- [Lexicon (beta)](/conlang/naretsov/lexicon/)
+- [Sketch](naretsov/sketch.html)
+- [Syntax Testing](naretsov/gsfa.html)
+- [Examples](naretsov/examples.html)
+- [Lexicon (beta)](naretsov/lexicon/)

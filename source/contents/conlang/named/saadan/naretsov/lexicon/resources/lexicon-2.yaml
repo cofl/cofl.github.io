@@ -17,11 +17,11 @@ lexicon:
                 future: 'soya'
                 'prs gnomic': 'oso'
             def: ['(instransitive) to emit light', '(transitive) to illuminate', '(intransitive, figuratively) to smile broadly or especially cheerfully']
-    häsone: {redirect: "/w/so"},
-    sonó: {redirect: "/w/so"},
-    soyo: {redirect: "/w/so"},
-    soya: {redirect: "/w/so"},
-    oso: {redirect: "/w/so"},
+    häsone: {redirect: "/w/so"}
+    sonó: {redirect: "/w/so"}
+    soyo: {redirect: "/w/so"}
+    soya: {redirect: "/w/so"}
+    oso: {redirect: "/w/so"}
     zal:
         Pronunciation: '/ˈzal/'
         Noun:
@@ -33,20 +33,18 @@ lexicon:
         Noun: '*plural of* [[zal]]'
     es:
         Pronunciation: '/ˈe̞s/'
-        Particle: '''
-                  Marks the present progressive.
-                   - When used with a present-tense verb, denoting true present progressive (am verb-ing).
-                   - When used with a past-tense verb, denoting present perfect progressive (have been).
-                   - When used with a future-tense verb, denoting a progressive from now onward (am and will be verb-ing).
-                  '''
+        Particle: |
+            Marks the present progressive.
+            - When used with a present-tense verb, denoting true present progressive (am verb-ing).
+            - When used with a past-tense verb, denoting present perfect progressive (have been).
+            - When used with a future-tense verb, denoting a progressive from now onward (am and will be verb-ing).
     os:
         Pronunciation: '/ˈo̞s/'
-        Particle: '''
-                  Marks the past progressive.
-                   - (*uncommon*) When used with a present-tense verb, denoting present perfect progressive (have been).
-                   - When used with a past-tense verb, denoting past progressive (was verb-ing).
-                   - (*rare*) When used with a future-tense verb, denoting a progressive in the past and future, but not necessarily the present, i.e. "I was verb-ing, and will be verb-ing, but that's not necessarily what I'm doing right now."
-                  '''
+        Particle: |
+            Marks the past progressive.
+            - (*uncommon*) When used with a present-tense verb, denoting present perfect progressive (have been).
+            - When used with a past-tense verb, denoting past progressive (was verb-ing).
+            - (*rare*) When used with a future-tense verb, denoting a progressive in the past and future, but not necessarily the present, i.e. "I was verb-ing, and will be verb-ing, but that's not necessarily what I'm doing right now."
     as:
         Pronunciation: '/ˈas/'
         Particle: 'Marks the future progressive.'
@@ -70,8 +68,10 @@ lexicon:
         Adverb: ['tomorrow', 'the day after']
     '-yär':
         Pronunciation: '/jæʁ/'
-        Suffix: 'Denotes a position following, behind, or after the stem.\n - __zalyär__, \'behind the sun\' or \'trailing after the sun\''
-        Note: 'There may be some confusion when this suffix is used regarding times. When speaking of time, use \'after\' rather than \'behind\'.'
+        Suffix: |
+            Denotes a position following, behind, or after the stem.
+             - __zalyär__, 'behind the sun' or 'trailing after the sun'
+        Note: "There may be some confusion when this suffix is used regarding times. When speaking of time, use 'after' rather than 'behind'."
     '-n':
         Pronunciation: '/n/'
         Suffix: 'a nominalizer'
@@ -99,26 +99,25 @@ lexicon:
                 future: 'ooca'
                 'present gnomic': 'oyooce'
             def: ['(intransitive) to bloom','(metaphoric, intransitive) to come over the horizon', '(transitive) to become']
-    häyoocne: {redirect: "/w/ooce"},
-    oocnó: {redirect: "/w/ooce"},
-    ooco: {redirect: "/w/ooce"},
-    ooca: {redirect: "/w/ooce"},
-    oyooce: {redirect: "/w/ooce"},
-    pane: '''
+    häyoocne: {redirect: "/w/ooce"}
+    oocnó: {redirect: "/w/ooce"}
+    ooco: {redirect: "/w/ooce"}
+    ooca: {redirect: "/w/ooce"}
+    oyooce: {redirect: "/w/ooce"}
+    pane: |
         ### Pronunciation
         - /pane̞/
-        \n
+
         ### Verb
         __pane__ (*infinitive* [häpanne](#/w/häpanne) *or* [pannó](#/w/pannó), *perfect* [pano](#/w/pano), *future* [pana](#/w/pana), *present gnomic* [apane](#/w/apane))
-        \n
+
         1. (intransitive) to shout
         2. (transitive) to shout
-        ''',
-    häpanne: {redirect: "/w/pane"},
-    pannó: {redirect: "/w/pane"},
-    pano: {redirect: "/w/pane"},
-    pana: {redirect: "/w/pane"},
-    apane: {redirect: "/w/pane"},
+    häpanne: {redirect: "/w/pane"}
+    pannó: {redirect: "/w/pane"}
+    pano: {redirect: "/w/pane"}
+    pana: {redirect: "/w/pane"}
+    apane: {redirect: "/w/pane"}
     '-ru':
         Pronunciation: '/ʁu/'
         Suffix: 'An augmentative suffix.'
@@ -151,7 +150,7 @@ lexicon:
         'Counting Noun': 'many'
         'Usage notes': "When referring to some of some countable noun, place that noun in the partative case preceding __onen__. For uncountable nouns, see [[one]]."
     onece:
-        Pronunciation: '/o̞ˈne̞tɕe̞/' 
+        Pronunciation: '/o̞ˈne̞tɕe̞/'
         Adverb: 'often'
     '<em>':
         Pronunciation: '/e̞m/'

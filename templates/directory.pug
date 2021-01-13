@@ -1,20 +1,20 @@
 include mixins/tocItem.pug
 
 mixin contents(entry, level)
-    - var files = env.helpers.directory.files(entry.listing)
-    - var dirs = env.helpers.directory.directories(entry.listing)
-    - var tag = "h" + level
+    - const files = entry.children?.filter(a => a.isPage) || []
+    - const dirs = entry.children?.filter(a => !a.isPage) || []
+    - const tag = "h" + level
     div(class="directory-listing")
         #{tag}(id=entry.id)
-            if entry.link
-                a(href=entry.link)= env.helpers.titleCase(entry.name)
+            if entry.route
+                a(href=entry.route)= entry.title
             else
-                span(class="a")= env.helpers.titleCase(entry.name)
+                span(class="a")= entry.title
         if files.length > 0
             ul
                 for item in files
                     li
-                        a(href=item.link)= item.name
+                        a(href=item.route)= item.title
         if level <= 4
             for item in dirs
                 +contents(item, level + 1)
@@ -22,52 +22,53 @@ mixin contents(entry, level)
             if dirs.length > 0
                 ul
                     li
-                        if entry.link
-                            a(href=entry.link,class="more") Contents hidden here, click link above...
+                        if entry.route
+                            a(href=entry.route,class="more") Contents hidden here, click link above...
                         else
                             span(class="more") Contents hidden here...
 doctype html
+- const parentName = context.directory.parentName(pugContext);
 html(lang="en")
     head
         include mixins/html-head.pug
-        title= env.helpers.directory.parentFolderName(page)
+        title= parentName
         style
             != "div.directory-listing {margin-left: 1em}"
             != ".page-content ul {list-style-type: none; margin: 0 0 0 -1.7em}"
             != ".more {color:#777;font-size: 80%}"
     body
-        - var listing = env.helpers.directory.listing(page)
-        - var parentFolderName = env.helpers.directory.parentFolderName(page)
-        - var files = env.helpers.directory.files(listing)
-        - var dirs = env.helpers.directory.directories(listing)
+        - const listing = context.directory.listing(pugContext);
+        - const files = listing.filter(a => a.isPage);
+        - const dirs = listing.filter(a => !a.isPage);
+        - const parent = context.directory.parentLink(pugContext, '..');
         div(id="table-of-contents")
             div(id="toc-scroller")
                 h1 Table of Contents
                 div(class="toc-header")
                     a(href="/") home
                         span(class="fa fa-home")
-                    if !page.metadata.nouplink
-                        a(href=page.metadata.uplink || "..") Up
+                    if !data.nouplink
+                        a(href=parent) Up
                             span(class="fa fa-level-up")
-                hr
+                hr/
                 if(page.html)
                     h4.toc-item Contents:
-                    +tocItem(1, env.helpers.tocGenerator.tocList(page))
-                    hr
+                    +tocItem(1, context.tocGenerator.tocList(page))
+                    hr/
                     h4.toc-item Directory:
-                +tocItem(1, env.helpers.tocGenerator.directory([{name: parentFolderName, isFile: false, listing, id: 'top'}]))
+                +tocItem(1, context.tocGenerator.directory([{name: parentName, isPage: false, listing, id: 'top'}]))
         div(class="page-content")
-            if page.html
-                != page.html
-                hr
-            if !page.metadata.nouplink
-                a(href=page.metadata.uplink || "..") Up
+            if page.content
+                != page.content
+                hr/
+            if !data.nouplink
+                a(href=parent) Up
                     span(class="fa fa-level-up")
-            h1(id="top")= parentFolderName
+            h1(id="top")= parentName
             if files.length > 0
                 ul
                     for item in files
                         li
-                            a(href=item.link)= item.name
+                            a(href=item.route)= item.title
             for entry in dirs
                 +contents(entry, 2)

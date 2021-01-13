@@ -4,9 +4,9 @@ html(lang="en")
     head
         include mixins/html-head.pug
         title= page.title
-        if(page.metadata.leipzig)
+        if(data.leipzig)
             include mixins/leipzig.pug
-        if(page.metadata.paper)
+        if(data.paper)
             link(rel="stylesheet", href="/static/paper.css")
     body
         div(id="table-of-contents")
@@ -15,11 +15,11 @@ html(lang="en")
                 div(class="toc-header")
                     a(href="/") home
                         span(class="fa fa-home")
-                    - var directory = env.helpers.directory.directoryListingUrl(page)
-                    if directory != null
-                        a(href=directory) up
+                    - const parent = context.directory.parentLink(pugContext)
+                    if parent != null
+                        a(href=parent) up
                             span(class="fa fa-level-up")
-                hr
-                +tocItem(1, env.helpers.tocGenerator.tocList(page))
+                hr/
+                +tocItem(1, context.tocGenerator.tocList(page))
         div(class="page-content")
-            != page.html
+            != page.content

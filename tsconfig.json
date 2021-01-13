@@ -1,0 +1,24 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "esModuleInterop": true,
+        "module": "CommonJS",
+        "importsNotUsedAsValues": "error",
+        "newLine": "lf",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "target": "ES2020",
+        "moduleResolution": "node"
+    },
+    "include": [
+        "./build.ts",
+        "./plugins/*.ts"
+    ]
+}

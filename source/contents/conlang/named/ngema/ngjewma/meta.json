@@ -1,6 +1,0 @@
-{
-    "template": "raw.pug",
-    "symbol.js": {
-        "directory-exclude": true
-    }
-}

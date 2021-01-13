@@ -4,7 +4,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "npx wintersmith build",
+            "command": "node ./build.js",
             "presentation": {
                 "reveal": "always",
                 "clear": true
@@ -12,16 +12,28 @@
             "options": {
                 "cwd": "${workspaceFolder}"
             },
-            "problemMatcher": [],
             "group": {
                 "kind": "build",
                 "isDefault": true
+            },
+            "dependsOn": ["compile ts"]
+        },
+        {
+            "label": "compile ts",
+            "type": "shell",
+            "command": "npx tsc -b",
+            "presentation": {
+                "reveal": "silent",
+                "clear": true
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
             }
         },
         {
             "label": "preview",
             "type": "shell",
-            "command": "npx wintersmith preview",
+            "command": "npx serve docs",
             "presentation": {
                 "echo": false,
                 "reveal": "always",
@@ -29,8 +41,7 @@
             },
             "options": {
                 "cwd": "${workspaceFolder}"
-            },
-            "problemMatcher": []
+            }
         }
     ]
 }

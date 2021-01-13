@@ -30,7 +30,7 @@ void async function () {
     })
         .inject(directoryHelper)
         .inject(tocGenerator)
-        .use(new ViperFileImportPlugin(`${__dirname}/source/contents`))
+        .use(new ViperFileImportPlugin(`${__dirname}/content`))
         .use({
             type: ViperPluginType.Page,
             process(page: ViperPageData, context: ViperContext) {
